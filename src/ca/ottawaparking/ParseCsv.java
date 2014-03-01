@@ -50,6 +50,48 @@ public class ParseCsv<E>{
 		return ourArrays;
 	}
 	
+	public JStack<Car> parseCarFile(){
+		JStack<Car> ourArrays = new JStack<Car>(1000);
+		
+		try {
+			BufferedReader br = new BufferedReader(new InputStreamReader(context.getAssets().open("parking.csv")));
+			int counter = 0;
+			String line;
+			String[] lineArr;
+			while((line = br.readLine())!=null){
+				if(counter != 0){
+					lineArr = line.split(",");
+					if(!(lineArr.length >= 9))
+						break;
+					Car carStop = new Car(context);
+					carStop.setObjId(Integer.parseInt(lineArr[0]));
+					carStop.setParkId(Integer.parseInt(lineArr[1]));
+					carStop.setFacId(Integer.parseInt(lineArr[2]));
+					carStop.setAddress(lineArr[3]);
+					carStop.setSurface(lineArr[4]);
+					carStop.setCapacity(Integer.parseInt(lineArr[5]));
+					carStop.setHandicap(Integer.parseInt(lineArr[6]));
+					carStop.setPay(lineArr[7].charAt(0));
+					carStop.setPayType(lineArr[8]);
+					carStop.setLight(lineArr[9].charAt(0));
+					carStop.setFence(lineArr[10].charAt(0));
+					carStop.setLatitude(Float.parseFloat(lineArr[11]));
+					carStop.setLongitude(Float.parseFloat(lineArr[12]));
+					
+					if(!ourArrays.is_full()){
+						ourArrays.push(carStop);
+					}
+				}
+				counter++;
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return ourArrays;
+	}
+	
 	private
 		Context context;
 		String fileName;
