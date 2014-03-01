@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 public class Splash extends Activity {
-	boolean paused;
+	boolean paused = false;
 	
 	@Override
 	protected void onCreate(Bundle createSplash) {
@@ -24,6 +24,7 @@ public class Splash extends Activity {
 						//intent based off of action name
 						Intent openMainActivity = new Intent("ca.ottawaparking.MAIN");
 						startActivity(openMainActivity);	//will open activity based off of intent
+						finish();
 					}
 				}
 			}
@@ -42,24 +43,10 @@ public class Splash extends Activity {
 	protected void onResume() {
 		// TODO Auto-generated method stub
 		super.onResume();
-		paused = false;
-		Thread timer = new Thread() {
-			public void run() {
-				try {
-					sleep(2000);	//pauses thread using milliseconds
-				}
-				catch (InterruptedException e) {
-					e.printStackTrace();
-				}
-				finally {
-					if(!paused){
-						//intent based off of action name
-						Intent openMainActivity = new Intent("ca.ottawaparking.MAIN");
-						startActivity(openMainActivity);	//will open activity based off of intent
-					}
-				}
-			}
-		};
-		timer.start();	//start thread
+		if(paused){
+			Intent openMainActivity = new Intent("ca.ottawaparking.MAIN");
+			startActivity(openMainActivity);	//will open activity based off of intent
+			finish();
+		}
 	}
 }
