@@ -8,6 +8,13 @@ import java.lang.Throwable;
  * @author Jacob Gagne
  * @description This is the stack template to work with different locations
  * 				and also allow the implementation with any objects
+ * 
+ * 	=========================================
+ * 	CATCHES - NOTE
+ * 	=========================================
+ * 	Most functions manipulating the stack are protected by throwbacks.
+ * 	When performing these and to avoid bugs place inside a try and catch.
+ * 	The exception to catch is "NegativeArraySizeException"
  */
 
 public class JStack<E>{
@@ -52,8 +59,10 @@ public class JStack<E>{
 	public void push(E item){
 			if(top < size){
 				items[++top] = item;
-			}
+			}else
+				throw new NegativeArraySizeException();
 		}
+		// Function returns the size of the stack
 	public int getSize(){
 		return size;
 	}
