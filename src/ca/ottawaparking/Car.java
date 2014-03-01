@@ -141,7 +141,7 @@ public class Car extends Application{
 		return 0;
 	}
 	
-	public float getDist(float latin, float longin){
+	public float getDist(double latin, double longin){
 		// Calculates the distance between the current bike stop and another coordinate
 		return (float)(Math.sqrt(Math.pow((longin-lon),2) + Math.pow((latin - lat), 2)));
 	}
