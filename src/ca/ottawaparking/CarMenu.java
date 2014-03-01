@@ -14,6 +14,7 @@ import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
+import android.widget.Toast;
 
 public class CarMenu extends FragmentActivity{
 	//public Car[] testCar;
@@ -42,8 +43,8 @@ public class CarMenu extends FragmentActivity{
 		                .title("You")
 		                .snippet("You are here ;)")
 		                .position(ott));
-			}
-		}
+			}else Toast.makeText(this, "Location Unavailable, check settings", Toast.LENGTH_LONG).show();
+		}else Toast.makeText(this, "Unable to find suitable Provider", Toast.LENGTH_LONG).show();
 		TabHost th = (TabHost)findViewById(R.id.tabhost);
 		//automatically set up the basics
 		th.setup();

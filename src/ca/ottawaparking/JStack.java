@@ -67,9 +67,44 @@ public class JStack<E>{
 	public int getSize(){
 		return size;
 	}
-		// WARNING: ONLY USE IF STACK OF BIKES OR CARS
-	public boolean Sort(Location curr){
-		
+		// WARNING: ONLY USE IF STACK OF BIKES
+	public boolean BikeSort(Location curr){
+		int j;
+		boolean flag = true;
+		E temp;
+		while(flag){
+			flag = false;
+			for(j = 0; j < size-1; j++){
+				Bike low = (Bike)items[j];
+				Bike high = (Bike)items[j+1];
+				if(low.getDist(curr.getLatitude(), curr.getLongitude()) < high.getDist(curr.getLatitude(), curr.getLongitude())){	
+					temp = items[j];
+					items[j] = items[j+1];
+					items[j+1] = temp;
+					flag = true;
+				}
+			}
+		}
+		return true;
+	}
+		// WARNING: ONLY USE IF STACK OF CARS
+	public boolean CarSort(Location curr){
+		int j;
+		boolean flag = true;
+		E temp;
+		while(flag){
+			flag = false;
+			for(j = 0; j < size-1; j++){
+				Car low = (Car)items[j];
+				Car high = (Car)items[j+1];
+				if(low.getDist(curr.getLatitude(), curr.getLongitude()) < high.getDist(curr.getLatitude(), curr.getLongitude())){	
+					temp = items[j];
+					items[j] = items[j+1];
+					items[j+1] = temp;
+					flag = true;
+				}
+			}
+		}
 		return true;
 	}
 }
