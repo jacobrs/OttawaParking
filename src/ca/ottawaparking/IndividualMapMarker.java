@@ -21,8 +21,8 @@ public class IndividualMapMarker extends FragmentActivity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.mapmarker);
 		
-		double longitude = getIntent().getExtras().getFloat("longitude");
-		double latitude = getIntent().getExtras().getFloat("latitude");
+		double longitude = getIntent().getExtras().getDouble("longitude");
+		double latitude = getIntent().getExtras().getDouble("latitude");
 		String adjacent = getIntent().getExtras().getString("location");
 		
 		GoogleMap map = ((MapFragment) getFragmentManager()
