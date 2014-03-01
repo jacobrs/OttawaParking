@@ -3,6 +3,8 @@ package ca.ottawaparking;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
+import android.widget.TabHost;
+import android.widget.TabHost.TabSpec;
 
 public class BikeMenu extends Activity{
 	
@@ -21,6 +23,37 @@ public class BikeMenu extends Activity{
 		ourBikes[0].set_longitude(75);
 		System.out.println("latitude: " + ourBikes[0].get_latitude());
 		System.out.println("longitude: " + ourBikes[0].get_longitude());*/
+		
+		
+		TabHost th = (TabHost)findViewById(R.id.tabhost);
+		//automatically set up the basics
+		th.setup();
+		//have to do this, not sure of purpose
+		TabSpec specs = th.newTabSpec("tag1");
+		//this will hold the two buttons and text view in the
+		//first layout
+		specs.setContent(R.id.tab1);
+		//this name will appear on actual tab
+		specs.setIndicator("List View");
+		th.addTab(specs);
+		
+		
+		specs = th.newTabSpec("tag2");
+		//this will hold the two buttons and text view in the
+		//first layout
+		specs.setContent(R.id.tab2);
+		//this name will appear on actual tab
+		specs.setIndicator("Nearest");
+		th.addTab(specs);
+		
+		
+		specs = th.newTabSpec("tag3");
+		//this will hold the two buttons and text view in the
+		//first layout
+		specs.setContent(R.id.tab3);
+		//this name will appear on actual tab
+		specs.setIndicator("View All");
+		th.addTab(specs);
 	}
 
 	@Override
