@@ -33,16 +33,18 @@ public class Splash extends Activity {
 	}
 	
 	@Override
-	protected void onPause() {
+	protected void onStop() {
 		// TODO Auto-generated method stub
-		super.onPause();
+		super.onStop();
 		paused = true;
 	}
+	
+	
 
 	@Override
-	protected void onResume() {
+	protected void onRestart() {
 		// TODO Auto-generated method stub
-		super.onResume();
+		super.onRestart();
 		if(paused){
 			Intent openMainActivity = new Intent("ca.ottawaparking.MAIN");
 			startActivity(openMainActivity);	//will open activity based off of intent
