@@ -89,21 +89,29 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="ca.ottawaparking.IndividualMapMarker"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="ca.ottawaparking.LOCATEPARKING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <!-- RELEASE key -->
-        <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCjCJMGszhGKoPc7DECWxqhebScnC57YIo" />
-
-        <!-- DEBUG key -->
-        <meta-data
+            <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyDrBtrVk47ZgAV85yCFry8mqLtR189fDmE" />
+
+        <!-- DEBUG key -->
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyDw6yWoiq_1iVe6YSp7AzkaUb7o8Ud_VkA" />
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyDPvVROn6dkxoQuP3wTQMpULDAK2tL4CMc" />
+         <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCjCJMGszhGKoPc7DECWxqhebScnC57YIo" />
         <meta-data
   			android:name="com.google.android.gms.version"
    	 		android:value="@integer/google_play_services_version" />
