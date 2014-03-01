@@ -28,21 +28,22 @@ public class CarMenu extends FragmentActivity{
 		LocationManager locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
 		Criteria criteria = new Criteria();
 		String provider = locationManager.getBestProvider(criteria, true);
-		Location lastknownloc = locationManager.getLastKnownLocation(provider);
-
-		GoogleMap map = ((MapFragment) getFragmentManager()
-                .findFragmentById(R.id.map)).getMap();
-
-        LatLng ott = new LatLng(lastknownloc.getLatitude(), lastknownloc.getLongitude());
-
-        map.setMyLocationEnabled(true);
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(ott, 13));
-
-        map.addMarker(new MarkerOptions()
-                .title("You")
-                .snippet("You are here ;)")
-                .position(ott));
+		if(provider != null){
+			Location lastknownloc = locationManager.getLastKnownLocation(provider);
+			if(lastknownloc != null){
+				GoogleMap map = ((MapFragment) getFragmentManager()
+		                .findFragmentById(R.id.map)).getMap();
 		
+		        LatLng ott = new LatLng(lastknownloc.getLatitude(), lastknownloc.getLongitude());
+		        map.setMyLocationEnabled(true);
+		        map.moveCamera(CameraUpdateFactory.newLatLngZoom(ott, 13));
+		
+		        map.addMarker(new MarkerOptions()
+		                .title("You")
+		                .snippet("You are here ;)")
+		                .position(ott));
+			}
+		}
 		TabHost th = (TabHost)findViewById(R.id.tabhost);
 		//automatically set up the basics
 		th.setup();
