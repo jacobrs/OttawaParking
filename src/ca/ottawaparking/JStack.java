@@ -3,6 +3,8 @@
  */
 package ca.ottawaparking;
 
+import android.location.Location;
+
 /**
  * @author Jacob Gagne
  * @description This is the stack template to work with different locations
@@ -64,5 +66,10 @@ public class JStack<E>{
 		// Function returns the size of the stack
 	public int getSize(){
 		return size;
+	}
+		// WARNING: ONLY USE IF STACK OF BIKES OR CARS
+	public boolean Sort(Location curr){
+		
+		return true;
 	}
 }

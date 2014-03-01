@@ -6,6 +6,9 @@
  */
 package ca.ottawaparking;
 
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -26,14 +29,12 @@ public class Main extends Activity {
 		setContentView(R.layout.activity_main);
 		//newstack = new JStack<String>(4);
 		//String tmp = newstack.is_full()+"";
-		//Toast.makeText(getApplicationContext(), newstack.pop(), Toast.LENGTH_LONG).show();
 		Button bikeActivity = (Button)findViewById(R.id.btnBike);
 		Button carActivity = (Button)findViewById(R.id.btnCar);
 		Button stubActivity = (Button)findViewById(R.id.btnStub);
 		Button about = (Button)findViewById(R.id.btnAbout);
-		
+		// Toast.makeText(this, "The Dist is:"+test.getDist(-4, 4), Toast.LENGTH_LONG).show();
 		bikeActivity.setOnClickListener(new View.OnClickListener() {
-			
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub

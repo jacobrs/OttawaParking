@@ -1,5 +1,11 @@
 package ca.ottawaparking;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -63,6 +69,26 @@ public class BikeMenu extends FragmentActivity{
 		//this name will appear on actual tab
 		specs.setIndicator("View All");
 		th.addTab(specs);
+		
+		// ***************************************************************
+		// 		Start view manipulation and coding here
+		// ***************************************************************
+
+        // Get a handle to the Map Fragment
+		
+		GoogleMap map = ((MapFragment) getFragmentManager()
+                .findFragmentById(R.id.map)).getMap();
+
+        LatLng ott = new LatLng(45.4214, -75.6919);
+
+        map.setMyLocationEnabled(true);
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(ott, 13));
+
+        map.addMarker(new MarkerOptions()
+                .title("Ottawa")
+                .snippet("Capital of Canada")
+                .position(ott));
+		
 	}
 
 	@Override

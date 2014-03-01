@@ -120,6 +120,11 @@ public class Bike{
 		return null;
 	}
 	
+	public float getDist(float latin, float longin){
+		// Calculates the distance between the current bike stop and another coordinate
+		return (float)(Math.sqrt(Math.pow((longin-lon),2) + Math.pow((latin - lat), 2)));
+	}
+	
 	private
 		Context context;
 		int post_id = -1;
