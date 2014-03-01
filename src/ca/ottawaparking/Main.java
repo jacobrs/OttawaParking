@@ -15,14 +15,18 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class Main extends Activity {
-
+	//public JStack<String> newstack;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+		//newstack = new JStack<String>(4);
+		//String tmp = newstack.is_full()+"";
+		//Toast.makeText(getApplicationContext(), newstack.pop(), Toast.LENGTH_LONG).show();
 		Button bikeActivity = (Button)findViewById(R.id.btnBike);
 		Button carActivity = (Button)findViewById(R.id.btnCar);
 		Button stubActivity = (Button)findViewById(R.id.btnStub);
