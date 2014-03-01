@@ -137,7 +137,7 @@ public class BikeMenu extends FragmentActivity{
                   "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
                   .show();
                 
-                if(position%AMOUNT_OF_VIEWS == 0 && position < ourStack.getTopIndex()){
+                if(position%AMOUNT_OF_VIEWS == 0 && position != 0 && position < ourStack.getTopIndex()){
                 	list.remove(position);
                 	adapter.notifyDataSetChanged();
                 	
@@ -157,8 +157,11 @@ public class BikeMenu extends FragmentActivity{
                 	}
                 	amtIteration++;
                 	adapter.notifyDataSetChanged();
-                }else{
-                	
+                }else if(!(position%AMOUNT_OF_VIEWS == 0)){
+                	//start new fragment activity
+                	Intent openMapMarker = new Intent("ca.ottawaparking.LOCATEPARKING");
+    				//openMapMarker.putExtra("buttonClicked", 1);
+    				startActivity(openMapMarker);
                 }
              }
          }); 
