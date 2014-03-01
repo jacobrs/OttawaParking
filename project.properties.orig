@@ -13,10 +13,18 @@
 # Project target.
 target=android-19
 <<<<<<< HEAD
+<<<<<<< HEAD
 android.library.reference.1=..\\google-play-services_lib
-android.library.reference.2=..\\..\\eclipse\\extras\\google\\google_play_services\\libproject\\google-play-services_lib
-android.library.reference.3=..\\google-play-services_lib
-android.library.reference.4=../../../android-sdks/extras/google/google_play_services/libproject/google-play-services_lib
+android.library.reference.2=../../eclipse/extras/google/google_play_services/libproject/google-play-services_lib
+=======
+<<<<<<< HEAD
+android.library.reference.1=../google-play-services_lib
+=======
 =======
 android.library.reference.1=../google-play-services_lib
->>>>>>> 6b6d4e15457518c63f2232412fb5356fa0ed8222
+=======
+>>>>>>> devgg
+android.library.reference.1=..\\..\\eclipse\\extras\\google\\google_play_services\\libproject\\google-play-services_lib
+android.library.reference.2=../../Eclipse/sdk/extras/google/google_play_services/libproject/google-play-services_lib
+>>>>>>> devgg
+>>>>>>> eea258722e5a4c68f3155bf4325c4dcbd276d209

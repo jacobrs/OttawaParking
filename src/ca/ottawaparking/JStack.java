@@ -23,11 +23,11 @@ public class JStack<E>{
 	private int size;
 	private E[] items;
 	
-	public String printBikeStack(){
+	public String printBikeStack(Location curr){
 		String out = "";
 		for(int n = 0; n < top-1; n++){
 			Bike tmp = (Bike)items[n];
-			out += ""+tmp.getDist(45.4214, -75.6919)+"\n";
+			out += ""+tmp.getDist(curr.getLatitude(), curr.getLongitude())+"\n";
 		}
 		return out;
 	}
@@ -44,6 +44,10 @@ public class JStack<E>{
 			}else
 				throw new NegativeArraySizeException();
 		}
+		// This function returns the amount of elems in the stack
+	public int getTopIndex(){
+		return top;
+	}
 		// This function returns the element on top of the stack and removes it from the stack
 	public E pop(){
 			if(top > -1){
@@ -115,5 +119,9 @@ public class JStack<E>{
 			}
 		}
 		return true;
+	}
+	
+	public E getElement(int location){
+		return items[location];
 	}
 }

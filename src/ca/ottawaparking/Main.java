@@ -22,6 +22,7 @@ import android.widget.Toast;
 
 public class Main extends Activity {
 	//public JStack<String> newstack;
+	public int buttonClicked; //determines which menu to open
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -38,9 +39,10 @@ public class Main extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent openBikeMenu = new Intent("ca.ottawaparking.BIKE");
+				//Intent openBikeMenu = new Intent("ca.ottawaparking.BIKE");
+				Intent openBikeMenu = new Intent(Main.this, LoadingScreen.class);
+				openBikeMenu.putExtra("buttonClicked", 0);
 				startActivity(openBikeMenu);
-
 			}
 		});
 		
@@ -49,9 +51,9 @@ public class Main extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent openCarMenu = new Intent("ca.ottawaparking.CAR");
+				Intent openCarMenu = new Intent(Main.this, LoadingScreen.class);
+				openCarMenu.putExtra("buttonClicked", 1);
 				startActivity(openCarMenu);
-				
 			}
 		});
 
@@ -60,9 +62,9 @@ public class Main extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Intent openStubMenu = new Intent("ca.ottawaparking.STUB");
+				Intent openStubMenu = new Intent(Main.this, LoadingScreen.class);
+				openStubMenu.putExtra("buttonClicked", 2);
 				startActivity(openStubMenu);
-				
 			}
 		});
 		
