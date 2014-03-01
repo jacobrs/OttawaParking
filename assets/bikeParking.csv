@@ -25,575 +25,575 @@ Post_ID,Mid_block_ID,Street_1,Street_2,Street_3,Side,Adjacent_to,latitude,longit
 24,9,Besserer St,Nicholas St,Dalhousie St,North,412 Dalhousie St,45.426507,-75.689363,New,"On Besserer St, side of 412 Dalhousie St"
 25,10,Dalhousie St,Besserer St,Rideau St,East,407 Dalhousie St,45.426684,-75.689248,New,
 26,10,Dalhousie St,Besserer St,Rideau St,East,407 Dalhousie St,45.426622,-75.6892,New,
-27,11,Catherine St,Kent St,Bank St,North,28 Arlington Ave,45.409100,-75.693600,New,"On Catherine St, side of 28 Arlington Ave"
-28,11,Catherine St,Kent St,Bank St,North,28 Arlington Ave,45.409190,-75.693310,New,"On Catherine St, side of 28 Arlington Ave"
-29,11,Catherine St,Kent St,Bank St,North,28 Arlington Ave,45.409300,-75.692990,New,"On Catherine St, side of 28 Arlington Ave"
-30,11,Catherine St,Kent St,Bank St,North,28 Arlington Ave,45.409450,-75.692630,New,"On Catherine St, side of 28 Arlington Ave"
-31,12,Kent St,Arlington Ave,Catherine St,East,28 Arlington Ave,45.409400,-75.693990,New,"On Catherine St, side of 28 Arlington Ave"
-32,12,Kent St,Arlington Ave,Catherine St,East,28 Arlington Ave,45.409210,-75.693880,New,"On Catherine St, side of 28 Arlington Ave"
+27,11,Catherine St,Kent St,Bank St,North,28 Arlington Ave,45.4091,-75.6936,New,"On Catherine St, side of 28 Arlington Ave"
+28,11,Catherine St,Kent St,Bank St,North,28 Arlington Ave,45.40919,-75.69331,New,"On Catherine St, side of 28 Arlington Ave"
+29,11,Catherine St,Kent St,Bank St,North,28 Arlington Ave,45.4093,-75.69299,New,"On Catherine St, side of 28 Arlington Ave"
+30,11,Catherine St,Kent St,Bank St,North,28 Arlington Ave,45.40945,-75.69263,New,"On Catherine St, side of 28 Arlington Ave"
+31,12,Kent St,Arlington Ave,Catherine St,East,28 Arlington Ave,45.4094,-75.69399,New,"On Catherine St, side of 28 Arlington Ave"
+32,12,Kent St,Arlington Ave,Catherine St,East,28 Arlington Ave,45.40921,-75.69388,New,"On Catherine St, side of 28 Arlington Ave"
 33,13,Arlington Ave,Bank St,Kent St,South,28 Arlington Ave,45.409452,-75.693915,New,
-34,13,Arlington Ave,Bank St,Kent St,South,28 Arlington Ave,45.409500,-75.693722,New,
-35,14,Catherine St,Kent St,Lyon St,North,265 Catherine St,45.408750,-75.694260,,
-36,14,Catherine St,Kent St,Lyon St,North,265 Catherine St,45.408660,-75.694560,,
-37,14,Catherine St,Kent St,Lyon St,North,265 Catherine St,45.408520,-75.694870,,
-38,14,Catherine St,Kent St,Lyon St,North,265 Catherine St,45.408390,-75.695190,,
-39,14,Catherine St,Kent St,Lyon St,North,265 Catherine St,45.408250,-75.695530,,
-40,14,Catherine St,Kent St,Lyon St,North,265 Catherine St,45.408170,-75.695760,,
-41,15,Catherine St,Bronson Ave,Percy St,South,424 Catherine St,45.406380,-75.699320,New,
-42,16,George St,Cumberland St,Dalhousie St,North,171 George St,45.428770,-75.688550,New,
-43,16,George St,Cumberland St,Dalhousie St,North,171 George St,45.428680,-75.688830,New,
-44,16,George St,Cumberland St,Dalhousie St,North,171 George St,45.428560,-75.689060,New,
-45,16,George St,Cumberland St,Dalhousie St,North,171 George St,45.428500,-75.689250,New,
-46,16,George St,Cumberland St,Dalhousie St,North,171 George St,45.428430,-75.689330,New,
-47,16,George St,Cumberland St,Dalhousie St,North,355 Dalhousie St,45.428350,-75.689530,New,"On George St, side of 355 Dalhousie St"
-48,16,George St,Cumberland St,Dalhousie St,North,355 Dalhousie St,45.428110,-75.690150,New,"On George St, side of 355 Dalhousie St"
-49,17,George St,Cumberland St,Dalhousie St,South,140 George St,45.428190,-75.689450,New,
-50,17,George St,Cumberland St,Dalhousie St,South,140 George St,45.428150,-75.689510,New,
-51,18,Cumberland St,St. Andrew St,Guigues Ave,East,207 Guigues Ave,45.432770,-75.691170,New,"On Cumberland St, side of 207 Guigues Ave"
-52,18,Cumberland St,St. Andrew St,Guigues Ave,East,207 Guigues Ave,45.432690,-75.691050,New,"On Cumberland St, side of 207 Guigues Ave"
-53,19,Cumberland St,Guigues,St. Patrick St,West,172 Guigues Ave,45.432380,-75.691190,New,"On Cumberland St, side of 172 Guigues Ave"
-54,19,Cumberland St,Guigues,St. Patrick St,West,172 Guigues Ave,45.432250,-75.691130,New,"On Cumberland St, side of 172 Guigues Ave"
-55,19,Cumberland St,Guigues,St. Patrick St,West,172 Guigues Ave,45.432080,-75.691000,New,"On Cumberland St, side of 172 Guigues Ave"
-56,19,Cumberland St,Guigues,St. Patrick St,West,172 Guigues Ave,45.431960,-75.690840,New,"On Cumberland St, side of 172 Guigues Ave"
-57,20,St. Patrick St,Cumberland St,Dalhousie St,North,172 Guigues Ave,45.431820,-75.690950,New,"On St. Patrick St, side of 172 Guigues Ave"
-58,20,St. Patrick St,Cumberland St,Dalhousie St,North,172 Guigues Ave,45.431760,-75.691130,New,"On St. Patrick St, side of 172 Guigues Ave"
-59,20,St. Patrick St,Cumberland St,Dalhousie St,North,251 Dalhousie St,45.431110,-75.692700,New,"On St. Patrick St, side of 251 Dalhousie St"
-60,21,Dalhousie St,Bolton St,Cathcart St,West,145 Cathcart St,45.434020,-75.695650,New,"On Dalhousie St, side of 145 Cathcart St (Bingham Park)"
-61,21,Dalhousie St,Bolton St,Cathcart St,West,145 Cathcart St,45.433930,-75.695650,New,"On Dalhousie St, side of 145 Cathcart St (Bingham Park)"
-62,21,Dalhousie St,Bolton St,Cathcart St,West,145 Cathcart St,45.433840,-75.695610,New,"On Dalhousie St, side of 145 Cathcart St (Bingham Park)"
-63,21,Dalhousie St,Bolton St,Cathcart St,West,145 Cathcart St,45.433750,-75.695500,New,"On Dalhousie St, side of 145 Cathcart St (Bingham Park)"
-64,21,Dalhousie St,Bolton St,Cathcart St,West,145 Cathcart St,45.433650,-75.695390,New,"On Dalhousie St, side of 145 Cathcart St (Bingham Park)"
-65,21,Dalhousie St,Bolton St,Cathcart St,West,145 Cathcart St,45.433550,-75.695290,New,"On Dalhousie St, side of 145 Cathcart St (Bingham Park)"
-66,22,Dalhousie St,Bolton St,Cathcart St,East,157 Cathcart St,45.433660,-75.695070,New,"On Dalhousie St, side of 157 Cathcart St"
-67,23,Somerset St,Cambridge St N,Arthur St,North,711 Somerset St,45.411030,-75.707370,New,
-68,23,Somerset St,Cambridge St N,Arthur St,North,697 Somerset St,45.411070,-75.707110,New,
-69,24,Somerset St,Percy St,Bay St,South,606 Somerset St,45.412610,-75.702500,New,
-70,24,Somerset St,Percy St,Bay St,South,580 Somerset St,45.412510,-75.702750,New,
-71,24,Somerset St,Percy St,Bay St,South,572 Somerset St,45.412430,-75.702920,New,
-72,24,Somerset St,Percy St,Bay St,South,572 Somerset St,45.412290,-75.703350,New,
-73,25,Somerset St,Cambridge St N,Bronson Ave,North,685 Somerset St,45.411480,-75.706360,New,
-74,25,Somerset St,Cambridge St N,Bronson Ave,North,685 Somerset St,45.411540,-75.706270,New,
-75,26,Somerset St,Cambridge St N,Bronson Ave,South,676 Somerset St,45.411070,-75.706080,New,
-76,27,Somerset St,Percy St,Bay St,North,571 Somerset St,45.412730,-75.703530,New,
-77,27,Somerset St,Percy St,Bay St,North,607 Somerset St,45.412820,-75.703030,New,
-78,28,Somerset St,Lyon St,Kent St,North,465 Somerset St,45.414490,-75.699230,Existing,
-79,28,Somerset St,Lyon St,Kent St,North,455 Somerset St,45.414300,-75.699710,Existing,
-80,28,Somerset St,Lyon St,Kent St,North,475 Somerset St,45.414100,-75.700110,Existing,
-81,28,Somerset St,Lyon St,Kent St,North,495 Somerset St,45.413950,-75.700460,New,
-82,29,Cartier St,Cooper St,Lisgar St,West,131 Cooper St,45.419520,-75.689300,New,"On Cartier St, side of 131 Cooper St"
-83,29,Cartier St,Cooper St,Lisgar St,West,131 Cooper St,45.419470,-75.689220,New,"On Cartier St, side of 131 Cooper St"
-84,30,Cooper St,Elgin St,Cartier St,North,173 Cooper St,45.419100,-75.689900,New,
-85,30,Cooper St,Elgin St,Cartier St,North,173 Cooper St,45.419040,-75.690020,New,
-86,30,Cooper St,Elgin St,Cartier St,North,173 Cooper St,45.418990,-75.690100,New,
-87,31,Cartier St,Somerset St,MacLaren St,East,61 Cartier St,45.418500,-75.688090,New,
-88,31,Cartier St,Somerset St,MacLaren St,East,61 Cartier St,45.418420,-75.687980,New,
-89,32,Elgin St,MacLaren St,Gilmour St,East,301 Elgin St,45.417150,-75.689620,Existing,
-90,32,Elgin St,MacLaren St,Gilmour St,East,301 Elgin St,45.417020,-75.689490,Existing,
-91,32,Elgin St,MacLaren St,Gilmour St,East,301 Elgin St,45.416880,-75.689350,Existing,
-92,32,Elgin St,MacLaren St,Gilmour St,East,301 Elgin St,45.416750,-75.689230,Existing,
-93,33,Elgin St,Lewis St,Gilmour St,East,315 Elgin St,45.416510,-75.689090,New,Adjacent to Minto Park
-94,33,Elgin St,Lewis St,Gilmour St,East,315 Elgin St,45.416370,-75.688930,New,Adjacent to Minto Park
-95,34,Lewis St,Elgin St,Cartier St,North,315 Elgin St,45.416350,-75.688820,Existing,"On Lewis St, side of 315 Elgin St (Minto Park)"
-96,34,Lewis St,Elgin St,Cartier St,North,315 Elgin St,45.416750,-75.687900,Existing,"On Lewis St, side of 315 Elgin St (Minto Park)"
-97,34,Lewis St,Elgin St,Cartier St,North,315 Elgin St,45.416980,-75.687300,Existing,"On Lewis St, side of 315 Elgin St (Minto Park)"
-98,34,Lewis St,Elgin St,Cartier St,North,315 Elgin St,45.417040,-75.687170,Existing,"On Lewis St, side of 315 Elgin St (Minto Park)"
-99,35,Somerset St,Elgin St,Metcalfe St,South,190 Somerset St,45.417740,-75.690501,Existing,
+34,13,Arlington Ave,Bank St,Kent St,South,28 Arlington Ave,45.4095,-75.693722,New,
+35,14,Catherine St,Kent St,Lyon St,North,265 Catherine St,45.40875,-75.69426,,
+36,14,Catherine St,Kent St,Lyon St,North,265 Catherine St,45.40866,-75.69456,,
+37,14,Catherine St,Kent St,Lyon St,North,265 Catherine St,45.40852,-75.69487,,
+38,14,Catherine St,Kent St,Lyon St,North,265 Catherine St,45.40839,-75.69519,,
+39,14,Catherine St,Kent St,Lyon St,North,265 Catherine St,45.40825,-75.69553,,
+40,14,Catherine St,Kent St,Lyon St,North,265 Catherine St,45.40817,-75.69576,,
+41,15,Catherine St,Bronson Ave,Percy St,South,424 Catherine St,45.40638,-75.69932,New,
+42,16,George St,Cumberland St,Dalhousie St,North,171 George St,45.42877,-75.68855,New,
+43,16,George St,Cumberland St,Dalhousie St,North,171 George St,45.42868,-75.68883,New,
+44,16,George St,Cumberland St,Dalhousie St,North,171 George St,45.42856,-75.68906,New,
+45,16,George St,Cumberland St,Dalhousie St,North,171 George St,45.4285,-75.68925,New,
+46,16,George St,Cumberland St,Dalhousie St,North,171 George St,45.42843,-75.68933,New,
+47,16,George St,Cumberland St,Dalhousie St,North,355 Dalhousie St,45.42835,-75.68953,New,"On George St, side of 355 Dalhousie St"
+48,16,George St,Cumberland St,Dalhousie St,North,355 Dalhousie St,45.42811,-75.69015,New,"On George St, side of 355 Dalhousie St"
+49,17,George St,Cumberland St,Dalhousie St,South,140 George St,45.42819,-75.68945,New,
+50,17,George St,Cumberland St,Dalhousie St,South,140 George St,45.42815,-75.68951,New,
+51,18,Cumberland St,St. Andrew St,Guigues Ave,East,207 Guigues Ave,45.43277,-75.69117,New,"On Cumberland St, side of 207 Guigues Ave"
+52,18,Cumberland St,St. Andrew St,Guigues Ave,East,207 Guigues Ave,45.43269,-75.69105,New,"On Cumberland St, side of 207 Guigues Ave"
+53,19,Cumberland St,Guigues,St. Patrick St,West,172 Guigues Ave,45.43238,-75.69119,New,"On Cumberland St, side of 172 Guigues Ave"
+54,19,Cumberland St,Guigues,St. Patrick St,West,172 Guigues Ave,45.43225,-75.69113,New,"On Cumberland St, side of 172 Guigues Ave"
+55,19,Cumberland St,Guigues,St. Patrick St,West,172 Guigues Ave,45.43208,-75.691,New,"On Cumberland St, side of 172 Guigues Ave"
+56,19,Cumberland St,Guigues,St. Patrick St,West,172 Guigues Ave,45.43196,-75.69084,New,"On Cumberland St, side of 172 Guigues Ave"
+57,20,St. Patrick St,Cumberland St,Dalhousie St,North,172 Guigues Ave,45.43182,-75.69095,New,"On St. Patrick St, side of 172 Guigues Ave"
+58,20,St. Patrick St,Cumberland St,Dalhousie St,North,172 Guigues Ave,45.43176,-75.69113,New,"On St. Patrick St, side of 172 Guigues Ave"
+59,20,St. Patrick St,Cumberland St,Dalhousie St,North,251 Dalhousie St,45.43111,-75.6927,New,"On St. Patrick St, side of 251 Dalhousie St"
+60,21,Dalhousie St,Bolton St,Cathcart St,West,145 Cathcart St,45.43402,-75.69565,New,"On Dalhousie St, side of 145 Cathcart St (Bingham Park)"
+61,21,Dalhousie St,Bolton St,Cathcart St,West,145 Cathcart St,45.43393,-75.69565,New,"On Dalhousie St, side of 145 Cathcart St (Bingham Park)"
+62,21,Dalhousie St,Bolton St,Cathcart St,West,145 Cathcart St,45.43384,-75.69561,New,"On Dalhousie St, side of 145 Cathcart St (Bingham Park)"
+63,21,Dalhousie St,Bolton St,Cathcart St,West,145 Cathcart St,45.43375,-75.6955,New,"On Dalhousie St, side of 145 Cathcart St (Bingham Park)"
+64,21,Dalhousie St,Bolton St,Cathcart St,West,145 Cathcart St,45.43365,-75.69539,New,"On Dalhousie St, side of 145 Cathcart St (Bingham Park)"
+65,21,Dalhousie St,Bolton St,Cathcart St,West,145 Cathcart St,45.43355,-75.69529,New,"On Dalhousie St, side of 145 Cathcart St (Bingham Park)"
+66,22,Dalhousie St,Bolton St,Cathcart St,East,157 Cathcart St,45.43366,-75.69507,New,"On Dalhousie St, side of 157 Cathcart St"
+67,23,Somerset St,Cambridge St N,Arthur St,North,711 Somerset St,45.41103,-75.70737,New,
+68,23,Somerset St,Cambridge St N,Arthur St,North,697 Somerset St,45.41107,-75.70711,New,
+69,24,Somerset St,Percy St,Bay St,South,606 Somerset St,45.41261,-75.7025,New,
+70,24,Somerset St,Percy St,Bay St,South,580 Somerset St,45.41251,-75.70275,New,
+71,24,Somerset St,Percy St,Bay St,South,572 Somerset St,45.41243,-75.70292,New,
+72,24,Somerset St,Percy St,Bay St,South,572 Somerset St,45.41229,-75.70335,New,
+73,25,Somerset St,Cambridge St N,Bronson Ave,North,685 Somerset St,45.41148,-75.70636,New,
+74,25,Somerset St,Cambridge St N,Bronson Ave,North,685 Somerset St,45.41154,-75.70627,New,
+75,26,Somerset St,Cambridge St N,Bronson Ave,South,676 Somerset St,45.41107,-75.70608,New,
+76,27,Somerset St,Percy St,Bay St,North,571 Somerset St,45.41273,-75.70353,New,
+77,27,Somerset St,Percy St,Bay St,North,607 Somerset St,45.41282,-75.70303,New,
+78,28,Somerset St,Lyon St,Kent St,North,465 Somerset St,45.41449,-75.69923,Existing,
+79,28,Somerset St,Lyon St,Kent St,North,455 Somerset St,45.4143,-75.69971,Existing,
+80,28,Somerset St,Lyon St,Kent St,North,475 Somerset St,45.4141,-75.70011,Existing,
+81,28,Somerset St,Lyon St,Kent St,North,495 Somerset St,45.41395,-75.70046,New,
+82,29,Cartier St,Cooper St,Lisgar St,West,131 Cooper St,45.41952,-75.6893,New,"On Cartier St, side of 131 Cooper St"
+83,29,Cartier St,Cooper St,Lisgar St,West,131 Cooper St,45.41947,-75.68922,New,"On Cartier St, side of 131 Cooper St"
+84,30,Cooper St,Elgin St,Cartier St,North,173 Cooper St,45.4191,-75.6899,New,
+85,30,Cooper St,Elgin St,Cartier St,North,173 Cooper St,45.41904,-75.69002,New,
+86,30,Cooper St,Elgin St,Cartier St,North,173 Cooper St,45.41899,-75.6901,New,
+87,31,Cartier St,Somerset St,MacLaren St,East,61 Cartier St,45.4185,-75.68809,New,
+88,31,Cartier St,Somerset St,MacLaren St,East,61 Cartier St,45.41842,-75.68798,New,
+89,32,Elgin St,MacLaren St,Gilmour St,East,301 Elgin St,45.41715,-75.68962,Existing,
+90,32,Elgin St,MacLaren St,Gilmour St,East,301 Elgin St,45.41702,-75.68949,Existing,
+91,32,Elgin St,MacLaren St,Gilmour St,East,301 Elgin St,45.41688,-75.68935,Existing,
+92,32,Elgin St,MacLaren St,Gilmour St,East,301 Elgin St,45.41675,-75.68923,Existing,
+93,33,Elgin St,Lewis St,Gilmour St,East,315 Elgin St,45.41651,-75.68909,New,Adjacent to Minto Park
+94,33,Elgin St,Lewis St,Gilmour St,East,315 Elgin St,45.41637,-75.68893,New,Adjacent to Minto Park
+95,34,Lewis St,Elgin St,Cartier St,North,315 Elgin St,45.41635,-75.68882,Existing,"On Lewis St, side of 315 Elgin St (Minto Park)"
+96,34,Lewis St,Elgin St,Cartier St,North,315 Elgin St,45.41675,-75.6879,Existing,"On Lewis St, side of 315 Elgin St (Minto Park)"
+97,34,Lewis St,Elgin St,Cartier St,North,315 Elgin St,45.41698,-75.6873,Existing,"On Lewis St, side of 315 Elgin St (Minto Park)"
+98,34,Lewis St,Elgin St,Cartier St,North,315 Elgin St,45.41704,-75.68717,Existing,"On Lewis St, side of 315 Elgin St (Minto Park)"
+99,35,Somerset St,Elgin St,Metcalfe St,South,190 Somerset St,45.41774,-75.690501,Existing,
 100,35,Somerset St,Elgin St,Metcalfe St,South,190 Somerset St,45.417661,-75.690688,Existing,
 101,35,Somerset St,Elgin St,Metcalfe St,South,210 Somerset St,45.417337,-75.691515,New,
 102,35,Somerset St,Elgin St,Metcalfe St,South,210 Somerset St,45.417281,-75.691611,New,
-103,36,Lisgar St,Elgin St,Metcalfe St,North,169 Lisgar St,45.419120,-75.691950,Existing,
-104,36,Lisgar St,Elgin St,Metcalfe St,North,167 Lisgar St,45.419050,-75.692140,Existing,
-105,37,Gloucester St,Elgin St,Metcalfe St,North,151 Metcalfe St,45.419760,-75.694470,Existing,"On Gloucester St, side of 151 Metcalfe St"
-106,37,Gloucester St,Elgin St,Metcalfe St,North,151 Metcalfe St,45.419830,-75.694320,Existing,"On Gloucester St, side of 151 Metcalfe St"
-107,38,Metcalfe St,Laurier Ave,Gloucester St,East,151 Metcalfe St,45.419800,-75.694690,Existing,
-108,38,Metcalfe St,Laurier Ave,Gloucester St,East,151 Metcalfe St,45.419740,-75.694620,Existing,
-109,38,Metcalfe St,Laurier Ave,Gloucester St,East,151 Metcalfe St,45.419700,-75.694580,Existing,
-110,39,Cumberland St,Cathcart St,Bruyere St,West,187 Bruyere St,45.434050,-75.692720,New,"On Cumberland St, side of 187 Bruyere St (Cumberland Park)"
-111,39,Cumberland St,Cathcart St,Bruyere St,West,187 Bruyere St,45.433880,-75.692640,New,"On Cumberland St, side of 187 Bruyere St (Cumberland Park)"
-112,40,Cumberland St,St. Andrew St,Bruyere St,East,197 Cumberland St,45.433680,-75.691920,New,
-113,40,Cumberland St,St. Andrew St,Bruyere St,East,197 Cumberland St,45.433520,-75.691820,New,
-114,41,Queen St,Bronson Ave,Bay St,South,85 Bronson Ave,45.417180,-75.708120,Existing,"On Queen St, side of 85 Bronson Ave"
-115,42,Cumberland St,Murray St,Clarence St,East,309 Cumberland St,45.431070,-75.689760,Existing,
-116,42,Cumberland St,Murray St,Clarence St,East,305 Cumberland St,45.430830,-75.689570,Existing,
-117,43,Dalhousie St,Clarence St,York St,East,101 York St,45.429190,-75.691120,New,"On Dalhousie St, side of 101 York St"
-118,44,Albert St,Kent St,Bank St,South,292 Albert St,45.419040,-75.701980,New,
-119,44,Albert St,Kent St,Bank St,South,270 Albert St,45.419200,-75.701650,New,
-120,44,Albert St,Kent St,Bank St,South,270 Albert St,45.419240,-75.701500,New,
-121,44,Albert St,Kent St,Bank St,South,250 Albert St,45.419460,-75.700940,New,
-122,44,Albert St,Kent St,Bank St,South,250 Albert St,45.419520,-75.700810,New,
-123,45,Albert St,O'Connor St,Metcalfe St,North,45 O'Connor St,45.421110,-75.697980,New,"On Albert St, side of 45 O'Connor St"
-124,45,Albert St,O'Connor St,Metcalfe St,North,45 O'Connor St,45.421090,-75.698080,New,"On Albert St, side of 45 O'Connor St"
-125,45,Albert St,O'Connor St,Metcalfe St,North,45 O'Connor St,45.421010,-75.698210,New,"On Albert St, side of 45 O'Connor St"
-126,46,Argyle Ave,O'Connor St,Bank St,North,215 Argyle Ave,45.411530,-75.690590,Existing,
-127,46,Argyle Ave,O'Connor St,Bank St,North,219 Argyle Ave,45.411320,-75.691020,Existing,
-128,46,Argyle Ave,O'Connor St,Bank St,North,237 Argyle Ave,45.411160,-75.691380,Existing,
-129,46,Argyle Ave,O'Connor St,Bank St,North,239 Argyle Ave,45.411020,-75.691770,Existing,
-130,46,Argyle Ave,O'Connor St,Bank St,North,255 Argyle Ave,45.410850,-75.692010,Existing,
-131,47,Argyle Ave,Metcalfe St,Metcalfe St,South,110 Argyle Ave,45.412490,-75.687440,Existing,
-132,47,Argyle Ave,Metcalfe St,Metcalfe St,South,110 Argyle Ave,45.412560,-75.687330,Existing,
-133,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.412340,-75.688600,Existing,"On Argyle Ave, rear of 240 McLeod St"
-134,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.412290,-75.688840,Existing,"On Argyle Ave, rear of 240 McLeod St"
-135,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.412200,-75.688990,Existing,"On Argyle Ave, rear of 240 McLeod St"
-136,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.412080,-75.689270,Existing,"On Argyle Ave, rear of 240 McLeod St"
-137,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.411960,-75.689700,Existing,"On Argyle Ave, rear of 240 McLeod St"
-138,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.411860,-75.689800,Existing,"On Argyle Ave, rear of 240 McLeod St"
-139,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.411740,-75.690050,Existing,"On Argyle Ave, rear of 240 McLeod St"
-140,49,Bay St,Laurier Ave,Slater St,East,400 Slater St,45.416780,-75.705230,New,"On Bay St, side of 400 Slater St"
-141,50,Bay St,Sparks St,Wellington St,West,,45.418960,-75.707510,New,Adjacent to Garden of the Provinces and Territories
-142,51,Besserer St,Cumberland St,King Edward Ave,South,200 Besserer St,45.427420,-75.686300,Existing,
-143,52,Besserer St,Cumberland St,King Edward Ave,North,400 King Edward Ave,45.428000,-75.685970,Existing,
-144,52,Besserer St,Cumberland St,King Edward Ave,North,400 King Edward Ave,45.428110,-75.685740,Existing,
-145,52,Besserer St,Cumberland St,King Edward Ave,North,400 King Edward Ave,45.428170,-75.685600,Existing,
-146,53,Booth St,Carling Ave,Norman St,West,588 Booth St,45.399290,-75.704570,Existing,
-147,53,Booth St,Carling Ave,Norman St,West,588 Booth St,45.399650,-75.704800,Existing,
-148,53,Booth St,Carling Ave,Norman St,West,580 Booth St,45.400080,-75.705070,Existing,
-149,53,Booth St,Carling Ave,Norman St,West,580 Booth St,45.400250,-75.705160,Existing,
-150,53,Booth St,Carling Ave,Norman St,West,580 Booth St,45.400790,-75.705510,Existing,
-151,54,Booth St,Carling Ave,Norman St,East,615 Booth St,45.400010,-75.704780,Existing,
-152,54,Booth St,Carling Ave,Norman St,East,615 Booth St,45.399710,-75.704590,Existing,
-153,54,Booth St,Carling Ave,Norman St,East,615 Booth St,45.399400,-75.704360,Existing,
-154,55,Bruyere St,Sussex Dr,Parent Ave,North,43 Bruyere St,45.431400,-75.697890,Existing,
-155,55,Bruyere St,Sussex Dr,Parent Ave,North,43 Bruyere St,45.431510,-75.697550,Existing,
-156,55,Bruyere St,Sussex Dr,Parent Ave,North,43 Bruyere St,45.431580,-75.697380,Existing,
-157,55,Bruyere St,Sussex Dr,Parent Ave,North,43 Bruyere St,45.431660,-75.697250,Existing,
-158,56,Byward Market Sq,York St,Clarence St,East,5 Byward Market Sq,45.428560,-75.693420,New,
-159,56,Byward Market Sq,York St,Clarence St,East,9 Byward Market Sq,45.428430,-75.693340,New,
-160,57,Cambridge St N,Somerset St,Primrose Ave,East,687 Somerset St,45.411500,-75.706640,Existing,"On Cambridge St N, side of 687 Somerset St"
-161,58,Cartier St,Cooper St,Somerset St,West,180 Cooper St,45.419200,-75.688980,Existing,"On Cartier St, side of 180 Cooper St"
-162,58,Cartier St,Cooper St,Somerset St,West,180 Cooper St,45.419110,-75.688920,Existing,"On Cartier St, side of 180 Cooper St"
-163,59,Clarence St,Dalhousie St,William St,North,115 Clarence St,45.429620,-75.692130,New,
-164,59,Clarence St,Dalhousie St,William St,North,115 Clarence St,45.429520,-75.692360,New,
-165,60,Clarence St,Dalhousie St,William St,South,110 Clarence St,45.429410,-75.691930,Existing,
-166,60,Clarence St,Dalhousie St,William St,South,110 Clarence St,45.429280,-75.692240,Existing,
-167,61,Clarence St,Sussex Dr,ByWard Market Sq,South,24 Clarence St,45.428290,-75.694520,New,
-168,62,Clarence St,Sussex Dr,ByWard Market Sq,North,17 Clarence St,45.428550,-75.694710,New,
-169,63,Cumberland St,George St,York St,East,180 York St,45.429600,-75.688600,Existing,"On Cumberland St, side of 180 York St"
-170,63,Cumberland St,George St,York St,East,180 York St,45.429320,-75.688380,Existing,"On Cumberland St, side of 180 York St"
-171,63,Cumberland St,George St,York St,East,180 York St,45.429080,-75.688140,Existing,"On Cumberland St, side of 180 York St"
-172,64,Cooper St,Bank St,Kent St,South,420 Cooper St,45.415570,-75.697790,Existing,
-173,64,Cooper St,Bank St,Kent St,South,420 Cooper St,45.415490,-75.697980,Existing,
-174,64,Cooper St,Bank St,Kent St,South,420 Cooper St,45.415410,-75.698170,Existing,
-175,64,Cooper St,Bank St,Kent St,South,420 Cooper St,45.415310,-75.698410,Existing,
-176,65,Cumberland St,York St,Clarence St,East,333 Cumberland St,45.430230,-75.689160,Existing,
-177,66,Cumberland St,York St,Clarence St,West,332 Cumberland St,45.430160,-75.689370,Existing,
-178,67,Dalhousie St,Besserer St,Rideau St,West,400 Dalhousie St,45.426870,-75.689570,Existing,
-179,67,Dalhousie St,Besserer St,Rideau St,West,400 Dalhousie St,45.426670,-75.689430,Existing,
-180,68,Dalhousie St,Clarence St,Murray St,West,121 Clarence St,45.429800,-75.692120,New,"On Dalhousie St, side of 121 Clarence St"
-181,69,Dalhousie St,George St,York St,East,353 Dalhousie St,45.428810,-75.690790,New,
-182,69,Dalhousie St,George St,York St,East,325 Dalhousie St,45.428160,-75.690260,New,
-183,70,Dalhousie St,Guigues Ave,St. Andrew St,East,207 Dalhousie St,45.432120,-75.693600,New,
-184,70,Dalhousie St,Guigues Ave,St. Andrew St,East,213 Dalhousie St,45.431830,-75.693410,New,
-185,71,Dalhousie St,Guigues Ave,St. Andrew St,West,200 Dalhousie St,45.431970,-75.694050,New,
-186,71,Dalhousie St,Guigues Ave,St. Andrew St,West,204 Dalhousie St,45.431780,-75.693880,New,
-187,72,Dalhousie St,Murray St,St. Patrick St,West,252 Dalhousie St,45.430680,-75.692910,New,
-188,73,Dalhousie St,Cathcart St,Bruyere St,East,169 Dalhousie St,45.433050,-75.694440,New,
-189,74,Guigues Ave,Dalhousie St,Cumberland St,North,131 Guigues Ave,45.431710,-75.693250,New,
-190,75,Dalhousie St,Rideau St,George St,East,128 George St,45.427870,-75.690060,New,"On Dalhousie St, side of 128 George St"
-191,76,Dalhousie St,St. Andrew St,Bruyere St,East,173 Dalhousie St,45.432720,-75.694220,New,
-192,77,Dalhousie St,St. Patrick St,Guigues Ave,West,230 Dalhousie St,45.431210,-75.693250,New,
-193,78,Dalhousie St,York St,Clarence St,West,316 Dalhousie St,45.429150,-75.691530,New,
-194,78,Dalhousie St,York St,Clarence St,West,316 Dalhousie St,45.429030,-75.691380,New,
-195,78,Dalhousie St,York St,Clarence St,West,298 Dalhousie St,45.429470,-75.691780,New,
-196,79,Daly Ave,Cumberland St,Waller St,North,83 Daly Ave,45.426790,-75.686720,Existing,
-197,79,Daly Ave,Cumberland St,Waller St,North,79 Daly Ave,45.426690,-75.686970,Existing,
-198,79,Daly Ave,Cumberland St,Waller St,North,75 Daly Ave,45.426570,-75.687190,Existing,
-199,79,Daly Ave,Cumberland St,Waller St,North,71 Daly Ave,45.426460,-75.687420,Existing,
-200,79,Daly Ave,Cumberland St,Waller St,North,69 Daly Ave,45.426380,-75.687590,Existing,
-201,80,Elgin St,Cooper St,Somerset St,West,260 Elgin St,45.417980,-75.690820,New,
-202,80,Elgin St,Cooper St,Somerset St,West,256 Elgin St,45.418140,-75.690920,New,
-203,80,Elgin St,Cooper St,Somerset St,West,248 Elgin St,45.418330,-75.691050,New,
-204,81,Dalhousie St,St. Andrew St,Bruyere St,West,190 Dalhousie St,45.432580,-75.694520,New,
-205,81,Dalhousie St,St. Andrew St,Bruyere St,West,190 Dalhousie St,45.432390,-75.694430,New,
-206,82,Elgin St,Lewis St,Gilmour St,West,685 Elgin St,45.416410,-75.689320,New,
-207,82,Elgin St,Lewis St,Gilmour St,West,685 Elgin St,45.416260,-75.689180,New,
-208,83,Elgin St,Cooper St,Lisgar St,West,230 Elgin St,45.418600,-75.691190,New,
-209,83,Elgin St,Cooper St,Lisgar St,West,220 Elgin St,45.418770,-75.691320,New,
-210,83,Elgin St,Cooper St,Lisgar St,West,216 Elgin St,45.418910,-75.691460,New,
-211,84,Elgin St,MacLaren St,Gilmour St,West,298 Elgin St,45.416780,-75.689600,Existing,
-212,84,Elgin St,MacLaren St,Gilmour St,West,294 Elgin St,45.416690,-75.689490,Existing,
-213,85,Elgin St,Lewis St,Waverley St,West,342 Elgin St,45.415790,-75.688690,New,
-214,85,Elgin St,Lewis St,Waverley St,West,342 Elgin St,45.415710,-75.688600,New,
-215,86,Elgin St,Waverley St,Frank St,West,366 Elgin St,45.415370,-75.688310,New,
-216,87,Elgin St,Gladstone Ave,Frank St,West,374 Elgin St,45.414930,-75.687900,New,
-217,87,Elgin St,Gladstone Ave,Frank St,West,380 Elgin St,45.414760,-75.687760,New,
-218,88,Elgin St,Gladstone Ave,McLeod St,West,404 Elgin St,45.414430,-75.687530,New,
-219,88,Elgin St,Gladstone Ave,McLeod St,West,408 Elgin St,45.414260,-75.687390,New,
-220,89,Elgin St,MacLaren St,Somerset St,West,264 Elgin St,45.417740,-75.690400,New,
-221,89,Elgin St,MacLaren St,Somerset St,West,274 Elgin St,45.417450,-75.690140,New,
-222,89,Elgin St,MacLaren St,Somerset St,West,280 Elgin St,45.417260,-75.689990,New,
-223,90,Frank St,Elgin St,Metcalfe St,North,366 Elgin St,45.415150,-75.688350,Existing,"On Frank St, side of 366 Elgin St"
-224,90,Frank St,Elgin St,Metcalfe St,North,320 Jack Purcell Lane,45.415010,-75.688770,Existing,"On Frank St, side of 320 Jack Purcell Lane"
-225,90,Frank St,Elgin St,Metcalfe St,North,320 Jack Purcell Lane,45.414910,-75.688960,Existing,"On Frank St, side of 320 Jack Purcell Lane"
-226,90,Frank St,Elgin St,Metcalfe St,North,320 Jack Purcell Lane,45.414840,-75.689130,Existing,"On Frank St, side of 320 Jack Purcell Lane"
-227,90,Frank St,Elgin St,Metcalfe St,North,320 Jack Purcell Lane,45.414770,-75.689290,Existing,"On Frank St, side of 320 Jack Purcell Lane"
-228,90,Frank St,Elgin St,Metcalfe St,North,320 Jack Purcell Lane,45.414690,-75.689450,Existing,"On Frank St, side of 320 Jack Purcell Lane"
-229,90,Frank St,Elgin St,Metcalfe St,North,320 Jack Purcell Lane,45.414620,-75.689620,Existing,"On Frank St, side of 320 Jack Purcell Lane"
-230,91,Frank St,Metcalfe St,O'Connor St,North,319 Frank St,45.413886,-75.691000,Existing,
+103,36,Lisgar St,Elgin St,Metcalfe St,North,169 Lisgar St,45.41912,-75.69195,Existing,
+104,36,Lisgar St,Elgin St,Metcalfe St,North,167 Lisgar St,45.41905,-75.69214,Existing,
+105,37,Gloucester St,Elgin St,Metcalfe St,North,151 Metcalfe St,45.41976,-75.69447,Existing,"On Gloucester St, side of 151 Metcalfe St"
+106,37,Gloucester St,Elgin St,Metcalfe St,North,151 Metcalfe St,45.41983,-75.69432,Existing,"On Gloucester St, side of 151 Metcalfe St"
+107,38,Metcalfe St,Laurier Ave,Gloucester St,East,151 Metcalfe St,45.4198,-75.69469,Existing,
+108,38,Metcalfe St,Laurier Ave,Gloucester St,East,151 Metcalfe St,45.41974,-75.69462,Existing,
+109,38,Metcalfe St,Laurier Ave,Gloucester St,East,151 Metcalfe St,45.4197,-75.69458,Existing,
+110,39,Cumberland St,Cathcart St,Bruyere St,West,187 Bruyere St,45.43405,-75.69272,New,"On Cumberland St, side of 187 Bruyere St (Cumberland Park)"
+111,39,Cumberland St,Cathcart St,Bruyere St,West,187 Bruyere St,45.43388,-75.69264,New,"On Cumberland St, side of 187 Bruyere St (Cumberland Park)"
+112,40,Cumberland St,St. Andrew St,Bruyere St,East,197 Cumberland St,45.43368,-75.69192,New,
+113,40,Cumberland St,St. Andrew St,Bruyere St,East,197 Cumberland St,45.43352,-75.69182,New,
+114,41,Queen St,Bronson Ave,Bay St,South,85 Bronson Ave,45.41718,-75.70812,Existing,"On Queen St, side of 85 Bronson Ave"
+115,42,Cumberland St,Murray St,Clarence St,East,309 Cumberland St,45.43107,-75.68976,Existing,
+116,42,Cumberland St,Murray St,Clarence St,East,305 Cumberland St,45.43083,-75.68957,Existing,
+117,43,Dalhousie St,Clarence St,York St,East,101 York St,45.42919,-75.69112,New,"On Dalhousie St, side of 101 York St"
+118,44,Albert St,Kent St,Bank St,South,292 Albert St,45.41904,-75.70198,New,
+119,44,Albert St,Kent St,Bank St,South,270 Albert St,45.4192,-75.70165,New,
+120,44,Albert St,Kent St,Bank St,South,270 Albert St,45.41924,-75.7015,New,
+121,44,Albert St,Kent St,Bank St,South,250 Albert St,45.41946,-75.70094,New,
+122,44,Albert St,Kent St,Bank St,South,250 Albert St,45.41952,-75.70081,New,
+123,45,Albert St,O'Connor St,Metcalfe St,North,45 O'Connor St,45.42111,-75.69798,New,"On Albert St, side of 45 O'Connor St"
+124,45,Albert St,O'Connor St,Metcalfe St,North,45 O'Connor St,45.42109,-75.69808,New,"On Albert St, side of 45 O'Connor St"
+125,45,Albert St,O'Connor St,Metcalfe St,North,45 O'Connor St,45.42101,-75.69821,New,"On Albert St, side of 45 O'Connor St"
+126,46,Argyle Ave,O'Connor St,Bank St,North,215 Argyle Ave,45.41153,-75.69059,Existing,
+127,46,Argyle Ave,O'Connor St,Bank St,North,219 Argyle Ave,45.41132,-75.69102,Existing,
+128,46,Argyle Ave,O'Connor St,Bank St,North,237 Argyle Ave,45.41116,-75.69138,Existing,
+129,46,Argyle Ave,O'Connor St,Bank St,North,239 Argyle Ave,45.41102,-75.69177,Existing,
+130,46,Argyle Ave,O'Connor St,Bank St,North,255 Argyle Ave,45.41085,-75.69201,Existing,
+131,47,Argyle Ave,Metcalfe St,Metcalfe St,South,110 Argyle Ave,45.41249,-75.68744,Existing,
+132,47,Argyle Ave,Metcalfe St,Metcalfe St,South,110 Argyle Ave,45.41256,-75.68733,Existing,
+133,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.41234,-75.6886,Existing,"On Argyle Ave, rear of 240 McLeod St"
+134,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.41229,-75.68884,Existing,"On Argyle Ave, rear of 240 McLeod St"
+135,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.4122,-75.68899,Existing,"On Argyle Ave, rear of 240 McLeod St"
+136,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.41208,-75.68927,Existing,"On Argyle Ave, rear of 240 McLeod St"
+137,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.41196,-75.6897,Existing,"On Argyle Ave, rear of 240 McLeod St"
+138,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.41186,-75.6898,Existing,"On Argyle Ave, rear of 240 McLeod St"
+139,48,Argyle Ave,O'Connor St,Metcalfe St,North,240 McLeod St,45.41174,-75.69005,Existing,"On Argyle Ave, rear of 240 McLeod St"
+140,49,Bay St,Laurier Ave,Slater St,East,400 Slater St,45.41678,-75.70523,New,"On Bay St, side of 400 Slater St"
+141,50,Bay St,Sparks St,Wellington St,West,,45.41896,-75.70751,New,Adjacent to Garden of the Provinces and Territories
+142,51,Besserer St,Cumberland St,King Edward Ave,South,200 Besserer St,45.42742,-75.6863,Existing,
+143,52,Besserer St,Cumberland St,King Edward Ave,North,400 King Edward Ave,45.428,-75.68597,Existing,
+144,52,Besserer St,Cumberland St,King Edward Ave,North,400 King Edward Ave,45.42811,-75.68574,Existing,
+145,52,Besserer St,Cumberland St,King Edward Ave,North,400 King Edward Ave,45.42817,-75.6856,Existing,
+146,53,Booth St,Carling Ave,Norman St,West,588 Booth St,45.39929,-75.70457,Existing,
+147,53,Booth St,Carling Ave,Norman St,West,588 Booth St,45.39965,-75.7048,Existing,
+148,53,Booth St,Carling Ave,Norman St,West,580 Booth St,45.40008,-75.70507,Existing,
+149,53,Booth St,Carling Ave,Norman St,West,580 Booth St,45.40025,-75.70516,Existing,
+150,53,Booth St,Carling Ave,Norman St,West,580 Booth St,45.40079,-75.70551,Existing,
+151,54,Booth St,Carling Ave,Norman St,East,615 Booth St,45.40001,-75.70478,Existing,
+152,54,Booth St,Carling Ave,Norman St,East,615 Booth St,45.39971,-75.70459,Existing,
+153,54,Booth St,Carling Ave,Norman St,East,615 Booth St,45.3994,-75.70436,Existing,
+154,55,Bruyere St,Sussex Dr,Parent Ave,North,43 Bruyere St,45.4314,-75.69789,Existing,
+155,55,Bruyere St,Sussex Dr,Parent Ave,North,43 Bruyere St,45.43151,-75.69755,Existing,
+156,55,Bruyere St,Sussex Dr,Parent Ave,North,43 Bruyere St,45.43158,-75.69738,Existing,
+157,55,Bruyere St,Sussex Dr,Parent Ave,North,43 Bruyere St,45.43166,-75.69725,Existing,
+158,56,Byward Market Sq,York St,Clarence St,East,5 Byward Market Sq,45.42856,-75.69342,New,
+159,56,Byward Market Sq,York St,Clarence St,East,9 Byward Market Sq,45.42843,-75.69334,New,
+160,57,Cambridge St N,Somerset St,Primrose Ave,East,687 Somerset St,45.4115,-75.70664,Existing,"On Cambridge St N, side of 687 Somerset St"
+161,58,Cartier St,Cooper St,Somerset St,West,180 Cooper St,45.4192,-75.68898,Existing,"On Cartier St, side of 180 Cooper St"
+162,58,Cartier St,Cooper St,Somerset St,West,180 Cooper St,45.41911,-75.68892,Existing,"On Cartier St, side of 180 Cooper St"
+163,59,Clarence St,Dalhousie St,William St,North,115 Clarence St,45.42962,-75.69213,New,
+164,59,Clarence St,Dalhousie St,William St,North,115 Clarence St,45.42952,-75.69236,New,
+165,60,Clarence St,Dalhousie St,William St,South,110 Clarence St,45.42941,-75.69193,Existing,
+166,60,Clarence St,Dalhousie St,William St,South,110 Clarence St,45.42928,-75.69224,Existing,
+167,61,Clarence St,Sussex Dr,ByWard Market Sq,South,24 Clarence St,45.42829,-75.69452,New,
+168,62,Clarence St,Sussex Dr,ByWard Market Sq,North,17 Clarence St,45.42855,-75.69471,New,
+169,63,Cumberland St,George St,York St,East,180 York St,45.4296,-75.6886,Existing,"On Cumberland St, side of 180 York St"
+170,63,Cumberland St,George St,York St,East,180 York St,45.42932,-75.68838,Existing,"On Cumberland St, side of 180 York St"
+171,63,Cumberland St,George St,York St,East,180 York St,45.42908,-75.68814,Existing,"On Cumberland St, side of 180 York St"
+172,64,Cooper St,Bank St,Kent St,South,420 Cooper St,45.41557,-75.69779,Existing,
+173,64,Cooper St,Bank St,Kent St,South,420 Cooper St,45.41549,-75.69798,Existing,
+174,64,Cooper St,Bank St,Kent St,South,420 Cooper St,45.41541,-75.69817,Existing,
+175,64,Cooper St,Bank St,Kent St,South,420 Cooper St,45.41531,-75.69841,Existing,
+176,65,Cumberland St,York St,Clarence St,East,333 Cumberland St,45.43023,-75.68916,Existing,
+177,66,Cumberland St,York St,Clarence St,West,332 Cumberland St,45.43016,-75.68937,Existing,
+178,67,Dalhousie St,Besserer St,Rideau St,West,400 Dalhousie St,45.42687,-75.68957,Existing,
+179,67,Dalhousie St,Besserer St,Rideau St,West,400 Dalhousie St,45.42667,-75.68943,Existing,
+180,68,Dalhousie St,Clarence St,Murray St,West,121 Clarence St,45.4298,-75.69212,New,"On Dalhousie St, side of 121 Clarence St"
+181,69,Dalhousie St,George St,York St,East,353 Dalhousie St,45.42881,-75.69079,New,
+182,69,Dalhousie St,George St,York St,East,325 Dalhousie St,45.42816,-75.69026,New,
+183,70,Dalhousie St,Guigues Ave,St. Andrew St,East,207 Dalhousie St,45.43212,-75.6936,New,
+184,70,Dalhousie St,Guigues Ave,St. Andrew St,East,213 Dalhousie St,45.43183,-75.69341,New,
+185,71,Dalhousie St,Guigues Ave,St. Andrew St,West,200 Dalhousie St,45.43197,-75.69405,New,
+186,71,Dalhousie St,Guigues Ave,St. Andrew St,West,204 Dalhousie St,45.43178,-75.69388,New,
+187,72,Dalhousie St,Murray St,St. Patrick St,West,252 Dalhousie St,45.43068,-75.69291,New,
+188,73,Dalhousie St,Cathcart St,Bruyere St,East,169 Dalhousie St,45.43305,-75.69444,New,
+189,74,Guigues Ave,Dalhousie St,Cumberland St,North,131 Guigues Ave,45.43171,-75.69325,New,
+190,75,Dalhousie St,Rideau St,George St,East,128 George St,45.42787,-75.69006,New,"On Dalhousie St, side of 128 George St"
+191,76,Dalhousie St,St. Andrew St,Bruyere St,East,173 Dalhousie St,45.43272,-75.69422,New,
+192,77,Dalhousie St,St. Patrick St,Guigues Ave,West,230 Dalhousie St,45.43121,-75.69325,New,
+193,78,Dalhousie St,York St,Clarence St,West,316 Dalhousie St,45.42915,-75.69153,New,
+194,78,Dalhousie St,York St,Clarence St,West,316 Dalhousie St,45.42903,-75.69138,New,
+195,78,Dalhousie St,York St,Clarence St,West,298 Dalhousie St,45.42947,-75.69178,New,
+196,79,Daly Ave,Cumberland St,Waller St,North,83 Daly Ave,45.42679,-75.68672,Existing,
+197,79,Daly Ave,Cumberland St,Waller St,North,79 Daly Ave,45.42669,-75.68697,Existing,
+198,79,Daly Ave,Cumberland St,Waller St,North,75 Daly Ave,45.42657,-75.68719,Existing,
+199,79,Daly Ave,Cumberland St,Waller St,North,71 Daly Ave,45.42646,-75.68742,Existing,
+200,79,Daly Ave,Cumberland St,Waller St,North,69 Daly Ave,45.42638,-75.68759,Existing,
+201,80,Elgin St,Cooper St,Somerset St,West,260 Elgin St,45.41798,-75.69082,New,
+202,80,Elgin St,Cooper St,Somerset St,West,256 Elgin St,45.41814,-75.69092,New,
+203,80,Elgin St,Cooper St,Somerset St,West,248 Elgin St,45.41833,-75.69105,New,
+204,81,Dalhousie St,St. Andrew St,Bruyere St,West,190 Dalhousie St,45.43258,-75.69452,New,
+205,81,Dalhousie St,St. Andrew St,Bruyere St,West,190 Dalhousie St,45.43239,-75.69443,New,
+206,82,Elgin St,Lewis St,Gilmour St,West,685 Elgin St,45.41641,-75.68932,New,
+207,82,Elgin St,Lewis St,Gilmour St,West,685 Elgin St,45.41626,-75.68918,New,
+208,83,Elgin St,Cooper St,Lisgar St,West,230 Elgin St,45.4186,-75.69119,New,
+209,83,Elgin St,Cooper St,Lisgar St,West,220 Elgin St,45.41877,-75.69132,New,
+210,83,Elgin St,Cooper St,Lisgar St,West,216 Elgin St,45.41891,-75.69146,New,
+211,84,Elgin St,MacLaren St,Gilmour St,West,298 Elgin St,45.41678,-75.6896,Existing,
+212,84,Elgin St,MacLaren St,Gilmour St,West,294 Elgin St,45.41669,-75.68949,Existing,
+213,85,Elgin St,Lewis St,Waverley St,West,342 Elgin St,45.41579,-75.68869,New,
+214,85,Elgin St,Lewis St,Waverley St,West,342 Elgin St,45.41571,-75.6886,New,
+215,86,Elgin St,Waverley St,Frank St,West,366 Elgin St,45.41537,-75.68831,New,
+216,87,Elgin St,Gladstone Ave,Frank St,West,374 Elgin St,45.41493,-75.6879,New,
+217,87,Elgin St,Gladstone Ave,Frank St,West,380 Elgin St,45.41476,-75.68776,New,
+218,88,Elgin St,Gladstone Ave,McLeod St,West,404 Elgin St,45.41443,-75.68753,New,
+219,88,Elgin St,Gladstone Ave,McLeod St,West,408 Elgin St,45.41426,-75.68739,New,
+220,89,Elgin St,MacLaren St,Somerset St,West,264 Elgin St,45.41774,-75.6904,New,
+221,89,Elgin St,MacLaren St,Somerset St,West,274 Elgin St,45.41745,-75.69014,New,
+222,89,Elgin St,MacLaren St,Somerset St,West,280 Elgin St,45.41726,-75.68999,New,
+223,90,Frank St,Elgin St,Metcalfe St,North,366 Elgin St,45.41515,-75.68835,Existing,"On Frank St, side of 366 Elgin St"
+224,90,Frank St,Elgin St,Metcalfe St,North,320 Jack Purcell Lane,45.41501,-75.68877,Existing,"On Frank St, side of 320 Jack Purcell Lane"
+225,90,Frank St,Elgin St,Metcalfe St,North,320 Jack Purcell Lane,45.41491,-75.68896,Existing,"On Frank St, side of 320 Jack Purcell Lane"
+226,90,Frank St,Elgin St,Metcalfe St,North,320 Jack Purcell Lane,45.41484,-75.68913,Existing,"On Frank St, side of 320 Jack Purcell Lane"
+227,90,Frank St,Elgin St,Metcalfe St,North,320 Jack Purcell Lane,45.41477,-75.68929,Existing,"On Frank St, side of 320 Jack Purcell Lane"
+228,90,Frank St,Elgin St,Metcalfe St,North,320 Jack Purcell Lane,45.41469,-75.68945,Existing,"On Frank St, side of 320 Jack Purcell Lane"
+229,90,Frank St,Elgin St,Metcalfe St,North,320 Jack Purcell Lane,45.41462,-75.68962,Existing,"On Frank St, side of 320 Jack Purcell Lane"
+230,91,Frank St,Metcalfe St,O'Connor St,North,319 Frank St,45.413886,-75.691,Existing,
 231,91,Frank St,Metcalfe St,O'Connor St,North,325 Frank St,45.413758,-75.691279,Existing,
 232,91,Frank St,Metcalfe St,O'Connor St,North,329 Frank St,45.413641,-75.691576,Existing,
 233,92,Frank St,Bank St,O'Connor St,North,353 Frank  st,45.413329,-75.692271,Existing,
-234,92,Frank St,Bank St,O'Connor St,North,357 Frank St,45.413150,-75.692687,Existing,
-235,92,Frank St,Bank St,O'Connor St,North,403 Bank St,45.413082,-75.692880,Existing,"On Frank St, side of 403 Bank St"
+234,92,Frank St,Bank St,O'Connor St,North,357 Frank St,45.41315,-75.692687,Existing,
+235,92,Frank St,Bank St,O'Connor St,North,403 Bank St,45.413082,-75.69288,Existing,"On Frank St, side of 403 Bank St"
 236,92,Frank St,Bank St,O'Connor St,North,403 Bank St,45.413008,-75.693054,Existing,"On Frank St, side of 403 Bank St"
-237,93,George St,Cumberland St,King Edward Ave,North,195 George St,45.429190,-75.687260,Existing,
-238,94,George St,Cumberland St,King Edward Ave,South,275 Rideau St,45.429250,-75.686460,Existing,"On George St, rear of 275 Rideau St"
-239,94,George St,Cumberland St,King Edward Ave,South,275 Rideau St,45.429140,-75.686730,Existing,"On George St, rear of 275 Rideau St"
-240,94,George St,Cumberland St,King Edward Ave,South,245 Rideau St,45.428990,-75.687090,Existing,"On George St, rear of 245 Rideau St"
-241,94,George St,Cumberland St,King Edward Ave,South,245 Rideau St,45.428840,-75.687470,Existing,"On George St, rear of 245 Rideau St"
-242,95,Elgin St,Lewis St,Waverley St,East,142 Lewis St,45.416170,-75.688730,New,"On Elgin St, side of 142 Lewis St"
-243,95,Elgin St,Lewis St,Waverley St,East,142 Lewis St,45.416000,-75.688640,New,"On Elgin St, side of 142 Lewis St"
-244,96,George St,Dalhousie St,William St,South,98 George St,45.427720,-75.690530,New,
-245,96,George St,Dalhousie St,William St,South,98 George St,45.427660,-75.690760,New,
-246,97,George St,Dalhousie St,William St,North,87 George St,45.427620,-75.691260,New,
-247,97,George St,Dalhousie St,William St,North,87 George St,45.427550,-75.691420,New,
-248,97,George St,Dalhousie St,William St,North,350 Dalhousie St,45.427950,-75.690610,New,"On George St, side of 350 Dalhousie St"
-249,98,George St,Sussex Dr,ByWard Market Sq,North,11 George St,45.426690,-75.693550,Existing,
-250,98,George St,Sussex Dr,ByWard Market Sq,North,11 George St,45.426640,-75.693630,Existing,
-251,98,George St,Sussex Dr,ByWard Market Sq,North,11 George St,45.426590,-75.693710,Existing,
-252,98,George St,Sussex Dr,ByWard Market Sq,North,11 George St,45.426550,-75.693870,Existing,
-253,99,George St,William St,ByWard Market Sq,South,60 George St,45.427070,-75.691800,New,
-254,99,George St,William St,ByWard Market Sq,South,60 George St,45.427010,-75.691890,New,
-255,99,George St,William St,ByWard Market Sq,South,70 George St,45.426980,-75.691940,New,
-256,100,Gloucester St,Bank St,Kent St,North,186 Bank St,45.417940,-75.698900,Existing,"On Gloucester St, side of 186 Bank St"
-257,100,Gloucester St,Bank St,Kent St,North,186 Bank St,45.417880,-75.699010,Existing,"On Gloucester St, side of 186 Bank St"
-258,100,Gloucester St,Bank St,Kent St,North,340 Laurier Ave W,45.417730,-75.699580,Existing,"On Gloucester St, rear of 340 Laurier Ave"
-259,100,Gloucester St,Bank St,Kent St,North,340 Laurier Ave W,45.417690,-75.699680,Existing,"On Gloucester St, rear of 340 Laurier Ave"
-260,100,Gloucester St,Bank St,Kent St,North,340 Laurier Ave W,45.417600,-75.699860,Existing,"On Gloucester St, rear of 340 Laurier Ave"
-261,100,Gloucester St,Bank St,Kent St,North,340 Laurier Ave W,45.417530,-75.699970,Existing,"On Gloucester St, rear of 340 Laurier Ave"
-262,101,Gloucester St,Bank St,O'Connor St,North,140 O'Connor St,45.418760,-75.696850,Existing,"On Gloucester St, side of 140 O'Connor St"
-263,101,Gloucester St,Bank St,O'Connor St,North,140 O'Connor St,45.418680,-75.697110,Existing,"On Gloucester St, side of 140 O'Connor St"
-264,101,Gloucester St,Bank St,O'Connor St,North,140 O'Connor St,45.418560,-75.697350,Existing,"On Gloucester St, side of 140 O'Connor St"
-265,101,Gloucester St,Bank St,O'Connor St,North,171 Bank St,45.418240,-75.698150,Existing,"On Gloucester St, side of 171 Bank St"
-266,101,Gloucester St,Bank St,O'Connor St,North,171 Bank St,45.418180,-75.698260,Existing,"On Gloucester St, side of 171 Bank St"
-267,101,Gloucester St,Bank St,O'Connor St,North,171 Bank St,45.418110,-75.698410,Existing,"On Gloucester St, side of 171 Bank St"
-268,102,Gloucester St,Kent St,Lyon St,North,410 Laurier Ave W,45.416620,-75.702020,Existing,"On Gloucester St, rear of 410 Laurier Ave W"
-269,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.416760,-75.701650,Existing,"On Gloucester St, side of 200 Kent St"
-270,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.416790,-75.701610,Existing,"On Gloucester St, side of 200 Kent St"
-271,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.416870,-75.701470,Existing,"On Gloucester St, side of 200 Kent St"
-272,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.416930,-75.701290,Existing,"On Gloucester St, side of 200 Kent St"
-273,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.416990,-75.701200,Existing,"On Gloucester St, side of 200 Kent St"
-274,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.417030,-75.701060,Existing,"On Gloucester St, side of 200 Kent St"
-275,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.417080,-75.700960,Existing,"On Gloucester St, side of 200 Kent St"
-276,103,Gloucester St,Bank St,O'Connor St,South,176 Gloucester St,45.417960,-75.698210,New,
-277,103,Gloucester St,Bank St,O'Connor St,South,158 Gloucester St,45.418200,-75.697610,New,
-278,104,Guigues Ave,Sussex Dr,Parent Ave,North,373 Sussex Dr,45.430350,-75.696290,Existing,"On Guigues Ave, side of 373 Sussex Dr"
-279,104,Guigues Ave,Sussex Dr,Parent Ave,North,373 Sussex Dr,45.430150,-75.696730,Existing,"On Guigues Ave, side of 373 Sussex Dr"
-280,105,Holland Ave,Scott St,Spencer St,East,11 Holland Ave,45.403510,-75.733930,Existing,
-281,105,Holland Ave,Scott St,Spencer St,East,11 Holland Ave,45.403370,-75.733850,Existing,
-282,105,Holland Ave,Scott St,Spencer St,East,11 Holland Ave,45.403140,-75.733720,Existing,
-283,105,Holland Ave,Scott St,Spencer St,East,11 Holland Ave,45.402930,-75.733580,Existing,
-284,106,Kent St,Florence St,James St,West,70 James St,45.412290,-75.696950,New,"On Kent St, side of 70 James St"
-285,106,Kent St,Florence St,James St,West,398 Kent St,45.412050,-75.696720,New,
-286,107,Kent St,Gilmour St,James St,West,392 Kent St,45.412660,-75.697140,New,
-287,107,Kent St,Gilmour St,James St,West,388 Kent St,45.412930,-75.697350,New,
-288,108,Kent St,Nepean St,Lisgar St,East,345 Kent St,45.416170,-75.699810,Existing,
-289,109,Kent St,MacLaren St,Gilmour St,West,338 Kent St,45.413590,-75.697960,New,
-290,109,Kent St,MacLaren St,Gilmour St,West,338 Kent St,45.413380,-75.697810,New,
-291,110,Kent St,Queen St,Albert St,West,112 Kent St,45.419450,-75.702870,New,
-292,110,Kent St,Queen St,Albert St,West,112 Kent St,45.419110,-75.702580,New,
-293,111,Kent St,Albert St,Slater St,West,150 Kent St,45.418850,-75.702380,New,
-294,112,Kent St,Nepean St,Lisgar St,West,250 Kent St,45.416120,-75.700120,New,
-295,113,Laurier Ave W,Bank St,Kent St,South,380 Laurier Ave W,45.417660,-75.700970,New,
-296,113,Laurier Ave W,Bank St,Kent St,South,324 Laurier Ave W,45.418390,-75.699220,New,
-297,113,Laurier Ave W,Bank St,Kent St,South,324 Laurier Ave W,45.418320,-75.699370,New,
-298,113,Laurier Ave W,Bank St,Kent St,South,324 Laurier Ave W,45.418260,-75.699500,New,
-299,113,Laurier Ave W,Bank St,Kent St,South,324 Laurier Ave W,45.418210,-75.699640,New,
-300,114,Laurier Ave W,Bank St,Kent St,North,301 Laurier Ave W,45.418550,-75.699360,New,
-301,114,Laurier Ave W,Bank St,Kent St,North,301 Laurier Ave W,45.418470,-75.699500,New,
-302,114,Laurier Ave W,Bank St,Kent St,North,303 Laurier Ave W,45.418320,-75.699920,New,
-303,114,Laurier Ave W,Bank St,Kent St,North,303 Laurier Ave W,45.418260,-75.700080,New,
-304,114,Laurier Ave W,Bank St,Kent St,North,303 Laurier Ave W,45.418210,-75.700230,New,
-305,115,Laurier Ave W,Bank St,O'Connor St,South,300 Laurier Ave W,45.419140,-75.697400,Existing,
-306,115,Laurier Ave W,Bank St,O'Connor St,South,300 Laurier Ave W,45.419050,-75.697640,Existing,
-307,115,Laurier Ave W,Bank St,O'Connor St,South,300 Laurier Ave W,45.418910,-75.697940,Existing,
-308,115,Laurier Ave W,Bank St,O'Connor St,South,300 Laurier Ave W,45.418760,-75.698280,Existing,
-309,115,Laurier Ave W,Bank St,O'Connor St,South,300 Laurier Ave W,45.418670,-75.698590,Existing,
-310,116,Laurier Ave W,Lyon St,Bay St,South,470 Laurier Ave W,45.416170,-75.704570,Existing,
-311,116,Laurier Ave W,Lyon St,Bay St,South,470 Laurier Ave W,45.416210,-75.704340,Existing,
-312,116,Laurier Ave W,Lyon St,Bay St,South,470 Laurier Ave W,45.416280,-75.704140,Existing,
-313,116,Laurier Ave W,Lyon St,Bay St,South,450 Laurier Ave W,45.416570,-75.703490,Existing,
-314,116,Laurier Ave W,Lyon St,Bay St,South,450 Laurier Ave W,45.416530,-75.703650,Existing,
-315,117,Laurier Ave W,Lyon St,Bay St,North,475 Laurier Ave W,45.416290,-75.704780,Existing,
-316,117,Laurier Ave W,Lyon St,Bay St,North,475 Laurier Ave W,45.416360,-75.704610,Existing,
-317,117,Laurier Ave W,Lyon St,Bay St,North,475 Laurier Ave W,45.416440,-75.704460,Existing,
-318,117,Laurier Ave W,Lyon St,Bay St,North,467 Laurier Ave W,45.416650,-75.703900,Existing,
-319,117,Laurier Ave W,Lyon St,Bay St,North,445 Laurier Ave W,45.416800,-75.703500,Existing,
-320,118,Laurier Ave W,Lyon St,Kent St,South,440 Laurier Ave W,45.416860,-75.702880,New,
-321,118,Laurier Ave W,Lyon St,Kent St,South,410 Laurier Ave W,45.417100,-75.702290,New,
-322,118,Laurier Ave W,Lyon St,Kent St,South,200 Kent St,45.417330,-75.701780,New,"On Laurier Ave W, side of 200 Kent St"
-323,118,Laurier Ave W,Lyon St,Kent St,South,200 Kent St,45.417400,-75.701600,New,"On Laurier Ave W, side of 200 Kent St"
-324,119,Laurier Ave W,Metcalfe St,O'Connor St,South,234 Laurier Ave W,45.419480,-75.696680,New,
-325,119,Laurier Ave W,Metcalfe St,O'Connor St,South,234 Laurier Ave W,45.419570,-75.696470,New,
-326,119,Laurier Ave W,Metcalfe St,O'Connor St,South,220 Laurier Ave W,45.419730,-75.696070,New,
-327,119,Laurier Ave W,Metcalfe St,O'Connor St,South,200 Laurier Ave W,45.419900,-75.695650,New,
-328,120,Laurier Ave W,Metcalfe St,O'Connor St,North,251 Laurier Ave W,45.419560,-75.696960,New,
-329,120,Laurier Ave W,Metcalfe St,O'Connor St,North,251 Laurier Ave W,45.419690,-75.696690,New,
-330,120,Laurier Ave W,Metcalfe St,O'Connor St,North,219 Laurier Ave W,45.419860,-75.696230,New,
-331,120,Laurier Ave W,Metcalfe St,O'Connor St,North,219 Laurier Ave W,45.419930,-75.696130,New,
-332,121,Lisgar St,Bank St,O'Connor St,North,293 Lisgar St,45.417250,-75.696570,Existing,
-333,122,Lyon St,Albert St,Slater St,East,360 Albert St,45.418110,-75.704220,New,"On Lyon St, side of 360 Albert St"
-334,122,Lyon St,Albert St,Slater St,East,360 Albert St,45.417980,-75.704150,New,"On Lyon St, side of 360 Albert St"
-335,123,Lyon St,Gloucester St,Nepean St,East,241 Lyon St,45.415720,-75.702220,Existing,
-336,123,Lyon St,Gloucester St,Nepean St,East,227 Lyon St,45.416060,-75.702540,Existing,
-337,124,Lyon St,Laurier Ave W,Gloucester St,East,440 Laurier Ave W,45.416730,-75.703080,Existing,"On Lyon St, side of 440 Laurier Ave W"
-338,124,Lyon St,Laurier Ave W,Gloucester St,East,440 Laurier Ave W,45.416570,-75.702930,Existing,"On Lyon St, side of 440 Laurier Ave W"
-339,124,Lyon St,Laurier Ave W,Gloucester St,East,440 Laurier Ave W,45.416360,-75.702810,Existing,"On Lyon St, side of 440 Laurier Ave W"
-340,125,Lyon St,Laurier Ave W,Slater St,West,445 Laurier Ave W,45.416880,-75.703480,New,"On Lyon St, side of 445 Laurier Ave W"
-341,125,Lyon St,Laurier Ave W,Slater St,West,445 Laurier Ave W,45.417010,-75.703600,New,"On Lyon St, side of 445 Laurier Ave W"
-342,125,Lyon St,Laurier Ave W,Slater St,West,445 Laurier Ave W,45.417070,-75.703680,New,"On Lyon St, side of 445 Laurier Ave W"
-343,126,Lyon St,Laurier Ave W,Slater St,East,185 Lyon St,45.417160,-75.703480,New,
-344,127,Lyon St,Lisgar St,Nepean St,East,251 Lyon St,45.415540,-75.702090,Existing,
-345,128,MacKenzie Ave,Murray St,Wellington St,East,555 MacKenzie Ave,45.426940,-75.695480,Existing,
-346,128,MacKenzie Ave,Murray St,Wellington St,East,555 MacKenzie Ave,45.426780,-75.695320,Existing,
-347,128,MacKenzie Ave,Murray St,Wellington St,East,555 MacKenzie Ave,45.426630,-75.695180,Existing,
-348,128,MacKenzie Ave,Murray St,Wellington St,East,555 MacKenzie Ave,45.426460,-75.695030,Existing,
-349,128,MacKenzie Ave,Murray St,Wellington St,East,555 MacKenzie Ave,45.426310,-75.694910,Existing,
-350,128,MacKenzie Ave,Murray St,Wellington St,East,555 MacKenzie Ave,45.426140,-75.694740,Existing,
-351,129,McLeod St,Elgin St,Metcalfe St,South,200 McLeod St,45.413910,-75.687160,Existing,
-352,129,McLeod St,Elgin St,Metcalfe St,South,200 McLeod St,45.413880,-75.687310,Existing,
-353,129,McLeod St,Elgin St,Metcalfe St,South,200 McLeod St,45.413820,-75.687420,Existing,
-354,129,McLeod St,Elgin St,Metcalfe St,South,200 McLeod St,45.413790,-75.687500,Existing,
-355,130,McLeod St,O'Connor St,Metcalfe St,South,240 McLeod St,45.412500,-75.690540,Existing,
-356,131,Metcalfe St,Albert St,Slater St,East,81 Metcalfe St,45.421360,-75.695830,New,
-357,132,Metcalfe St,Albert St,Slater St,West,88 Metcalfe St,45.421200,-75.696260,New,
-358,132,Metcalfe St,Albert St,Slater St,West,88 Metcalfe St,45.421140,-75.696120,New,
-359,133,Metcalfe St,Cooper St,Lisgar St,East,261 Cooper St,45.417930,-75.692890,Existing,"On Metcalfe St, side of 261 Cooper St"
-360,133,Metcalfe St,Cooper St,Lisgar St,East,261 Cooper St,45.417970,-75.693010,Existing,"On Metcalfe St, side of 261 Cooper St"
-361,133,Metcalfe St,Cooper St,Lisgar St,East,261 Cooper St,45.418030,-75.693040,Existing,"On Metcalfe St, side of 261 Cooper St"
-362,134,Metcalfe St,Nepean St,Gloucester St,East,160 Elgin St,45.419400,-75.694850,Existing,"On Metcalfe St, rear of 160 Elgin St"
-363,134,Metcalfe St,Nepean St,Gloucester St,East,160 Elgin St,45.419310,-75.694800,Existing,"On Metcalfe St, rear of 160 Elgin St"
-364,134,Metcalfe St,Nepean St,Gloucester St,East,160 Elgin St,45.419250,-75.694740,Existing,"On Metcalfe St, rear of 160 Elgin St"
-365,134,Metcalfe St,Nepean St,Gloucester St,East,160 Elgin St,45.419160,-75.694670,Existing,"On Metcalfe St, rear of 160 Elgin St"
-366,134,Metcalfe St,Nepean St,Gloucester St,East,160 Elgin St,45.419090,-75.694520,Existing,"On Metcalfe St, rear of 160 Elgin St"
-367,134,Metcalfe St,Nepean St,Gloucester St,East,160 Elgin St,45.419010,-75.694470,Existing,"On Metcalfe St, rear of 160 Elgin St"
-368,135,Metcalfe St,Somerset St,Cooper St,East,229 Metcalfe St,45.417570,-75.692670,Existing,
-369,135,Metcalfe St,Somerset St,Cooper St,East,229 Metcalfe St,45.417430,-75.692550,Existing,
-370,135,Metcalfe St,Somerset St,Cooper St,East,229 Metcalfe St,45.417300,-75.692410,Existing,
-371,136,Montreal Rd,Begin St,Park St,South,262 Montreal Rd,45.436380,-75.660310,New,
-372,137,Montreal Rd,Dupuis St,Olmstead St,South,548 Montreal Rd,45.435850,-75.662000,New,
-373,137,Montreal Rd,Dupuis St,Olmstead St,South,548 Montreal Rd,45.435810,-75.662060,New,
-374,137,Montreal Rd,Dupuis St,Olmstead St,South,234 Montreal Rd,45.435740,-75.662260,New,
-375,138,Montreal Rd,Hannah St,Cyr Ave,South,200 Montreal Rd,45.435240,-75.663630,New,
-376,139,Montreal Rd,Hannah St,Emond St,North,199 Montreal Rd,45.435360,-75.663740,New,
-377,140,Montreal Rd,Cody Ave,Olmstead St,North,209 Montreal Rd,45.435600,-75.663240,New,
-378,141,Montreal Rd,Dupuis St,Olmstead St,North,233 Montreal Rd,45.436070,-75.661890,New,
-379,141,Montreal Rd,Dupuis St,Olmstead St,North,233 Montreal Rd,45.436010,-75.662020,New,
-380,142,Montreal Rd,Olmstead St,Cody Ave,South,206 Montreal Rd,45.435500,-75.662810,New,
-381,142,Montreal Rd,Olmstead St,Cody Ave,South,206 Montreal Rd,45.435430,-75.663050,New,
-382,143,Montreal Rd,Palace St,Montgomery St,South,42 Montreal Rd,45.433330,-75.668420,New,
-383,143,Montreal Rd,Palace St,Montgomery St,South,42 Montreal Rd,45.433250,-75.668640,New,
-384,144,Montreal Rd,Palace St,Vanier Pky,South,112 Montreal Rd,45.433860,-75.666910,New,
-385,144,Montreal Rd,Palace St,Vanier Pky,South,120 Montreal Rd,45.434050,-75.666400,New,
-386,144,Montreal Rd,Palace St,Vanier Pky,South,120 Montreal Rd,45.434150,-75.666140,New,
-387,145,Montreal Rd,Begin St,Marier Ave,North,255 Montreal Rd,45.436440,-75.661200,New,
-388,145,Montreal Rd,Begin St,Marier Ave,North,261 Montreal Rd,45.436480,-75.661010,New,
-389,146,Montreal Rd,Vanier Pkwy,Palace St,North,115 Montreal Rd,45.434330,-75.666450,New,
-390,146,Montreal Rd,Vanier Pkwy,Palace St,North,115 Montreal Rd,45.434230,-75.666790,New,
-391,146,Montreal Rd,Vanier Pkwy,Palace St,North,89 Montreal Rd,45.434090,-75.667150,New,
-392,147,Murray St,Dalhousie St,Cumberland St,North,310 St. Patrick St,45.431260,-75.690400,Existing,"On Murray St, rear of 310 St. Patrick St"
-393,147,Murray St,Dalhousie St,Cumberland St,North,310 St. Patrick St,45.431190,-75.690600,Existing,"On Murray St, rear of 310 St. Patrick St"
-394,147,Murray St,Dalhousie St,Cumberland St,North,159 Murray St,45.431090,-75.690740,Existing,
-395,147,Murray St,Dalhousie St,Cumberland St,North,159 Murray St,45.431020,-75.690910,Existing,
-396,147,Murray St,Dalhousie St,Cumberland St,North,159 Murray St,45.430950,-75.691100,Existing,
-397,147,Murray St,Dalhousie St,Cumberland St,North,159 Murray St,45.430860,-75.691320,Existing,
-398,147,Murray St,Dalhousie St,Cumberland St,North,145 Murray St,45.430790,-75.691560,Existing,
-399,147,Murray St,Dalhousie St,Cumberland St,North,135 Murray St,45.430650,-75.691860,Existing,
-400,148,Murray St,Parent St,Dalhousie St,North,85 Murray St,45.429790,-75.693920,Existing,
-401,148,Murray St,Parent St,Dalhousie St,North,87 Murray St,45.429950,-75.693550,Existing,
-402,148,Murray St,Parent St,Dalhousie St,North,91 Murray St,45.430090,-75.693260,Existing,
-403,148,Murray St,Parent St,Dalhousie St,North,101 Murray St,45.430220,-75.692950,Existing,
-404,148,Murray St,Parent St,Dalhousie St,North,103 Murray St,45.430340,-75.692660,Existing,
-405,149,Murray St,Parent St,Dalhousie St,South,88 Murray St,45.429630,-75.693640,Existing,
-406,149,Murray St,Parent St,Dalhousie St,South,88 Murray St,45.429580,-75.693750,Existing,
-407,150,Murray St,Parent St,Sussex Dr,South,48 Murray St,45.429340,-75.694270,Existing,
-408,150,Murray St,Parent St,Sussex Dr,South,18 Murray St,45.428830,-75.695450,Existing,
-409,151,Murray St,Parent St,Sussex Dr,North,55 Murray St,45.429490,-75.694400,Existing,
-410,151,Murray St,Parent St,Sussex Dr,North,25 Murray St,45.429300,-75.694870,Existing,
-411,151,Murray St,Parent St,Sussex Dr,North,13 Murray St,45.429170,-75.695170,Existing,
-412,151,Murray St,Parent St,Sussex Dr,North,13 Murray St,45.428950,-75.695700,Existing,
-413,152,Murray St,Dalhousie St,Cumberland St,South,271 Dalhousie St,45.430330,-75.691910,New,"On Murray St, side of 271 Dalhousie St"
-414,152,Murray St,Dalhousie St,Cumberland St,South,271 Dalhousie St,45.430260,-75.692090,New,"On Murray St, side of 271 Dalhousie St"
-415,153,Montreal Rd,Palace St,North River Rd,North,81 Montreal Rd,45.433870,-75.667580,New,
-416,153,Montreal Rd,Palace St,North River Rd,North,71 Montreal Rd,45.433740,-75.667930,New,
-417,153,Montreal Rd,Palace St,North River Rd,North,59 Montreal Rd,45.433580,-75.668390,New,
-418,153,Montreal Rd,Palace St,North River Rd,North,45 Montreal Rd,45.433400,-75.668820,New,
-419,154,Nepean St,Bank St,Kent St,North,210 Bank St,45.417350,-75.698360,Existing,"On Nepean St, side of 210 Bank St"
-420,154,Nepean St,Bank St,Kent St,North,215 Nepean St,45.417050,-75.699130,Existing,
-421,154,Nepean St,Bank St,Kent St,North,215 Nepean St,45.416900,-75.699430,Existing,
-422,155,Nepean St,Kent St,Lyon St,South,290 Nepean St,45.416000,-75.700920,Existing,
-423,155,Nepean St,Kent St,Lyon St,South,290 Nepean St,45.415820,-75.701440,Existing,
-424,155,Nepean St,Kent St,Lyon St,South,290 Nepean St,45.415780,-75.701520,Existing,
-425,155,Nepean St,Kent St,Lyon St,South,290 Nepean St,45.415760,-75.701630,Existing,
-426,156,Nicholas St,Daly Ave,Mackenzie King Br,East,2 Daly Ave,45.425450,-75.688970,Existing,"On Nicholas St, side of 2 Daly Ave"
-427,156,Nicholas St,Daly Ave,Mackenzie King Br,East,75 Nicholas St,45.425230,-75.688830,Existing,
-428,156,Nicholas St,Daly Ave,Mackenzie King Br,East,75 Nicholas St,45.425040,-75.688690,Existing,
-429,156,Nicholas St,Daly Ave,Mackenzie King Br,East,101 Colonel By Dr,45.424500,-75.688310,Existing,"On Nicholas St, across rear of 101 Colonel By Dr"
-430,157,O'Connor St,Cooper St,Somerset St,East,340 Cooper St,45.416840,-75.694630,Existing,
-431,157,O'Connor St,Cooper St,Somerset St,East,299 Somerset St,45.416570,-75.694360,Existing,
-432,157,O'Connor St,Cooper St,Somerset St,East,299 Somerset St,45.416490,-75.694250,Existing,
-433,158,O'Connor St,Frank St,Gladstone Ave,West,344 O'Connor St,45.413290,-75.691870,Existing,
-434,158,O'Connor St,Frank St,Gladstone Ave,West,344 O'Connor St,45.413190,-75.691780,Existing,
-435,159,O'Connor St,Frank St,Waverley St,East,331 Frank St,45.413670,-75.691880,Existing,"On O'Connor St, side of 331 Frank St"
-436,159,O'Connor St,Frank St,Waverley St,East,331 Frank St,45.413590,-75.691810,Existing,"On O'Connor St, side of 331 Frank St"
-437,160,O'Connor St,Gloucester St,Laurier Ave,West,140 O'Connor St,45.419190,-75.697100,Existing,
-438,160,O'Connor St,Gloucester St,Laurier Ave,West,140 O'Connor St,45.419040,-75.697050,Existing,
-439,160,O'Connor St,Gloucester St,Laurier Ave,West,140 O'Connor St,45.418880,-75.696900,Existing,
-440,161,O'Connor St,Gloucester St,Nepean St,East,155 O'Connor St,45.418620,-75.696310,Existing,
-441,161,O'Connor St,Gloucester St,Nepean St,East,171 O'Connor St,45.418460,-75.696130,Existing,
-442,161,O'Connor St,Gloucester St,Nepean St,East,171 O'Connor St,45.418350,-75.696010,Existing,
-443,162,O'Connor St,Lewis St,Waverley St,West,345 Waverley St,45.414410,-75.692930,Existing,"On O'Connor St, side of 345 Waverley St"
-444,163,O'Connor St,Lisgar St,Cooper St,East,264 Lisgar St,45.417480,-75.695330,Existing,"On O'Connor St, side of 264 Lisgar St"
-445,163,O'Connor St,Lisgar St,Cooper St,East,335 Cooper St,45.417070,-75.694920,Existing,"On O'Connor St, side of 335 Cooper St"
-446,164,O'Connor St,Lisgar St,Nepean St,East,88 Nepean St,45.417860,-75.695630,Existing,"On O'Connor St, side of 88 Nepean St"
-447,165,O'Connor St,MacLaren St,Gilmour St,West,278 O'Connor St,45.415300,-75.693700,Existing,
-448,165,O'Connor St,MacLaren St,Gilmour St,West,278 O'Connor St,45.415150,-75.693560,Existing,
-449,166,O'Connor St,Gladstone Ave,McLeod St,West,315 McLeod St,45.412870,-75.691530,Existing,"On O'Connor St, side of 315 McLeod St"
-450,166,O'Connor St,Gladstone Ave,McLeod St,West,315 McLeod St,45.412680,-75.691400,Existing,"On O'Connor St, side of 315 McLeod St"
-451,166,O'Connor St,Gladstone Ave,McLeod St,West,315 McLeod St,45.412510,-75.691270,Existing,"On O'Connor St, side of 315 McLeod St"
+237,93,George St,Cumberland St,King Edward Ave,North,195 George St,45.42919,-75.68726,Existing,
+238,94,George St,Cumberland St,King Edward Ave,South,275 Rideau St,45.42925,-75.68646,Existing,"On George St, rear of 275 Rideau St"
+239,94,George St,Cumberland St,King Edward Ave,South,275 Rideau St,45.42914,-75.68673,Existing,"On George St, rear of 275 Rideau St"
+240,94,George St,Cumberland St,King Edward Ave,South,245 Rideau St,45.42899,-75.68709,Existing,"On George St, rear of 245 Rideau St"
+241,94,George St,Cumberland St,King Edward Ave,South,245 Rideau St,45.42884,-75.68747,Existing,"On George St, rear of 245 Rideau St"
+242,95,Elgin St,Lewis St,Waverley St,East,142 Lewis St,45.41617,-75.68873,New,"On Elgin St, side of 142 Lewis St"
+243,95,Elgin St,Lewis St,Waverley St,East,142 Lewis St,45.416,-75.68864,New,"On Elgin St, side of 142 Lewis St"
+244,96,George St,Dalhousie St,William St,South,98 George St,45.42772,-75.69053,New,
+245,96,George St,Dalhousie St,William St,South,98 George St,45.42766,-75.69076,New,
+246,97,George St,Dalhousie St,William St,North,87 George St,45.42762,-75.69126,New,
+247,97,George St,Dalhousie St,William St,North,87 George St,45.42755,-75.69142,New,
+248,97,George St,Dalhousie St,William St,North,350 Dalhousie St,45.42795,-75.69061,New,"On George St, side of 350 Dalhousie St"
+249,98,George St,Sussex Dr,ByWard Market Sq,North,11 George St,45.42669,-75.69355,Existing,
+250,98,George St,Sussex Dr,ByWard Market Sq,North,11 George St,45.42664,-75.69363,Existing,
+251,98,George St,Sussex Dr,ByWard Market Sq,North,11 George St,45.42659,-75.69371,Existing,
+252,98,George St,Sussex Dr,ByWard Market Sq,North,11 George St,45.42655,-75.69387,Existing,
+253,99,George St,William St,ByWard Market Sq,South,60 George St,45.42707,-75.6918,New,
+254,99,George St,William St,ByWard Market Sq,South,60 George St,45.42701,-75.69189,New,
+255,99,George St,William St,ByWard Market Sq,South,70 George St,45.42698,-75.69194,New,
+256,100,Gloucester St,Bank St,Kent St,North,186 Bank St,45.41794,-75.6989,Existing,"On Gloucester St, side of 186 Bank St"
+257,100,Gloucester St,Bank St,Kent St,North,186 Bank St,45.41788,-75.69901,Existing,"On Gloucester St, side of 186 Bank St"
+258,100,Gloucester St,Bank St,Kent St,North,340 Laurier Ave W,45.41773,-75.69958,Existing,"On Gloucester St, rear of 340 Laurier Ave"
+259,100,Gloucester St,Bank St,Kent St,North,340 Laurier Ave W,45.41769,-75.69968,Existing,"On Gloucester St, rear of 340 Laurier Ave"
+260,100,Gloucester St,Bank St,Kent St,North,340 Laurier Ave W,45.4176,-75.69986,Existing,"On Gloucester St, rear of 340 Laurier Ave"
+261,100,Gloucester St,Bank St,Kent St,North,340 Laurier Ave W,45.41753,-75.69997,Existing,"On Gloucester St, rear of 340 Laurier Ave"
+262,101,Gloucester St,Bank St,O'Connor St,North,140 O'Connor St,45.41876,-75.69685,Existing,"On Gloucester St, side of 140 O'Connor St"
+263,101,Gloucester St,Bank St,O'Connor St,North,140 O'Connor St,45.41868,-75.69711,Existing,"On Gloucester St, side of 140 O'Connor St"
+264,101,Gloucester St,Bank St,O'Connor St,North,140 O'Connor St,45.41856,-75.69735,Existing,"On Gloucester St, side of 140 O'Connor St"
+265,101,Gloucester St,Bank St,O'Connor St,North,171 Bank St,45.41824,-75.69815,Existing,"On Gloucester St, side of 171 Bank St"
+266,101,Gloucester St,Bank St,O'Connor St,North,171 Bank St,45.41818,-75.69826,Existing,"On Gloucester St, side of 171 Bank St"
+267,101,Gloucester St,Bank St,O'Connor St,North,171 Bank St,45.41811,-75.69841,Existing,"On Gloucester St, side of 171 Bank St"
+268,102,Gloucester St,Kent St,Lyon St,North,410 Laurier Ave W,45.41662,-75.70202,Existing,"On Gloucester St, rear of 410 Laurier Ave W"
+269,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.41676,-75.70165,Existing,"On Gloucester St, side of 200 Kent St"
+270,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.41679,-75.70161,Existing,"On Gloucester St, side of 200 Kent St"
+271,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.41687,-75.70147,Existing,"On Gloucester St, side of 200 Kent St"
+272,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.41693,-75.70129,Existing,"On Gloucester St, side of 200 Kent St"
+273,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.41699,-75.7012,Existing,"On Gloucester St, side of 200 Kent St"
+274,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.41703,-75.70106,Existing,"On Gloucester St, side of 200 Kent St"
+275,102,Gloucester St,Kent St,Lyon St,North,200 Kent St,45.41708,-75.70096,Existing,"On Gloucester St, side of 200 Kent St"
+276,103,Gloucester St,Bank St,O'Connor St,South,176 Gloucester St,45.41796,-75.69821,New,
+277,103,Gloucester St,Bank St,O'Connor St,South,158 Gloucester St,45.4182,-75.69761,New,
+278,104,Guigues Ave,Sussex Dr,Parent Ave,North,373 Sussex Dr,45.43035,-75.69629,Existing,"On Guigues Ave, side of 373 Sussex Dr"
+279,104,Guigues Ave,Sussex Dr,Parent Ave,North,373 Sussex Dr,45.43015,-75.69673,Existing,"On Guigues Ave, side of 373 Sussex Dr"
+280,105,Holland Ave,Scott St,Spencer St,East,11 Holland Ave,45.40351,-75.73393,Existing,
+281,105,Holland Ave,Scott St,Spencer St,East,11 Holland Ave,45.40337,-75.73385,Existing,
+282,105,Holland Ave,Scott St,Spencer St,East,11 Holland Ave,45.40314,-75.73372,Existing,
+283,105,Holland Ave,Scott St,Spencer St,East,11 Holland Ave,45.40293,-75.73358,Existing,
+284,106,Kent St,Florence St,James St,West,70 James St,45.41229,-75.69695,New,"On Kent St, side of 70 James St"
+285,106,Kent St,Florence St,James St,West,398 Kent St,45.41205,-75.69672,New,
+286,107,Kent St,Gilmour St,James St,West,392 Kent St,45.41266,-75.69714,New,
+287,107,Kent St,Gilmour St,James St,West,388 Kent St,45.41293,-75.69735,New,
+288,108,Kent St,Nepean St,Lisgar St,East,345 Kent St,45.41617,-75.69981,Existing,
+289,109,Kent St,MacLaren St,Gilmour St,West,338 Kent St,45.41359,-75.69796,New,
+290,109,Kent St,MacLaren St,Gilmour St,West,338 Kent St,45.41338,-75.69781,New,
+291,110,Kent St,Queen St,Albert St,West,112 Kent St,45.41945,-75.70287,New,
+292,110,Kent St,Queen St,Albert St,West,112 Kent St,45.41911,-75.70258,New,
+293,111,Kent St,Albert St,Slater St,West,150 Kent St,45.41885,-75.70238,New,
+294,112,Kent St,Nepean St,Lisgar St,West,250 Kent St,45.41612,-75.70012,New,
+295,113,Laurier Ave W,Bank St,Kent St,South,380 Laurier Ave W,45.41766,-75.70097,New,
+296,113,Laurier Ave W,Bank St,Kent St,South,324 Laurier Ave W,45.41839,-75.69922,New,
+297,113,Laurier Ave W,Bank St,Kent St,South,324 Laurier Ave W,45.41832,-75.69937,New,
+298,113,Laurier Ave W,Bank St,Kent St,South,324 Laurier Ave W,45.41826,-75.6995,New,
+299,113,Laurier Ave W,Bank St,Kent St,South,324 Laurier Ave W,45.41821,-75.69964,New,
+300,114,Laurier Ave W,Bank St,Kent St,North,301 Laurier Ave W,45.41855,-75.69936,New,
+301,114,Laurier Ave W,Bank St,Kent St,North,301 Laurier Ave W,45.41847,-75.6995,New,
+302,114,Laurier Ave W,Bank St,Kent St,North,303 Laurier Ave W,45.41832,-75.69992,New,
+303,114,Laurier Ave W,Bank St,Kent St,North,303 Laurier Ave W,45.41826,-75.70008,New,
+304,114,Laurier Ave W,Bank St,Kent St,North,303 Laurier Ave W,45.41821,-75.70023,New,
+305,115,Laurier Ave W,Bank St,O'Connor St,South,300 Laurier Ave W,45.41914,-75.6974,Existing,
+306,115,Laurier Ave W,Bank St,O'Connor St,South,300 Laurier Ave W,45.41905,-75.69764,Existing,
+307,115,Laurier Ave W,Bank St,O'Connor St,South,300 Laurier Ave W,45.41891,-75.69794,Existing,
+308,115,Laurier Ave W,Bank St,O'Connor St,South,300 Laurier Ave W,45.41876,-75.69828,Existing,
+309,115,Laurier Ave W,Bank St,O'Connor St,South,300 Laurier Ave W,45.41867,-75.69859,Existing,
+310,116,Laurier Ave W,Lyon St,Bay St,South,470 Laurier Ave W,45.41617,-75.70457,Existing,
+311,116,Laurier Ave W,Lyon St,Bay St,South,470 Laurier Ave W,45.41621,-75.70434,Existing,
+312,116,Laurier Ave W,Lyon St,Bay St,South,470 Laurier Ave W,45.41628,-75.70414,Existing,
+313,116,Laurier Ave W,Lyon St,Bay St,South,450 Laurier Ave W,45.41657,-75.70349,Existing,
+314,116,Laurier Ave W,Lyon St,Bay St,South,450 Laurier Ave W,45.41653,-75.70365,Existing,
+315,117,Laurier Ave W,Lyon St,Bay St,North,475 Laurier Ave W,45.41629,-75.70478,Existing,
+316,117,Laurier Ave W,Lyon St,Bay St,North,475 Laurier Ave W,45.41636,-75.70461,Existing,
+317,117,Laurier Ave W,Lyon St,Bay St,North,475 Laurier Ave W,45.41644,-75.70446,Existing,
+318,117,Laurier Ave W,Lyon St,Bay St,North,467 Laurier Ave W,45.41665,-75.7039,Existing,
+319,117,Laurier Ave W,Lyon St,Bay St,North,445 Laurier Ave W,45.4168,-75.7035,Existing,
+320,118,Laurier Ave W,Lyon St,Kent St,South,440 Laurier Ave W,45.41686,-75.70288,New,
+321,118,Laurier Ave W,Lyon St,Kent St,South,410 Laurier Ave W,45.4171,-75.70229,New,
+322,118,Laurier Ave W,Lyon St,Kent St,South,200 Kent St,45.41733,-75.70178,New,"On Laurier Ave W, side of 200 Kent St"
+323,118,Laurier Ave W,Lyon St,Kent St,South,200 Kent St,45.4174,-75.7016,New,"On Laurier Ave W, side of 200 Kent St"
+324,119,Laurier Ave W,Metcalfe St,O'Connor St,South,234 Laurier Ave W,45.41948,-75.69668,New,
+325,119,Laurier Ave W,Metcalfe St,O'Connor St,South,234 Laurier Ave W,45.41957,-75.69647,New,
+326,119,Laurier Ave W,Metcalfe St,O'Connor St,South,220 Laurier Ave W,45.41973,-75.69607,New,
+327,119,Laurier Ave W,Metcalfe St,O'Connor St,South,200 Laurier Ave W,45.4199,-75.69565,New,
+328,120,Laurier Ave W,Metcalfe St,O'Connor St,North,251 Laurier Ave W,45.41956,-75.69696,New,
+329,120,Laurier Ave W,Metcalfe St,O'Connor St,North,251 Laurier Ave W,45.41969,-75.69669,New,
+330,120,Laurier Ave W,Metcalfe St,O'Connor St,North,219 Laurier Ave W,45.41986,-75.69623,New,
+331,120,Laurier Ave W,Metcalfe St,O'Connor St,North,219 Laurier Ave W,45.41993,-75.69613,New,
+332,121,Lisgar St,Bank St,O'Connor St,North,293 Lisgar St,45.41725,-75.69657,Existing,
+333,122,Lyon St,Albert St,Slater St,East,360 Albert St,45.41811,-75.70422,New,"On Lyon St, side of 360 Albert St"
+334,122,Lyon St,Albert St,Slater St,East,360 Albert St,45.41798,-75.70415,New,"On Lyon St, side of 360 Albert St"
+335,123,Lyon St,Gloucester St,Nepean St,East,241 Lyon St,45.41572,-75.70222,Existing,
+336,123,Lyon St,Gloucester St,Nepean St,East,227 Lyon St,45.41606,-75.70254,Existing,
+337,124,Lyon St,Laurier Ave W,Gloucester St,East,440 Laurier Ave W,45.41673,-75.70308,Existing,"On Lyon St, side of 440 Laurier Ave W"
+338,124,Lyon St,Laurier Ave W,Gloucester St,East,440 Laurier Ave W,45.41657,-75.70293,Existing,"On Lyon St, side of 440 Laurier Ave W"
+339,124,Lyon St,Laurier Ave W,Gloucester St,East,440 Laurier Ave W,45.41636,-75.70281,Existing,"On Lyon St, side of 440 Laurier Ave W"
+340,125,Lyon St,Laurier Ave W,Slater St,West,445 Laurier Ave W,45.41688,-75.70348,New,"On Lyon St, side of 445 Laurier Ave W"
+341,125,Lyon St,Laurier Ave W,Slater St,West,445 Laurier Ave W,45.41701,-75.7036,New,"On Lyon St, side of 445 Laurier Ave W"
+342,125,Lyon St,Laurier Ave W,Slater St,West,445 Laurier Ave W,45.41707,-75.70368,New,"On Lyon St, side of 445 Laurier Ave W"
+343,126,Lyon St,Laurier Ave W,Slater St,East,185 Lyon St,45.41716,-75.70348,New,
+344,127,Lyon St,Lisgar St,Nepean St,East,251 Lyon St,45.41554,-75.70209,Existing,
+345,128,MacKenzie Ave,Murray St,Wellington St,East,555 MacKenzie Ave,45.42694,-75.69548,Existing,
+346,128,MacKenzie Ave,Murray St,Wellington St,East,555 MacKenzie Ave,45.42678,-75.69532,Existing,
+347,128,MacKenzie Ave,Murray St,Wellington St,East,555 MacKenzie Ave,45.42663,-75.69518,Existing,
+348,128,MacKenzie Ave,Murray St,Wellington St,East,555 MacKenzie Ave,45.42646,-75.69503,Existing,
+349,128,MacKenzie Ave,Murray St,Wellington St,East,555 MacKenzie Ave,45.42631,-75.69491,Existing,
+350,128,MacKenzie Ave,Murray St,Wellington St,East,555 MacKenzie Ave,45.42614,-75.69474,Existing,
+351,129,McLeod St,Elgin St,Metcalfe St,South,200 McLeod St,45.41391,-75.68716,Existing,
+352,129,McLeod St,Elgin St,Metcalfe St,South,200 McLeod St,45.41388,-75.68731,Existing,
+353,129,McLeod St,Elgin St,Metcalfe St,South,200 McLeod St,45.41382,-75.68742,Existing,
+354,129,McLeod St,Elgin St,Metcalfe St,South,200 McLeod St,45.41379,-75.6875,Existing,
+355,130,McLeod St,O'Connor St,Metcalfe St,South,240 McLeod St,45.4125,-75.69054,Existing,
+356,131,Metcalfe St,Albert St,Slater St,East,81 Metcalfe St,45.42136,-75.69583,New,
+357,132,Metcalfe St,Albert St,Slater St,West,88 Metcalfe St,45.4212,-75.69626,New,
+358,132,Metcalfe St,Albert St,Slater St,West,88 Metcalfe St,45.42114,-75.69612,New,
+359,133,Metcalfe St,Cooper St,Lisgar St,East,261 Cooper St,45.41793,-75.69289,Existing,"On Metcalfe St, side of 261 Cooper St"
+360,133,Metcalfe St,Cooper St,Lisgar St,East,261 Cooper St,45.41797,-75.69301,Existing,"On Metcalfe St, side of 261 Cooper St"
+361,133,Metcalfe St,Cooper St,Lisgar St,East,261 Cooper St,45.41803,-75.69304,Existing,"On Metcalfe St, side of 261 Cooper St"
+362,134,Metcalfe St,Nepean St,Gloucester St,East,160 Elgin St,45.4194,-75.69485,Existing,"On Metcalfe St, rear of 160 Elgin St"
+363,134,Metcalfe St,Nepean St,Gloucester St,East,160 Elgin St,45.41931,-75.6948,Existing,"On Metcalfe St, rear of 160 Elgin St"
+364,134,Metcalfe St,Nepean St,Gloucester St,East,160 Elgin St,45.41925,-75.69474,Existing,"On Metcalfe St, rear of 160 Elgin St"
+365,134,Metcalfe St,Nepean St,Gloucester St,East,160 Elgin St,45.41916,-75.69467,Existing,"On Metcalfe St, rear of 160 Elgin St"
+366,134,Metcalfe St,Nepean St,Gloucester St,East,160 Elgin St,45.41909,-75.69452,Existing,"On Metcalfe St, rear of 160 Elgin St"
+367,134,Metcalfe St,Nepean St,Gloucester St,East,160 Elgin St,45.41901,-75.69447,Existing,"On Metcalfe St, rear of 160 Elgin St"
+368,135,Metcalfe St,Somerset St,Cooper St,East,229 Metcalfe St,45.41757,-75.69267,Existing,
+369,135,Metcalfe St,Somerset St,Cooper St,East,229 Metcalfe St,45.41743,-75.69255,Existing,
+370,135,Metcalfe St,Somerset St,Cooper St,East,229 Metcalfe St,45.4173,-75.69241,Existing,
+371,136,Montreal Rd,Begin St,Park St,South,262 Montreal Rd,45.43638,-75.66031,New,
+372,137,Montreal Rd,Dupuis St,Olmstead St,South,548 Montreal Rd,45.43585,-75.662,New,
+373,137,Montreal Rd,Dupuis St,Olmstead St,South,548 Montreal Rd,45.43581,-75.66206,New,
+374,137,Montreal Rd,Dupuis St,Olmstead St,South,234 Montreal Rd,45.43574,-75.66226,New,
+375,138,Montreal Rd,Hannah St,Cyr Ave,South,200 Montreal Rd,45.43524,-75.66363,New,
+376,139,Montreal Rd,Hannah St,Emond St,North,199 Montreal Rd,45.43536,-75.66374,New,
+377,140,Montreal Rd,Cody Ave,Olmstead St,North,209 Montreal Rd,45.4356,-75.66324,New,
+378,141,Montreal Rd,Dupuis St,Olmstead St,North,233 Montreal Rd,45.43607,-75.66189,New,
+379,141,Montreal Rd,Dupuis St,Olmstead St,North,233 Montreal Rd,45.43601,-75.66202,New,
+380,142,Montreal Rd,Olmstead St,Cody Ave,South,206 Montreal Rd,45.4355,-75.66281,New,
+381,142,Montreal Rd,Olmstead St,Cody Ave,South,206 Montreal Rd,45.43543,-75.66305,New,
+382,143,Montreal Rd,Palace St,Montgomery St,South,42 Montreal Rd,45.43333,-75.66842,New,
+383,143,Montreal Rd,Palace St,Montgomery St,South,42 Montreal Rd,45.43325,-75.66864,New,
+384,144,Montreal Rd,Palace St,Vanier Pky,South,112 Montreal Rd,45.43386,-75.66691,New,
+385,144,Montreal Rd,Palace St,Vanier Pky,South,120 Montreal Rd,45.43405,-75.6664,New,
+386,144,Montreal Rd,Palace St,Vanier Pky,South,120 Montreal Rd,45.43415,-75.66614,New,
+387,145,Montreal Rd,Begin St,Marier Ave,North,255 Montreal Rd,45.43644,-75.6612,New,
+388,145,Montreal Rd,Begin St,Marier Ave,North,261 Montreal Rd,45.43648,-75.66101,New,
+389,146,Montreal Rd,Vanier Pkwy,Palace St,North,115 Montreal Rd,45.43433,-75.66645,New,
+390,146,Montreal Rd,Vanier Pkwy,Palace St,North,115 Montreal Rd,45.43423,-75.66679,New,
+391,146,Montreal Rd,Vanier Pkwy,Palace St,North,89 Montreal Rd,45.43409,-75.66715,New,
+392,147,Murray St,Dalhousie St,Cumberland St,North,310 St. Patrick St,45.43126,-75.6904,Existing,"On Murray St, rear of 310 St. Patrick St"
+393,147,Murray St,Dalhousie St,Cumberland St,North,310 St. Patrick St,45.43119,-75.6906,Existing,"On Murray St, rear of 310 St. Patrick St"
+394,147,Murray St,Dalhousie St,Cumberland St,North,159 Murray St,45.43109,-75.69074,Existing,
+395,147,Murray St,Dalhousie St,Cumberland St,North,159 Murray St,45.43102,-75.69091,Existing,
+396,147,Murray St,Dalhousie St,Cumberland St,North,159 Murray St,45.43095,-75.6911,Existing,
+397,147,Murray St,Dalhousie St,Cumberland St,North,159 Murray St,45.43086,-75.69132,Existing,
+398,147,Murray St,Dalhousie St,Cumberland St,North,145 Murray St,45.43079,-75.69156,Existing,
+399,147,Murray St,Dalhousie St,Cumberland St,North,135 Murray St,45.43065,-75.69186,Existing,
+400,148,Murray St,Parent St,Dalhousie St,North,85 Murray St,45.42979,-75.69392,Existing,
+401,148,Murray St,Parent St,Dalhousie St,North,87 Murray St,45.42995,-75.69355,Existing,
+402,148,Murray St,Parent St,Dalhousie St,North,91 Murray St,45.43009,-75.69326,Existing,
+403,148,Murray St,Parent St,Dalhousie St,North,101 Murray St,45.43022,-75.69295,Existing,
+404,148,Murray St,Parent St,Dalhousie St,North,103 Murray St,45.43034,-75.69266,Existing,
+405,149,Murray St,Parent St,Dalhousie St,South,88 Murray St,45.42963,-75.69364,Existing,
+406,149,Murray St,Parent St,Dalhousie St,South,88 Murray St,45.42958,-75.69375,Existing,
+407,150,Murray St,Parent St,Sussex Dr,South,48 Murray St,45.42934,-75.69427,Existing,
+408,150,Murray St,Parent St,Sussex Dr,South,18 Murray St,45.42883,-75.69545,Existing,
+409,151,Murray St,Parent St,Sussex Dr,North,55 Murray St,45.42949,-75.6944,Existing,
+410,151,Murray St,Parent St,Sussex Dr,North,25 Murray St,45.4293,-75.69487,Existing,
+411,151,Murray St,Parent St,Sussex Dr,North,13 Murray St,45.42917,-75.69517,Existing,
+412,151,Murray St,Parent St,Sussex Dr,North,13 Murray St,45.42895,-75.6957,Existing,
+413,152,Murray St,Dalhousie St,Cumberland St,South,271 Dalhousie St,45.43033,-75.69191,New,"On Murray St, side of 271 Dalhousie St"
+414,152,Murray St,Dalhousie St,Cumberland St,South,271 Dalhousie St,45.43026,-75.69209,New,"On Murray St, side of 271 Dalhousie St"
+415,153,Montreal Rd,Palace St,North River Rd,North,81 Montreal Rd,45.43387,-75.66758,New,
+416,153,Montreal Rd,Palace St,North River Rd,North,71 Montreal Rd,45.43374,-75.66793,New,
+417,153,Montreal Rd,Palace St,North River Rd,North,59 Montreal Rd,45.43358,-75.66839,New,
+418,153,Montreal Rd,Palace St,North River Rd,North,45 Montreal Rd,45.4334,-75.66882,New,
+419,154,Nepean St,Bank St,Kent St,North,210 Bank St,45.41735,-75.69836,Existing,"On Nepean St, side of 210 Bank St"
+420,154,Nepean St,Bank St,Kent St,North,215 Nepean St,45.41705,-75.69913,Existing,
+421,154,Nepean St,Bank St,Kent St,North,215 Nepean St,45.4169,-75.69943,Existing,
+422,155,Nepean St,Kent St,Lyon St,South,290 Nepean St,45.416,-75.70092,Existing,
+423,155,Nepean St,Kent St,Lyon St,South,290 Nepean St,45.41582,-75.70144,Existing,
+424,155,Nepean St,Kent St,Lyon St,South,290 Nepean St,45.41578,-75.70152,Existing,
+425,155,Nepean St,Kent St,Lyon St,South,290 Nepean St,45.41576,-75.70163,Existing,
+426,156,Nicholas St,Daly Ave,Mackenzie King Br,East,2 Daly Ave,45.42545,-75.68897,Existing,"On Nicholas St, side of 2 Daly Ave"
+427,156,Nicholas St,Daly Ave,Mackenzie King Br,East,75 Nicholas St,45.42523,-75.68883,Existing,
+428,156,Nicholas St,Daly Ave,Mackenzie King Br,East,75 Nicholas St,45.42504,-75.68869,Existing,
+429,156,Nicholas St,Daly Ave,Mackenzie King Br,East,101 Colonel By Dr,45.4245,-75.68831,Existing,"On Nicholas St, across rear of 101 Colonel By Dr"
+430,157,O'Connor St,Cooper St,Somerset St,East,340 Cooper St,45.41684,-75.69463,Existing,
+431,157,O'Connor St,Cooper St,Somerset St,East,299 Somerset St,45.41657,-75.69436,Existing,
+432,157,O'Connor St,Cooper St,Somerset St,East,299 Somerset St,45.41649,-75.69425,Existing,
+433,158,O'Connor St,Frank St,Gladstone Ave,West,344 O'Connor St,45.41329,-75.69187,Existing,
+434,158,O'Connor St,Frank St,Gladstone Ave,West,344 O'Connor St,45.41319,-75.69178,Existing,
+435,159,O'Connor St,Frank St,Waverley St,East,331 Frank St,45.41367,-75.69188,Existing,"On O'Connor St, side of 331 Frank St"
+436,159,O'Connor St,Frank St,Waverley St,East,331 Frank St,45.41359,-75.69181,Existing,"On O'Connor St, side of 331 Frank St"
+437,160,O'Connor St,Gloucester St,Laurier Ave,West,140 O'Connor St,45.41919,-75.6971,Existing,
+438,160,O'Connor St,Gloucester St,Laurier Ave,West,140 O'Connor St,45.41904,-75.69705,Existing,
+439,160,O'Connor St,Gloucester St,Laurier Ave,West,140 O'Connor St,45.41888,-75.6969,Existing,
+440,161,O'Connor St,Gloucester St,Nepean St,East,155 O'Connor St,45.41862,-75.69631,Existing,
+441,161,O'Connor St,Gloucester St,Nepean St,East,171 O'Connor St,45.41846,-75.69613,Existing,
+442,161,O'Connor St,Gloucester St,Nepean St,East,171 O'Connor St,45.41835,-75.69601,Existing,
+443,162,O'Connor St,Lewis St,Waverley St,West,345 Waverley St,45.41441,-75.69293,Existing,"On O'Connor St, side of 345 Waverley St"
+444,163,O'Connor St,Lisgar St,Cooper St,East,264 Lisgar St,45.41748,-75.69533,Existing,"On O'Connor St, side of 264 Lisgar St"
+445,163,O'Connor St,Lisgar St,Cooper St,East,335 Cooper St,45.41707,-75.69492,Existing,"On O'Connor St, side of 335 Cooper St"
+446,164,O'Connor St,Lisgar St,Nepean St,East,88 Nepean St,45.41786,-75.69563,Existing,"On O'Connor St, side of 88 Nepean St"
+447,165,O'Connor St,MacLaren St,Gilmour St,West,278 O'Connor St,45.4153,-75.6937,Existing,
+448,165,O'Connor St,MacLaren St,Gilmour St,West,278 O'Connor St,45.41515,-75.69356,Existing,
+449,166,O'Connor St,Gladstone Ave,McLeod St,West,315 McLeod St,45.41287,-75.69153,Existing,"On O'Connor St, side of 315 McLeod St"
+450,166,O'Connor St,Gladstone Ave,McLeod St,West,315 McLeod St,45.41268,-75.6914,Existing,"On O'Connor St, side of 315 McLeod St"
+451,166,O'Connor St,Gladstone Ave,McLeod St,West,315 McLeod St,45.41251,-75.69127,Existing,"On O'Connor St, side of 315 McLeod St"
 452,167,O'Connor St,Albert St,Slater St,West,78 O'Connor St,45.420688,-75.698306,New,
 453,168,O'Connor St,Queen St,Sparks St,West,156 Sparks St,45.421867,-75.699314,New,"On O'Connor St, side of 156 Sparks St"
 454,168,O'Connor St,Queen St,Sparks St,West,156 Sparks St,45.421756,-75.699196,New,"On O'Connor St, side of 156 Sparks St"
-455,169,Wellington St,Lett St,Portage Bridge,North,555 Wellington St,45.417680,-75.713650,Existing,
-456,169,Wellington St,Lett St,Portage Bridge,North,555 Wellington St,45.418000,-75.713570,Existing,
-457,170,Parent Ave,Guigues Ave,St. Patrick St,East,95 Parent Ave,45.430650,-75.694870,New,
+455,169,Wellington St,Lett St,Portage Bridge,North,555 Wellington St,45.41768,-75.71365,Existing,
+456,169,Wellington St,Lett St,Portage Bridge,North,555 Wellington St,45.418,-75.71357,Existing,
+457,170,Parent Ave,Guigues Ave,St. Patrick St,East,95 Parent Ave,45.43065,-75.69487,New,
 458,171,Parent Ave,Murray St,Clarence St,West,47 Clarence St,45.429408,-75.694073,Existing,"On Parent Ave, side of 47 Clarence St"
 459,171,Parent Ave,Murray St,Clarence St,West,47 Clarence St,45.429333,-75.694012,Existing,"On Parent Ave, side of 47 Clarence St"
 460,171,Parent Ave,Murray St,Clarence St,West,47 Clarence St,45.429222,-75.693934,Existing,"On Parent Ave, side of 47 Clarence St"
 461,171,Parent Ave,Murray St,Clarence St,West,47 Clarence St,45.429139,-75.693872,Existing,"On Parent Ave, side of 47 Clarence St"
 462,171,Parent Ave,Murray St,Clarence St,West,47 Clarence St,45.429052,-75.693797,Existing,"On Parent Ave, side of 47 Clarence St"
 463,171,Parent Ave,Murray St,Clarence St,West,47 Clarence St,45.428979,-75.693741,Existing,"On Parent Ave, side of 47 Clarence St"
-464,171,Parent Ave,Murray St,Clarence St,West,47 Clarence St,45.428924,-75.693660,Existing,"On Parent Ave, side of 47 Clarence St"
+464,171,Parent Ave,Murray St,Clarence St,West,47 Clarence St,45.428924,-75.69366,Existing,"On Parent Ave, side of 47 Clarence St"
 465,172,Parent Ave,St. Patrick St,Murray St,West,112 Parent Ave,45.429622,-75.694229,New,
-466,173,Wellington St,Lett St,Booth St,North,85 Booth St,45.417220,-75.714210,Existing,"On Wellington St, side of 85 Booth St"
-467,173,Wellington St,Lett St,Booth St,North,85 Booth St,45.417080,-75.714250,Existing,"On Wellington St, side of 85 Booth St"
-468,173,Wellington St,Lett St,Booth St,North,85 Booth St,45.416870,-75.714530,Existing,"On Wellington St, side of 85 Booth St"
-469,174,Parent Ave,St. Patrick St,Murray St,East,111 Parent Ave,45.430010,-75.694310,New,
-470,175,Queen St,Bank St,O'Connor St,South,99 Bank St,45.420640,-75.700410,New,"On Queen St, side of 99 Bank St"
-471,175,Queen St,Bank St,O'Connor St,South,99 Bank St,45.420690,-75.700290,New,"On Queen St, side of 99 Bank St"
-472,175,Queen St,Bank St,O'Connor St,South,99 Bank St,45.420880,-75.699870,New,"On Queen St, side of 99 Bank St"
-473,175,Queen St,Bank St,O'Connor St,South,170 Queen St,45.421060,-75.699380,New,
-474,175,Queen St,Bank St,O'Connor St,South,170 Queen St,45.421110,-75.699360,New,
-475,176,Beech St,Rochester St,Preston St,South,490 Beech St,45.401100,-75.707680,Existing,
-476,177,Queen St,Bank St,Kent St,North,240 Sparks St,45.420450,-75.701280,Existing,"On Queen St, rear of 240 Sparks St"
-477,177,Queen St,Bank St,Kent St,North,240 Sparks St,45.420040,-75.702200,Existing,"On Queen St, rear of 240 Sparks St"
-478,177,Queen St,Bank St,Kent St,North,240 Sparks St,45.419970,-75.702350,Existing,"On Queen St, rear of 240 Sparks St"
-479,177,Queen St,Bank St,Kent St,North,240 Sparks St,45.419910,-75.702490,Existing,"On Queen St, rear of 240 Sparks St"
-480,177,Queen St,Bank St,Kent St,North,240 Sparks St,45.419860,-75.702630,Existing,"On Queen St, rear of 240 Sparks St"
-481,177,Queen St,Bank St,Kent St,North,240 Sparks St,45.419790,-75.702790,Existing,"On Queen St, rear of 240 Sparks St"
-482,178,Queen St,Kent St,Lyon St,South,330 Queen St,45.418800,-75.704490,New,
-483,178,Queen St,Kent St,Lyon St,South,330 Queen St,45.418900,-75.704270,New,
-484,178,Queen St,Kent St,Lyon St,South,320 Queen St,45.419120,-75.703720,New,
-485,178,Queen St,Kent St,Lyon St,South,320 Queen St,45.419200,-75.703490,New,
-486,178,Queen St,Kent St,Lyon St,South,112 Kent St,45.419430,-75.703040,New,"On Queen St, side of 112 Queen St"
-487,179,Queen St,Kent St,Bank St,South,222 Queen St,45.420340,-75.700960,New,
-488,179,Queen St,Kent St,Bank St,South,222 Queen St,45.420200,-75.701240,New,
-489,180,Queen St,Kent St,Lyon St,North,275 Sparks St,45.419360,-75.703910,New,"On Queen St, rear of 275 Sparks St"
-490,180,Queen St,Kent St,Lyon St,North,275 Sparks St,45.419280,-75.704100,New,"On Queen St, rear of 275 Sparks St"
-491,180,Queen St,Kent St,Lyon St,North,330 Sparks St,45.419070,-75.704510,New,"On Queen St, rear of 330 Sparks St"
-492,180,Queen St,Kent St,Lyon St,North,330 Sparks St,45.418970,-75.704740,New,"On Queen St, rear of 330 Sparks St"
-493,181,Queen St,O'Connor St,Metcalfe St,South,45 O'Connor St,45.421580,-75.698280,Existing,"On Queen St, side of 45 O'Connor St"
-494,181,Queen St,O'Connor St,Metcalfe St,South,45 O'Connor St,45.421530,-75.698430,Existing,"On Queen St, side of 45 O'Connor St"
-495,181,Queen St,O'Connor St,Metcalfe St,South,45 O'Connor St,45.421450,-75.698580,Existing,"On Queen St, side of 45 O'Connor St"
-496,182,Rochester St,Norman St,Beech St,East,568 Booth St,45.401090,-75.707010,Existing,"On Rochester St, rear of 568 Booth St"
-497,183,Slater St,Bank St,Kent St,South,280 Slater St,45.418850,-75.700530,Existing,
-498,183,Slater St,Bank St,Kent St,South,280 Slater St,45.418800,-75.700710,Existing,
-499,183,Slater St,Bank St,Kent St,South,300 Slater St,45.418560,-75.701250,Existing,
-500,183,Slater St,Bank St,Kent St,South,300 Slater St,45.418460,-75.701530,Existing,
-501,184,Slater St,Bank St,Kent St,North,275 Slater St,45.418810,-75.701260,New,
-502,184,Slater St,Bank St,Kent St,North,275 Slater St,45.418760,-75.701390,New,
-503,184,Slater St,Bank St,Kent St,North,275 Slater St,45.418710,-75.701550,New,
-504,184,Slater St,Bank St,Kent St,North,275 Slater St,45.418630,-75.701720,New,
-505,185,Slater St,Kent St,Lyon St,North,347 Slater St,45.417990,-75.703270,New,
-506,185,Slater St,Kent St,Lyon St,North,347 Slater St,45.417940,-75.703380,New,
-507,185,Slater St,Kent St,Lyon St,North,340 Albert St,45.418470,-75.702140,New,"On Slater St, rear of 340 Albert St"
-508,185,Slater St,Kent St,Lyon St,North,340 Albert St,45.418410,-75.702240,New,"On Slater St, rear of 340 Albert St"
-509,186,Slater St,Kent St,Lyon St,South,407 Laurier Ave W,45.417570,-75.703640,New,"On Slater St, rear of 407 Laurier Ave W"
-510,186,Slater St,Kent St,Lyon St,South,427 Laurier Ave W,45.417790,-75.703260,New,"On Slater St, rear of 427 Laurier Ave W"
-511,186,Slater St,Kent St,Lyon St,South,427 Laurier Ave W,45.417810,-75.703200,New,"On Slater St, rear of 427 Laurier Ave W"
-512,186,Slater St,Kent St,Lyon St,South,407 Laurier Ave W,45.417870,-75.702970,New,"On Slater St, rear of 407 Laurier Ave W"
-513,186,Slater St,Kent St,Lyon St,South,344 Slater St,45.417910,-75.702880,New,
-514,186,Slater St,Kent St,Lyon St,South,180 Kent St,45.418240,-75.702170,New,"On Slater St, side of 180 Kent St"
-515,187,Slater St,Metcalfe St,O'Connor St,North,88 Metcalfe St,45.421030,-75.696170,New,"On Slater St, side of 88 Metcalfe St"
-516,187,Slater St,Metcalfe St,O'Connor St,North,88 Metcalfe St,45.420960,-75.696360,New,"On Slater St, side of 88 Metcalfe St"
-517,188,Slater St,Metcalfe St,O'Connor St,South,130 Slater St,45.420760,-75.696370,New,
-518,188,Slater St,Metcalfe St,O'Connor St,South,130 Slater St,45.420710,-75.696440,New,
-519,188,Slater St,Metcalfe St,O'Connor St,South,130 Slater St,45.420670,-75.696530,New,
-520,189,Somerset St,Arthur St,Bell St N,South,728 Somerset St,45.410460,-75.707870,New,
-521,189,Somerset St,Arthur St,Bell St N,South,726 Somerset St,45.410500,-75.707720,New,
-522,190,Somerset St,Arthur St,Bell St N,North,725 Somerset St,45.410650,-75.708180,Existing,
-523,190,Somerset St,Arthur St,Bell St N,North,721 Somerset St,45.410690,-75.708050,Existing,
-524,191,Somerset St,Bank St,O'Connor St,South,346 Somerset St,45.415690,-75.695260,Existing,
-525,192,Somerset St,Bay St,Lyon St,North,515 Somerset St,45.413480,-75.701300,Existing,
-526,192,Somerset St,Bay St,Lyon St,North,515 Somerset St,45.413420,-75.701430,Existing,
-527,193,Somerset St,Bay St,Lyon St,South,512 Somerset St,45.413380,-75.701030,Existing,
-528,193,Somerset St,Bay St,Lyon St,South,512 Somerset St,45.413240,-75.701360,Existing,
-529,193,Somerset St,Bay St,Lyon St,South,512 Somerset St,45.413120,-75.701590,Existing,
-530,193,Somerset St,Bay St,Lyon St,South,512 Somerset St,45.413010,-75.701820,Existing,
-531,194,Somerset St,Bell St N,Empress Ave,South,760 Somerset St,45.410340,-75.708400,New,
-532,195,Somerset St,Booth St,Upper Lorne Pl,North,791 Somerset St,45.409730,-75.710450,New,
-533,196,Somerset St,Cambridge St N,Arthur St,South,708 Somerset St,45.410810,-75.707060,Existing,
-534,196,Somerset St,Cambridge St N,Arthur St,South,702 Somerset St,45.410910,-75.706830,Existing,
-535,197,Somerset St,Empress Ave,Lebreton St N,North,755 Somerset St,45.410360,-75.708950,Existing,
-536,197,Somerset St,Empress Ave,Lebreton St N,North,755 Somerset St,45.410320,-75.709010,Existing,
-537,198,Somerset St,Bronson Ave,Percy St,North,655 Somerset St,45.411700,-75.705680,New,
-538,198,Somerset St,Bronson Ave,Percy St,North,651 Somerset St,45.411900,-75.705230,New,
-539,198,Somerset St,Bronson Ave,Percy St,North,619 Somerset St,45.412040,-75.704830,New,
-540,198,Somerset St,Bronson Ave,Percy St,North,615 Somerset St,45.412230,-75.704290,New,
-541,199,Somerset St,Bronson Ave,Percy St,South,658 Somerset St,45.411510,-75.705510,New,
-542,199,Somerset St,Bronson Ave,Percy St,South,646 Somerset St,45.411640,-75.705190,New,
-543,199,Somerset St,Bronson Ave,Percy St,South,636 Somerset St,45.411810,-75.704790,New,
-544,199,Somerset St,Bronson Ave,Percy St,South,610 Somerset St,45.412010,-75.704320,New,
+466,173,Wellington St,Lett St,Booth St,North,85 Booth St,45.41722,-75.71421,Existing,"On Wellington St, side of 85 Booth St"
+467,173,Wellington St,Lett St,Booth St,North,85 Booth St,45.41708,-75.71425,Existing,"On Wellington St, side of 85 Booth St"
+468,173,Wellington St,Lett St,Booth St,North,85 Booth St,45.41687,-75.71453,Existing,"On Wellington St, side of 85 Booth St"
+469,174,Parent Ave,St. Patrick St,Murray St,East,111 Parent Ave,45.43001,-75.69431,New,
+470,175,Queen St,Bank St,O'Connor St,South,99 Bank St,45.42064,-75.70041,New,"On Queen St, side of 99 Bank St"
+471,175,Queen St,Bank St,O'Connor St,South,99 Bank St,45.42069,-75.70029,New,"On Queen St, side of 99 Bank St"
+472,175,Queen St,Bank St,O'Connor St,South,99 Bank St,45.42088,-75.69987,New,"On Queen St, side of 99 Bank St"
+473,175,Queen St,Bank St,O'Connor St,South,170 Queen St,45.42106,-75.69938,New,
+474,175,Queen St,Bank St,O'Connor St,South,170 Queen St,45.42111,-75.69936,New,
+475,176,Beech St,Rochester St,Preston St,South,490 Beech St,45.4011,-75.70768,Existing,
+476,177,Queen St,Bank St,Kent St,North,240 Sparks St,45.42045,-75.70128,Existing,"On Queen St, rear of 240 Sparks St"
+477,177,Queen St,Bank St,Kent St,North,240 Sparks St,45.42004,-75.7022,Existing,"On Queen St, rear of 240 Sparks St"
+478,177,Queen St,Bank St,Kent St,North,240 Sparks St,45.41997,-75.70235,Existing,"On Queen St, rear of 240 Sparks St"
+479,177,Queen St,Bank St,Kent St,North,240 Sparks St,45.41991,-75.70249,Existing,"On Queen St, rear of 240 Sparks St"
+480,177,Queen St,Bank St,Kent St,North,240 Sparks St,45.41986,-75.70263,Existing,"On Queen St, rear of 240 Sparks St"
+481,177,Queen St,Bank St,Kent St,North,240 Sparks St,45.41979,-75.70279,Existing,"On Queen St, rear of 240 Sparks St"
+482,178,Queen St,Kent St,Lyon St,South,330 Queen St,45.4188,-75.70449,New,
+483,178,Queen St,Kent St,Lyon St,South,330 Queen St,45.4189,-75.70427,New,
+484,178,Queen St,Kent St,Lyon St,South,320 Queen St,45.41912,-75.70372,New,
+485,178,Queen St,Kent St,Lyon St,South,320 Queen St,45.4192,-75.70349,New,
+486,178,Queen St,Kent St,Lyon St,South,112 Kent St,45.41943,-75.70304,New,"On Queen St, side of 112 Queen St"
+487,179,Queen St,Kent St,Bank St,South,222 Queen St,45.42034,-75.70096,New,
+488,179,Queen St,Kent St,Bank St,South,222 Queen St,45.4202,-75.70124,New,
+489,180,Queen St,Kent St,Lyon St,North,275 Sparks St,45.41936,-75.70391,New,"On Queen St, rear of 275 Sparks St"
+490,180,Queen St,Kent St,Lyon St,North,275 Sparks St,45.41928,-75.7041,New,"On Queen St, rear of 275 Sparks St"
+491,180,Queen St,Kent St,Lyon St,North,330 Sparks St,45.41907,-75.70451,New,"On Queen St, rear of 330 Sparks St"
+492,180,Queen St,Kent St,Lyon St,North,330 Sparks St,45.41897,-75.70474,New,"On Queen St, rear of 330 Sparks St"
+493,181,Queen St,O'Connor St,Metcalfe St,South,45 O'Connor St,45.42158,-75.69828,Existing,"On Queen St, side of 45 O'Connor St"
+494,181,Queen St,O'Connor St,Metcalfe St,South,45 O'Connor St,45.42153,-75.69843,Existing,"On Queen St, side of 45 O'Connor St"
+495,181,Queen St,O'Connor St,Metcalfe St,South,45 O'Connor St,45.42145,-75.69858,Existing,"On Queen St, side of 45 O'Connor St"
+496,182,Rochester St,Norman St,Beech St,East,568 Booth St,45.40109,-75.70701,Existing,"On Rochester St, rear of 568 Booth St"
+497,183,Slater St,Bank St,Kent St,South,280 Slater St,45.41885,-75.70053,Existing,
+498,183,Slater St,Bank St,Kent St,South,280 Slater St,45.4188,-75.70071,Existing,
+499,183,Slater St,Bank St,Kent St,South,300 Slater St,45.41856,-75.70125,Existing,
+500,183,Slater St,Bank St,Kent St,South,300 Slater St,45.41846,-75.70153,Existing,
+501,184,Slater St,Bank St,Kent St,North,275 Slater St,45.41881,-75.70126,New,
+502,184,Slater St,Bank St,Kent St,North,275 Slater St,45.41876,-75.70139,New,
+503,184,Slater St,Bank St,Kent St,North,275 Slater St,45.41871,-75.70155,New,
+504,184,Slater St,Bank St,Kent St,North,275 Slater St,45.41863,-75.70172,New,
+505,185,Slater St,Kent St,Lyon St,North,347 Slater St,45.41799,-75.70327,New,
+506,185,Slater St,Kent St,Lyon St,North,347 Slater St,45.41794,-75.70338,New,
+507,185,Slater St,Kent St,Lyon St,North,340 Albert St,45.41847,-75.70214,New,"On Slater St, rear of 340 Albert St"
+508,185,Slater St,Kent St,Lyon St,North,340 Albert St,45.41841,-75.70224,New,"On Slater St, rear of 340 Albert St"
+509,186,Slater St,Kent St,Lyon St,South,407 Laurier Ave W,45.41757,-75.70364,New,"On Slater St, rear of 407 Laurier Ave W"
+510,186,Slater St,Kent St,Lyon St,South,427 Laurier Ave W,45.41779,-75.70326,New,"On Slater St, rear of 427 Laurier Ave W"
+511,186,Slater St,Kent St,Lyon St,South,427 Laurier Ave W,45.41781,-75.7032,New,"On Slater St, rear of 427 Laurier Ave W"
+512,186,Slater St,Kent St,Lyon St,South,407 Laurier Ave W,45.41787,-75.70297,New,"On Slater St, rear of 407 Laurier Ave W"
+513,186,Slater St,Kent St,Lyon St,South,344 Slater St,45.41791,-75.70288,New,
+514,186,Slater St,Kent St,Lyon St,South,180 Kent St,45.41824,-75.70217,New,"On Slater St, side of 180 Kent St"
+515,187,Slater St,Metcalfe St,O'Connor St,North,88 Metcalfe St,45.42103,-75.69617,New,"On Slater St, side of 88 Metcalfe St"
+516,187,Slater St,Metcalfe St,O'Connor St,North,88 Metcalfe St,45.42096,-75.69636,New,"On Slater St, side of 88 Metcalfe St"
+517,188,Slater St,Metcalfe St,O'Connor St,South,130 Slater St,45.42076,-75.69637,New,
+518,188,Slater St,Metcalfe St,O'Connor St,South,130 Slater St,45.42071,-75.69644,New,
+519,188,Slater St,Metcalfe St,O'Connor St,South,130 Slater St,45.42067,-75.69653,New,
+520,189,Somerset St,Arthur St,Bell St N,South,728 Somerset St,45.41046,-75.70787,New,
+521,189,Somerset St,Arthur St,Bell St N,South,726 Somerset St,45.4105,-75.70772,New,
+522,190,Somerset St,Arthur St,Bell St N,North,725 Somerset St,45.41065,-75.70818,Existing,
+523,190,Somerset St,Arthur St,Bell St N,North,721 Somerset St,45.41069,-75.70805,Existing,
+524,191,Somerset St,Bank St,O'Connor St,South,346 Somerset St,45.41569,-75.69526,Existing,
+525,192,Somerset St,Bay St,Lyon St,North,515 Somerset St,45.41348,-75.7013,Existing,
+526,192,Somerset St,Bay St,Lyon St,North,515 Somerset St,45.41342,-75.70143,Existing,
+527,193,Somerset St,Bay St,Lyon St,South,512 Somerset St,45.41338,-75.70103,Existing,
+528,193,Somerset St,Bay St,Lyon St,South,512 Somerset St,45.41324,-75.70136,Existing,
+529,193,Somerset St,Bay St,Lyon St,South,512 Somerset St,45.41312,-75.70159,Existing,
+530,193,Somerset St,Bay St,Lyon St,South,512 Somerset St,45.41301,-75.70182,Existing,
+531,194,Somerset St,Bell St N,Empress Ave,South,760 Somerset St,45.41034,-75.7084,New,
+532,195,Somerset St,Booth St,Upper Lorne Pl,North,791 Somerset St,45.40973,-75.71045,New,
+533,196,Somerset St,Cambridge St N,Arthur St,South,708 Somerset St,45.41081,-75.70706,Existing,
+534,196,Somerset St,Cambridge St N,Arthur St,South,702 Somerset St,45.41091,-75.70683,Existing,
+535,197,Somerset St,Empress Ave,Lebreton St N,North,755 Somerset St,45.41036,-75.70895,Existing,
+536,197,Somerset St,Empress Ave,Lebreton St N,North,755 Somerset St,45.41032,-75.70901,Existing,
+537,198,Somerset St,Bronson Ave,Percy St,North,655 Somerset St,45.4117,-75.70568,New,
+538,198,Somerset St,Bronson Ave,Percy St,North,651 Somerset St,45.4119,-75.70523,New,
+539,198,Somerset St,Bronson Ave,Percy St,North,619 Somerset St,45.41204,-75.70483,New,
+540,198,Somerset St,Bronson Ave,Percy St,North,615 Somerset St,45.41223,-75.70429,New,
+541,199,Somerset St,Bronson Ave,Percy St,South,658 Somerset St,45.41151,-75.70551,New,
+542,199,Somerset St,Bronson Ave,Percy St,South,646 Somerset St,45.41164,-75.70519,New,
+543,199,Somerset St,Bronson Ave,Percy St,South,636 Somerset St,45.41181,-75.70479,New,
+544,199,Somerset St,Bronson Ave,Percy St,South,610 Somerset St,45.41201,-75.70432,New,
 545,200,Sparks St,Bay St,Bronson Ave,North,,45.418459,-75.707753,New,Adjacent to Garden of the Provinces and Territories
-546,201,Sparks St,Bay St,Lyon St,North,344 Wellington St,45.418909,-75.706790,Existing,"On Sparks St, rear of 344 Wellington St"
+546,201,Sparks St,Bay St,Lyon St,North,344 Wellington St,45.418909,-75.70679,Existing,"On Sparks St, rear of 344 Wellington St"
 547,201,Sparks St,Bay St,Lyon St,North,344 Wellington St,45.419088,-75.706353,Existing,"On Sparks St, rear of 344 Wellington St"
 548,201,Sparks St,Bay St,Lyon St,North,344 Wellington St,45.419272,-75.705913,Existing,"On Sparks St, rear of 344 Wellington St"
-549,202,Spencer St,Hamilton Ave N,Hinton Ave N,South,6 Hamilton Ave N,45.402180,-75.731320,Existing,"On Spencer St, side of 6 Hamilton Ave N"
-550,203,Waverley St,Bank St,O'Connor St,North,379 Waverley St,45.413500,-75.693950,Existing,
-551,203,Waverley St,Bank St,O'Connor St,North,361 Waverley St,45.413720,-75.693400,Existing,
-552,203,Waverley St,Bank St,O'Connor St,North,345 Waverley St,45.413980,-75.692740,Existing,
-553,204,Waverley St,Bank St,O'Connor St,South,403 Bank St,45.413200,-75.694120,Existing,"On Waverley St, side of 403 Bank St"
-554,204,Waverley St,Bank St,O'Connor St,South,403 Bank St,45.413280,-75.693970,Existing,"On Waverley St, side of 403 Bank St"
-555,204,Waverley St,Bank St,O'Connor St,South,403 Bank St,45.413380,-75.693700,Existing,"On Waverley St, side of 403 Bank St"
-556,205,Waverley St,Metcalfe St,O'Connor St,North,329 Waverley St,45.414210,-75.692200,Existing,
-557,205,Waverley St,Metcalfe St,O'Connor St,North,321 Waverley St,45.414440,-75.691630,Existing,
-558,205,Waverley St,Metcalfe St,O'Connor St,North,305 Waverley St,45.414630,-75.691180,Existing,
-559,206,York St,ByWard Market Sq,Sussex Dr,South,12 York St,45.427350,-75.694535,New,
+549,202,Spencer St,Hamilton Ave N,Hinton Ave N,South,6 Hamilton Ave N,45.40218,-75.73132,Existing,"On Spencer St, side of 6 Hamilton Ave N"
+550,203,Waverley St,Bank St,O'Connor St,North,379 Waverley St,45.4135,-75.69395,Existing,
+551,203,Waverley St,Bank St,O'Connor St,North,361 Waverley St,45.41372,-75.6934,Existing,
+552,203,Waverley St,Bank St,O'Connor St,North,345 Waverley St,45.41398,-75.69274,Existing,
+553,204,Waverley St,Bank St,O'Connor St,South,403 Bank St,45.4132,-75.69412,Existing,"On Waverley St, side of 403 Bank St"
+554,204,Waverley St,Bank St,O'Connor St,South,403 Bank St,45.41328,-75.69397,Existing,"On Waverley St, side of 403 Bank St"
+555,204,Waverley St,Bank St,O'Connor St,South,403 Bank St,45.41338,-75.6937,Existing,"On Waverley St, side of 403 Bank St"
+556,205,Waverley St,Metcalfe St,O'Connor St,North,329 Waverley St,45.41421,-75.6922,Existing,
+557,205,Waverley St,Metcalfe St,O'Connor St,North,321 Waverley St,45.41444,-75.69163,Existing,
+558,205,Waverley St,Metcalfe St,O'Connor St,North,305 Waverley St,45.41463,-75.69118,Existing,
+559,206,York St,ByWard Market Sq,Sussex Dr,South,12 York St,45.42735,-75.694535,New,
 560,206,York St,ByWard Market Sq,Sussex Dr,South,22 York St,45.427635,-75.693762,New,
 561,206,York St,ByWard Market Sq,Sussex Dr,South,30 York St,45.427881,-75.693223,New,
 562,207,York St,ByWard Market Sq,Sussex Dr,North,11 York St,45.427627,-75.694674,New,
-563,207,York St,ByWard Market Sq,Sussex Dr,North,17 York St,45.427853,-75.694140,New,
+563,207,York St,ByWard Market Sq,Sussex Dr,North,17 York St,45.427853,-75.69414,New,
 564,207,York St,ByWard Market Sq,Sussex Dr,North,31 York St,45.427985,-75.693784,New,
 565,208,York St,ByWard Market Sq,William St,North,53 York St,45.428162,-75.692858,New,
 566,209,York St,Cumberland St,King Edward Ave,South,350 King Edward Ave,45.429937,-75.688304,Existing,"On York St, side of 350 King Edward Ave"
 567,209,York St,Cumberland St,King Edward Ave,South,350 King Edward Ave,45.429903,-75.688374,Existing,"On York St, side of 350 King Edward Ave"
-568,209,York St,Cumberland St,King Edward Ave,South,180 York St,45.429760,-75.688712,Existing,
+568,209,York St,Cumberland St,King Edward Ave,South,180 York St,45.42976,-75.688712,Existing,
 569,209,York St,Cumberland St,King Edward Ave,South,180 York St,45.429807,-75.688586,Existing,
-570,210,York St,Dalhousie St,Cumberland St,South,154 York St,45.429470,-75.689358,Existing,
+570,210,York St,Dalhousie St,Cumberland St,South,154 York St,45.42947,-75.689358,Existing,
 571,210,York St,Dalhousie St,Cumberland St,South,130 York St,45.429344,-75.689715,Existing,
-572,210,York St,Dalhousie St,Cumberland St,South,126 York St,45.429190,-75.690155,Existing,
+572,210,York St,Dalhousie St,Cumberland St,South,126 York St,45.42919,-75.690155,Existing,
 573,210,York St,Dalhousie St,Cumberland St,South,126 York St,45.429114,-75.690356,Existing,
-574,210,York St,Dalhousie St,Cumberland St,South,126 York St,45.429039,-75.690520,Existing,
+574,210,York St,Dalhousie St,Cumberland St,South,126 York St,45.429039,-75.69052,Existing,
 575,211,York St,Dalhousie St,Cumberland St,North,145 York St,45.429801,-75.689516,Existing,CONFIRM ALL 4 LOCATIONS
 576,211,York St,Dalhousie St,Cumberland St,North,145 York St,45.429773,-75.689581,Existing,
 577,211,York St,Dalhousie St,Cumberland St,North,145 York St,45.429749,-75.689637,Existing,
-578,211,York St,Dalhousie St,Cumberland St,North,145 York St,45.429720,-75.689688,Existing,
+578,211,York St,Dalhousie St,Cumberland St,North,145 York St,45.42972,-75.689688,Existing,
 579,212,York St,Dalhousie St,William St,South,54 York St,45.428262,-75.692368,New,
-580,213,York St,Dalhousie St,William St,North,95 York St,45.428864,-75.691370,New,
+580,213,York St,Dalhousie St,William St,North,95 York St,45.428864,-75.69137,New,
 581,213,York St,Dalhousie St,William St,North,95 York St,45.428828,-75.691434,New,
 582,214,Beechwood Ave,Vanier Pkwy,Charlevoix St,South,4 Beechwood Ave,45.438629,-75.677508,New,
 583,214,Beechwood Ave,Vanier Pkwy,Charlevoix St,South,4 Beechwood Ave,45.438506,-75.677578,New,
 584,214,Beechwood Ave,Vanier Pkwy,Charlevoix St,South,16 Beechwood Ave,45.439163,-75.677074,New,
-585,214,Beechwood Ave,Vanier Pkwy,Charlevoix St,South,16 Beechwood Ave,45.439090,-75.677111,New,
+585,214,Beechwood Ave,Vanier Pkwy,Charlevoix St,South,16 Beechwood Ave,45.43909,-75.677111,New,
 586,215,Crichton St,Beechwood Ave,Vaughan St.,East,5 Beechwood Ave,45.438704,-75.678278,New,"On Crichton St, side of 5 Beechwood Ave"
 587,215,Crichton St,Beechwood Ave,Vaughan St.,East,5 Beechwood Ave,45.438589,-75.677964,New,"On Crichton St, side of 5 Beechwood Ave"
 588,216,Beechwood Ave,Mackay St,Vanier Pkwy,North,7 Beechwood Ave,45.438922,-75.677479,New,
-589,216,Beechwood Ave,Mackay St,Vanier Pkwy,North,11 Beechwood Ave,45.439080,-75.677361,New,
+589,216,Beechwood Ave,Mackay St,Vanier Pkwy,North,11 Beechwood Ave,45.43908,-75.677361,New,
 590,216,Beechwood Ave,Mackay St,Vanier Pkwy,North,25 Beechwood Ave,45.439299,-75.677173,New,
 591,217,Beechwood Ave,Mackay St,Springfield Rd,North,10 Springfield Rd,45.439886,-75.676449,New,"On Beechwood Ave, side of 10 Springfield Rd"
 592,218,Beechwood Ave,Douglas Ave,Langevin Ave,North,61 Beechwood Ave,45.440379,-75.675287,New,
 593,219,Beechwood Ave,Langevin Ave,Champlain Ave,North,99 Beechwood Ave,45.441115,-75.674051,New,
-594,219,Beechwood Ave,Langevin Ave,Champlain Ave,North,99 Beechwood Ave,45.441220,-75.673847,New,
-595,220,Beechwood Ave,Chapleau Ave,Champlain Ave,North,113 Beechwood Ave,45.441480,-75.673292,New,
+594,219,Beechwood Ave,Langevin Ave,Champlain Ave,North,99 Beechwood Ave,45.44122,-75.673847,New,
+595,220,Beechwood Ave,Chapleau Ave,Champlain Ave,North,113 Beechwood Ave,45.44148,-75.673292,New,
 596,221,Beechwood Ave,Marier Ave,Chapleau Ave,North,123 Beechwood Ave,45.441854,-75.672259,New,
 597,222,Putman Ave,Beechwood Ave,Chapleau Ave,West,131 Beechwood Ave,45.442159,-75.671779,New,"On Putman Ave, side of 131 Beechwood Ave"
 598,223,Beechwood Ave,Springfield Rd,Loyer St,North,55 Beechwood Ave,45.440204,-75.675639,New,
@@ -601,47 +601,47 @@ Post_ID,Mid_block_ID,Street_1,Street_2,Street_3,Side,Adjacent_to,latitude,longit
 600,223,Beechwood Ave,Springfield Rd,Loyer St,North,1 Springfield Rd,45.439988,-75.676274,New,"On Beechwood Ave, side of 1 Springfield Rd"
 601,224,Beechwood Ave,Acacia Ave,St Cecile St,South,188 Beechwood Ave,45.442524,-75.671036,New,
 602,224,Beechwood Ave,Acacia Ave,St Cecile St,South,188 Beechwood Ave,45.442459,-75.671092,New,
-603,225,Beechwood Ave,Marier Ave,St. Charles St,South,170 Beechwood Ave,45.441920,-75.671830,New,
-604,225,Beechwood Ave,Marier Ave,St. Charles St,South,170 Beechwood Ave,45.441850,-75.671930,New,
-605,225,Beechwood Ave,Marier Ave,St. Charles St,South,160 Beechwood Ave,45.441570,-75.672710,New,
-606,226,Beechwood Ave,Langevin Ave,Loyer St,South,82 Beechwood Ave,45.440470,-75.674820,New,
-607,226,Beechwood Ave,Langevin Ave,Loyer St,South,64 Beechwood Ave,45.440220,-75.675230,New,
-608,227,Beechwood Ave,St. Charles St,Langevin Ave,South,94 Beechwood Ave,45.440720,-75.674380,New,
-609,227,Beechwood Ave,St. Charles St,Langevin Ave,South,110 Beechwood Ave,45.440810,-75.674070,New,
-610,228,Beechwood Ave,Loyer St,Springfield Rd,South,50 Beechwood Ave,45.440050,-75.675720,New,
-611,228,Beechwood Ave,Loyer St,Springfield Rd,South,50 Beechwood Ave,45.439940,-75.676040,New,
-612,229,Beechwood Ave,Mackay St,Springfield Rd,South,50 Beechwood Ave,45.439760,-75.676410,New,
-613,229,Beechwood Ave,Mackay St,Springfield Rd,South,50 Beechwood Ave,45.439640,-75.676590,New,
-614,230,Charlevoix St,Beechwood Ave,Barrette St,West,18 Beechwood Ave,45.439120,-75.676960,New,"On Charlovoix St, side of 18 Beechwood Ave"
-615,231,Slater St,Bronson Ave,Bay St,South,200 Bay St,45.416760,-75.705610,New,"On Slater St, side of 200 Bay St"
-616,231,Slater St,Bronson Ave,Bay St,South,440 Albert St,45.416640,-75.705910,New,"On Slater St, side of 440 Albert St"
-617,231,Slater St,Bronson Ave,Bay St,South,440 Albert St,45.416520,-75.706170,New,"On Slater St, side of 440 Albert St"
-618,232,Slater St,Bay St,Lyon St,North,400 Albert St,45.417090,-75.705320,New,"On Slater St, rear of 400 Albert St"
-619,232,Slater St,Bay St,Lyon St,North,400 Albert St,45.417150,-75.705180,New,"On Slater St, rear of 400 Albert St"
-620,232,Slater St,Bay St,Lyon St,North,400 Albert St,45.417240,-75.704990,New,"On Slater St, rear of 400 Albert St"
-621,232,Slater St,Bay St,Lyon St,North,400 Albert St,45.417330,-75.704780,New,"On Slater St, rear of 400 Albert St"
-622,232,Slater St,Bay St,Lyon St,North,400 Albert St,45.417440,-75.704520,New,"On Slater St, rear of 400 Albert St"
-623,233,Slater St,Bay St,Lyon St,South,368 Slater St,45.417330,-75.704240,New,
-624,233,Slater St,Bay St,Lyon St,South,368 Slater St,45.417270,-75.704340,New,
-625,234,Somerset St,Bank St,Kent St,South,415 MacLaren St,45.414940,-75.697210,Existing,
-626,234,Somerset St,Bank St,Kent St,South,415 MacLaren St,45.414880,-75.697350,Existing,
-627,234,Somerset St,Bank St,Kent St,South,415 MacLaren St,45.414800,-75.697510,Existing,
+603,225,Beechwood Ave,Marier Ave,St. Charles St,South,170 Beechwood Ave,45.44192,-75.67183,New,
+604,225,Beechwood Ave,Marier Ave,St. Charles St,South,170 Beechwood Ave,45.44185,-75.67193,New,
+605,225,Beechwood Ave,Marier Ave,St. Charles St,South,160 Beechwood Ave,45.44157,-75.67271,New,
+606,226,Beechwood Ave,Langevin Ave,Loyer St,South,82 Beechwood Ave,45.44047,-75.67482,New,
+607,226,Beechwood Ave,Langevin Ave,Loyer St,South,64 Beechwood Ave,45.44022,-75.67523,New,
+608,227,Beechwood Ave,St. Charles St,Langevin Ave,South,94 Beechwood Ave,45.44072,-75.67438,New,
+609,227,Beechwood Ave,St. Charles St,Langevin Ave,South,110 Beechwood Ave,45.44081,-75.67407,New,
+610,228,Beechwood Ave,Loyer St,Springfield Rd,South,50 Beechwood Ave,45.44005,-75.67572,New,
+611,228,Beechwood Ave,Loyer St,Springfield Rd,South,50 Beechwood Ave,45.43994,-75.67604,New,
+612,229,Beechwood Ave,Mackay St,Springfield Rd,South,50 Beechwood Ave,45.43976,-75.67641,New,
+613,229,Beechwood Ave,Mackay St,Springfield Rd,South,50 Beechwood Ave,45.43964,-75.67659,New,
+614,230,Charlevoix St,Beechwood Ave,Barrette St,West,18 Beechwood Ave,45.43912,-75.67696,New,"On Charlovoix St, side of 18 Beechwood Ave"
+615,231,Slater St,Bronson Ave,Bay St,South,200 Bay St,45.41676,-75.70561,New,"On Slater St, side of 200 Bay St"
+616,231,Slater St,Bronson Ave,Bay St,South,440 Albert St,45.41664,-75.70591,New,"On Slater St, side of 440 Albert St"
+617,231,Slater St,Bronson Ave,Bay St,South,440 Albert St,45.41652,-75.70617,New,"On Slater St, side of 440 Albert St"
+618,232,Slater St,Bay St,Lyon St,North,400 Albert St,45.41709,-75.70532,New,"On Slater St, rear of 400 Albert St"
+619,232,Slater St,Bay St,Lyon St,North,400 Albert St,45.41715,-75.70518,New,"On Slater St, rear of 400 Albert St"
+620,232,Slater St,Bay St,Lyon St,North,400 Albert St,45.41724,-75.70499,New,"On Slater St, rear of 400 Albert St"
+621,232,Slater St,Bay St,Lyon St,North,400 Albert St,45.41733,-75.70478,New,"On Slater St, rear of 400 Albert St"
+622,232,Slater St,Bay St,Lyon St,North,400 Albert St,45.41744,-75.70452,New,"On Slater St, rear of 400 Albert St"
+623,233,Slater St,Bay St,Lyon St,South,368 Slater St,45.41733,-75.70424,New,
+624,233,Slater St,Bay St,Lyon St,South,368 Slater St,45.41727,-75.70434,New,
+625,234,Somerset St,Bank St,Kent St,South,415 MacLaren St,45.41494,-75.69721,Existing,
+626,234,Somerset St,Bank St,Kent St,South,415 MacLaren St,45.41488,-75.69735,Existing,
+627,234,Somerset St,Bank St,Kent St,South,415 MacLaren St,45.4148,-75.69751,Existing,
 628,235,Lewis St,Metcalfe St,O'Connor St,North,288 Metcalfe St,45.415392,-75.691177,New,"On Lewis St, side of 288 Metcalfe St"
 629,235,Lewis St,Metcalfe St,O'Connor St,North,288 Metcalfe St,45.415354,-75.691271,New,"On Lewis St, side of 288 Metcalfe St"
-630,236,Lewis St,Derby Pl,Bank St,South,377 Bank St,45.413875,-75.694500,New,"On Lewis St, side of 377 Bank St"
+630,236,Lewis St,Derby Pl,Bank St,South,377 Bank St,45.413875,-75.6945,New,"On Lewis St, side of 377 Bank St"
 631,236,Lewis St,Derby Pl,Bank St,South,377 Bank St,45.413829,-75.694596,New,"On Lewis St, side of 377 Bank St"
 632,236,Lewis St,Derby Pl,Bank St,South,377 Bank St,45.413788,-75.694704,New,"On Lewis St, side of 377 Bank St"
-633,237,Wilbrod St,Cumberland St,King Edward Ave,South,174 Wilbrod St,45.425730,-75.684694,New,
+633,237,Wilbrod St,Cumberland St,King Edward Ave,South,174 Wilbrod St,45.42573,-75.684694,New,
 634,237,Wilbrod St,Cumberland St,King Edward Ave,South,174 Wilbrod St,45.425688,-75.684788,New,
 635,237,Wilbrod St,Cumberland St,King Edward Ave,South,174 Wilbrod St,45.425645,-75.684879,New,
 636,238,Laurier Ave E,King Edward Ave,Ring Ln,North,530 King Edward Ave,45.425235,-75.683307,New,"On Laurier Ave E, side of 530 King Edward Ave"
 637,238,Laurier Ave E,King Edward Ave,Ring Ln,North,530 King Edward Ave,45.425201,-75.683406,New,"On Laurier Ave E, side of 530 King Edward Ave"
-638,239,Albert St,Lyon St,Kent St,South,360 Albert St,45.418150,-75.704080,New,
-639,239,Albert St,Lyon St,Kent St,South,360 Albert St,45.418230,-75.703880,New,
-640,239,Albert St,Lyon St,Kent St,South,340 Albert St,45.418640,-75.702980,New,
-641,239,Albert St,Lyon St,Kent St,South,340 Albert St,45.418750,-75.702680,New,
-642,240,Albert St,Lyon St,Kent St,North,101 Lyon St,45.418410,-75.704050,Existing,"On Albert St, side of 101 Lyon St"
-643,240,Albert St,Lyon St,Kent St,North,101 Lyon St,45.418320,-75.704200,Existing,"On Albert St, side of 101 Lyon St"
+638,239,Albert St,Lyon St,Kent St,South,360 Albert St,45.41815,-75.70408,New,
+639,239,Albert St,Lyon St,Kent St,South,360 Albert St,45.41823,-75.70388,New,
+640,239,Albert St,Lyon St,Kent St,South,340 Albert St,45.41864,-75.70298,New,
+641,239,Albert St,Lyon St,Kent St,South,340 Albert St,45.41875,-75.70268,New,
+642,240,Albert St,Lyon St,Kent St,North,101 Lyon St,45.41841,-75.70405,Existing,"On Albert St, side of 101 Lyon St"
+643,240,Albert St,Lyon St,Kent St,North,101 Lyon St,45.41832,-75.7042,Existing,"On Albert St, side of 101 Lyon St"
 644,241,Albert St,Lyon St,Bay St,South,402 Albert St,45.417749,-75.705156,New,
 645,241,Albert St,Lyon St,Bay St,South,388 Albert St,45.417879,-75.704837,New,
 646,242,Albert St,Lyon St,Bay St,North,383 Albert St,45.417988,-75.704963,New,
@@ -649,32 +649,32 @@ Post_ID,Mid_block_ID,Street_1,Street_2,Street_3,Side,Adjacent_to,latitude,longit
 648,243,Albert St,Bay St,Bronson Ave,North,473 Albert St,45.416821,-75.707817,New,
 649,243,Albert St,Bay St,Bronson Ave,North,473 Albert St,45.416723,-75.708021,New,
 650,243,Albert St,Bay St,Bronson Ave,North,473 Albert St,45.416639,-75.708217,New,
-651,243,Albert St,Bay St,Bronson Ave,North,435 Albert St,45.417386,-75.706460,New,
+651,243,Albert St,Bay St,Bronson Ave,North,435 Albert St,45.417386,-75.70646,New,
 652,244,Albert St,Bay St,Bronson Ave,South,440 Albert St,45.417356,-75.706087,New,
 653,244,Albert St,Bay St,Bronson Ave,South,440 Albert St,45.417213,-75.706455,New,
 654,244,Albert St,Bay St,Bronson Ave,South,440 Albert St,45.417062,-75.706851,New,
 655,244,Albert St,Bay St,Bronson Ave,South,440 Albert St,45.416912,-75.707192,New,
 656,245,Bay St,Albert St,Queen St,East,151 Bay St,45.417838,-75.706162,New,
 657,245,Bay St,Albert St,Queen St,East,151 Bay St,45.417636,-75.705966,New,
-658,246,Gladstone Ave,Elgin St,Metcalfe St,North,380 Elgin St,45.414680,-75.687820,New,"On Gladstone Ave, side of 380 Elgin St"
-659,246,Gladstone Ave,Elgin St,Metcalfe St,North,380 Elgin St,45.414600,-75.688040,New,"On Gladstone Ave, side of 380 Elgin St"
-660,246,Gladstone Ave,Elgin St,Metcalfe St,North,205 Gladstone Ave,45.414450,-75.688390,New,
-661,246,Gladstone Ave,Elgin St,Metcalfe St,North,205 Gladstone Ave,45.414340,-75.688600,New,
-662,246,Gladstone Ave,Elgin St,Metcalfe St,North,221 Gladstone Ave,45.414170,-75.689040,New,
-663,246,Gladstone Ave,Elgin St,Metcalfe St,North,221 Gladstone Ave,45.414050,-75.689290,New,
+658,246,Gladstone Ave,Elgin St,Metcalfe St,North,380 Elgin St,45.41468,-75.68782,New,"On Gladstone Ave, side of 380 Elgin St"
+659,246,Gladstone Ave,Elgin St,Metcalfe St,North,380 Elgin St,45.4146,-75.68804,New,"On Gladstone Ave, side of 380 Elgin St"
+660,246,Gladstone Ave,Elgin St,Metcalfe St,North,205 Gladstone Ave,45.41445,-75.68839,New,
+661,246,Gladstone Ave,Elgin St,Metcalfe St,North,205 Gladstone Ave,45.41434,-75.6886,New,
+662,246,Gladstone Ave,Elgin St,Metcalfe St,North,221 Gladstone Ave,45.41417,-75.68904,New,
+663,246,Gladstone Ave,Elgin St,Metcalfe St,North,221 Gladstone Ave,45.41405,-75.68929,New,
 664,247,Gladstone Ave,O'Connor St,Metcalfe St,North,322 Frank St,45.413266,-75.691182,New,"On Gladstone Ave, rear of 322 Frank St"
 665,247,Gladstone Ave,O'Connor St,Metcalfe St,North,322 Frank St,45.413221,-75.691297,New,"On Gladstone Ave, rear of 322 Frank St"
 666,248,Gladstone Ave,O'Connor St,Bank St,North,344 O'Connor St,45.413061,-75.691735,New,"On Gladstone Ave, side of 344 O'Connor St"
-667,248,Gladstone Ave,O'Connor St,Bank St,North,344 O'Connor St,45.412986,-75.691890,New,"On Gladstone Ave, side of 344 O'Connor St"
+667,248,Gladstone Ave,O'Connor St,Bank St,North,344 O'Connor St,45.412986,-75.69189,New,"On Gladstone Ave, side of 344 O'Connor St"
 668,248,Gladstone Ave,O'Connor St,Bank St,North,433 Bank St,45.412383,-75.693322,Existing,"On Gladstone Ave, side of 433 Bank St"
 669,248,Gladstone Ave,O'Connor St,Bank St,North,433 Bank St,45.412317,-75.693489,Existing,"On Gladstone Ave, side of 433 Bank St"
 670,249,Gladstone Ave,Bank St,Kent St,North,434 Bank St,45.412201,-75.693784,Existing,"On Gladstone Ave, side of 434 Bank St"
 671,249,Gladstone Ave,Bank St,Kent St,North,387 Gladstone Ave,45.412007,-75.694309,Existing,
 672,249,Gladstone Ave,Bank St,Kent St,North,405 Gladstone Ave,45.411758,-75.694961,Existing,
-673,250,Gladstone Ave,Kent St,Lyon St,North,469 Gladstone Ave,45.411240,-75.696160,New,
-674,250,Gladstone Ave,Kent St,Lyon St,North,483 Gladstone Ave,45.410960,-75.696940,New,
-675,250,Gladstone Ave,Kent St,Lyon St,North,483 Gladstone Ave,45.410810,-75.697310,New,
-676,250,Gladstone Ave,Kent St,Lyon St,North,483 Gladstone Ave,45.410660,-75.697710,New,
+673,250,Gladstone Ave,Kent St,Lyon St,North,469 Gladstone Ave,45.41124,-75.69616,New,
+674,250,Gladstone Ave,Kent St,Lyon St,North,483 Gladstone Ave,45.41096,-75.69694,New,
+675,250,Gladstone Ave,Kent St,Lyon St,North,483 Gladstone Ave,45.41081,-75.69731,New,
+676,250,Gladstone Ave,Kent St,Lyon St,North,483 Gladstone Ave,45.41066,-75.69771,New,
 677,251,Gladstone Ave,Bay St,Kent St,North,505 Gladstone Ave,45.410391,-75.698161,New,
 678,251,Gladstone Ave,Bay St,Kent St,North,505 Gladstone Ave,45.410301,-75.698376,New,
 679,251,Gladstone Ave,Bay St,Kent St,North,521 Gladstone Ave,45.410207,-75.698585,New,
@@ -688,123 +688,117 @@ Post_ID,Mid_block_ID,Street_1,Street_2,Street_3,Side,Adjacent_to,latitude,longit
 687,253,Gladstone Ave,Bay St,Percy St,North,595 Gladstone Ave,45.409442,-75.700382,New,
 688,253,Gladstone Ave,Bay St,Percy St,North,595 Gladstone Ave,45.409331,-75.700666,New,
 689,253,Gladstone Ave,Bay St,Percy St,North,595 Gladstone Ave,45.409222,-75.700937,New,
-690,254,Gladstone Ave,Percy St,Bronson Ave,North,180 Percy St,45.408800,-75.701980,New,"On Gladstone Ave, side of 180 Percy St"
-691,254,Gladstone Ave,Percy St,Bronson Ave,North,180 Percy St,45.408660,-75.702330,New,"On Gladstone Ave, side of 180 Percy St"
-692,254,Gladstone Ave,Percy St,Bronson Ave,North,180 Percy St,45.408540,-75.702650,New,"On Gladstone Ave, side of 180 Percy St"
-693,254,Gladstone Ave,Percy St,Bronson Ave,North,180 Percy St,45.408370,-75.703060,New,"On Gladstone Ave, side of 180 Percy St"
-694,254,Gladstone Ave,Percy St,Bronson Ave,North,180 Percy St,45.408200,-75.703420,New,"On Gladstone Ave, side of 180 Percy St"
-695,255,Gladstone Ave,Bronson Ave,Cambridge St N,North,727 Gladstone Ave,45.407750,-75.704210,New,
-696,256,Gladstone Ave,Cambridge St N,Arthur St,North,250 Cambridge St N,45.407520,-75.704740,New,"On Gladstone Ave, side of 250 Cambridge N"
-697,256,Gladstone Ave,Cambridge St N,Arthur St,North,250 Cambridge St N,45.407460,-75.704890,New,"On Gladstone Ave, side of 250 Cambridge N"
-698,256,Gladstone Ave,Cambridge St N,Arthur St,North,250 Cambridge St N,45.407370,-75.705110,New,"On Gladstone Ave, side of 250 Cambridge N"
-699,256,Gladstone Ave,Cambridge St N,Arthur St,North,250 Cambridge St N,45.407290,-75.705380,New,"On Gladstone Ave, side of 250 Cambridge N"
-700,257,Gladstone Ave,Arthur St,Bell St N,North,737 Gladstone Ave,45.407170,-75.705630,New,
-701,257,Gladstone Ave,Arthur St,Bell St N,North,737 Gladstone Ave,45.407140,-75.705750,New,
-702,257,Gladstone Ave,Arthur St,Bell St N,North,737 Gladstone Ave,45.407070,-75.705880,New,
-703,258,Gladstone Ave,Bell St N,Lebreton St N,North,777 Gladstone Ave,45.406720,-75.706740,New,
-704,258,Gladstone Ave,Bell St N,Lebreton St N,North,779 Gladstone Ave,45.406600,-75.707180,New,
-705,259,Gladstone Ave,Booth St,Lebreton St N,North,785 Gladstone Ave,45.406043,-75.708230,New,
+690,254,Gladstone Ave,Percy St,Bronson Ave,North,180 Percy St,45.4088,-75.70198,New,"On Gladstone Ave, side of 180 Percy St"
+691,254,Gladstone Ave,Percy St,Bronson Ave,North,180 Percy St,45.40866,-75.70233,New,"On Gladstone Ave, side of 180 Percy St"
+692,254,Gladstone Ave,Percy St,Bronson Ave,North,180 Percy St,45.40854,-75.70265,New,"On Gladstone Ave, side of 180 Percy St"
+693,254,Gladstone Ave,Percy St,Bronson Ave,North,180 Percy St,45.40837,-75.70306,New,"On Gladstone Ave, side of 180 Percy St"
+694,254,Gladstone Ave,Percy St,Bronson Ave,North,180 Percy St,45.4082,-75.70342,New,"On Gladstone Ave, side of 180 Percy St"
+695,255,Gladstone Ave,Bronson Ave,Cambridge St N,North,727 Gladstone Ave,45.40775,-75.70421,New,
+696,256,Gladstone Ave,Cambridge St N,Arthur St,North,250 Cambridge St N,45.40752,-75.70474,New,"On Gladstone Ave, side of 250 Cambridge N"
+697,256,Gladstone Ave,Cambridge St N,Arthur St,North,250 Cambridge St N,45.40746,-75.70489,New,"On Gladstone Ave, side of 250 Cambridge N"
+698,256,Gladstone Ave,Cambridge St N,Arthur St,North,250 Cambridge St N,45.40737,-75.70511,New,"On Gladstone Ave, side of 250 Cambridge N"
+699,256,Gladstone Ave,Cambridge St N,Arthur St,North,250 Cambridge St N,45.40729,-75.70538,New,"On Gladstone Ave, side of 250 Cambridge N"
+700,257,Gladstone Ave,Arthur St,Bell St N,North,737 Gladstone Ave,45.40717,-75.70563,New,
+701,257,Gladstone Ave,Arthur St,Bell St N,North,737 Gladstone Ave,45.40714,-75.70575,New,
+702,257,Gladstone Ave,Arthur St,Bell St N,North,737 Gladstone Ave,45.40707,-75.70588,New,
+703,258,Gladstone Ave,Bell St N,Lebreton St N,North,777 Gladstone Ave,45.40672,-75.70674,New,
+704,258,Gladstone Ave,Bell St N,Lebreton St N,North,779 Gladstone Ave,45.4066,-75.70718,New,
+705,259,Gladstone Ave,Booth St,Lebreton St N,North,785 Gladstone Ave,45.406043,-75.70823,New,
 706,260,Gladstone Ave,Rochester St,Preston St,North,865 Gladstone Ave,45.405298,-75.709952,Existing,
 707,260,Gladstone Ave,Rochester St,Preston St,North,865 Gladstone Ave,45.405237,-75.710153,Existing,
-708,260,Gladstone Ave,Rochester St,Preston St,North,865 Gladstone Ave,45.405175,-75.710400,Existing,
+708,260,Gladstone Ave,Rochester St,Preston St,North,865 Gladstone Ave,45.405175,-75.7104,Existing,
 709,260,Gladstone Ave,Rochester St,Preston St,North,865 Gladstone Ave,45.405107,-75.710655,Existing,
-710,260,Gladstone Ave,Rochester St,Preston St,North,865 Gladstone Ave,45.405036,-75.710920,Existing,
+710,260,Gladstone Ave,Rochester St,Preston St,North,865 Gladstone Ave,45.405036,-75.71092,Existing,
 711,261,Gladstone Ave,Bell St N,Lebreton St N,South,778 Gladstone Ave,45.406729,-75.706342,New,
 712,261,Gladstone Ave,Bell St N,Lebreton St N,South,778 Gladstone Ave,45.406689,-75.706452,New,
-713,262,Bell St N,Gladstone Ave,Willow St,East,163 Bell St N,45.407034,-75.706100,New,
+713,262,Bell St N,Gladstone Ave,Willow St,East,163 Bell St N,45.407034,-75.7061,New,
 714,262,Bell St N,Gladstone Ave,Willow St,East,163 Bell St N,45.406972,-75.706047,New,
-715,263,Gladstone Ave,Percy St,Bay St,South,564 Gladstone Ave,45.409390,-75.700030,New,
-716,263,Gladstone Ave,Percy St,Bay St,South,564 Gladstone Ave,45.409320,-75.700220,New,
-717,263,Gladstone Ave,Percy St,Bay St,South,564 Gladstone Ave,45.409260,-75.700310,New,
-718,264,Gladstone Ave,Lyon St,Kent St,South,486 Gladstone Ave,45.410690,-75.696990,New,
-719,264,Gladstone Ave,Lyon St,Kent St,South,486 Gladstone Ave,45.410560,-75.697240,New,
-720,264,Gladstone Ave,Lyon St,Kent St,South,486 Gladstone Ave,45.410490,-75.697410,New,
-721,265,Gladstone Ave,Kent St,Bank St,South,430 Gladstone Ave,45.411320,-75.695400,New,
-722,265,Gladstone Ave,Kent St,Bank St,South,410 Gladstone Ave,45.411440,-75.695140,New,
-723,265,Gladstone Ave,Kent St,Bank St,South,410 Gladstone Ave,45.411570,-75.694820,New,
-724,265,Gladstone Ave,Kent St,Bank St,South,450 Bank St,45.411890,-75.694030,New,"On Gladstone Ave, side of 450 Bank St"
-725,265,Gladstone Ave,Kent St,Bank St,South,450 Bank St,45.411970,-75.693800,New,"On Gladstone Ave, side of 450 Bank St"
-726,266,O'Connor St,McLeod St,Gladstone Ave,East,289 McLeod St,45.412740,-75.690960,Existing,"On O'Connor St, side of 289 McLeod St"
-727,267,Kent St,Gladstone Ave,Florence St,West,420 Kent St,45.411740,-75.696340,Existing,
-728,267,Kent St,Gladstone Ave,Florence St,West,420 Kent St,45.411680,-75.696300,Existing,
-729,267,Kent St,Gladstone Ave,Florence St,West,420 Kent St,45.411630,-75.696240,Existing,
-730,268,Metcalfe St,Nepean St,Lisgar St,West,180 Metcalfe St,45.418810,-75.694120,New,
-731,268,Metcalfe St,Nepean St,Lisgar St,West,180 Metcalfe St,45.418660,-75.694000,New,
-732,268,Metcalfe St,Nepean St,Lisgar St,West,180 Metcalfe St,45.418520,-75.693880,New,
-733,268,Metcalfe St,Nepean St,Lisgar St,West,180 Metcalfe St,45.418390,-75.693760,New,
-734,269,Metcalfe St,Nepean St,Gloucester St,West,170 Metcalfe St,45.419200,-75.694440,New,
-735,270,Gloucester St,O'Connor St,Metcalfe St,North,151 O'Connor St,45.419040,-75.696240,New,"On Gloucester St, side of 151 O'Connor St"
-736,270,Gloucester St,O'Connor St,Metcalfe St,North,151 O'Connor St,45.418940,-75.696420,New,"On Gloucester St, side of 151 O'Connor St"
+715,263,Gladstone Ave,Percy St,Bay St,South,564 Gladstone Ave,45.40939,-75.70003,New,
+716,263,Gladstone Ave,Percy St,Bay St,South,564 Gladstone Ave,45.40932,-75.70022,New,
+717,263,Gladstone Ave,Percy St,Bay St,South,564 Gladstone Ave,45.40926,-75.70031,New,
+718,264,Gladstone Ave,Lyon St,Kent St,South,486 Gladstone Ave,45.41069,-75.69699,New,
+719,264,Gladstone Ave,Lyon St,Kent St,South,486 Gladstone Ave,45.41056,-75.69724,New,
+720,264,Gladstone Ave,Lyon St,Kent St,South,486 Gladstone Ave,45.41049,-75.69741,New,
+721,265,Gladstone Ave,Kent St,Bank St,South,430 Gladstone Ave,45.41132,-75.6954,New,
+722,265,Gladstone Ave,Kent St,Bank St,South,410 Gladstone Ave,45.41144,-75.69514,New,
+723,265,Gladstone Ave,Kent St,Bank St,South,410 Gladstone Ave,45.41157,-75.69482,New,
+724,265,Gladstone Ave,Kent St,Bank St,South,450 Bank St,45.41189,-75.69403,New,"On Gladstone Ave, side of 450 Bank St"
+725,265,Gladstone Ave,Kent St,Bank St,South,450 Bank St,45.41197,-75.6938,New,"On Gladstone Ave, side of 450 Bank St"
+726,266,O'Connor St,McLeod St,Gladstone Ave,East,289 McLeod St,45.41274,-75.69096,Existing,"On O'Connor St, side of 289 McLeod St"
+727,267,Kent St,Gladstone Ave,Florence St,West,420 Kent St,45.41174,-75.69634,Existing,
+728,267,Kent St,Gladstone Ave,Florence St,West,420 Kent St,45.41168,-75.6963,Existing,
+729,267,Kent St,Gladstone Ave,Florence St,West,420 Kent St,45.41163,-75.69624,Existing,
+730,268,Metcalfe St,Nepean St,Lisgar St,West,180 Metcalfe St,45.41881,-75.69412,New,
+731,268,Metcalfe St,Nepean St,Lisgar St,West,180 Metcalfe St,45.41866,-75.694,New,
+732,268,Metcalfe St,Nepean St,Lisgar St,West,180 Metcalfe St,45.41852,-75.69388,New,
+733,268,Metcalfe St,Nepean St,Lisgar St,West,180 Metcalfe St,45.41839,-75.69376,New,
+734,269,Metcalfe St,Nepean St,Gloucester St,West,170 Metcalfe St,45.4192,-75.69444,New,
+735,270,Gloucester St,O'Connor St,Metcalfe St,North,151 O'Connor St,45.41904,-75.69624,New,"On Gloucester St, side of 151 O'Connor St"
+736,270,Gloucester St,O'Connor St,Metcalfe St,North,151 O'Connor St,45.41894,-75.69642,New,"On Gloucester St, side of 151 O'Connor St"
 737,271,Lisgar St,Bank St,Kent St,South,360 Lisgar St,45.416358,-75.698073,New,
 738,271,Lisgar St,Bank St,Kent St,South,360 Lisgar St,45.416249,-75.698317,New,
-739,272,Lisgar St,Bank St,Kent St,North,235 Kent St,45.416020,-75.699500,Existing,
-740,273,Slater St,Elgin St,Metcalfe St,South,66 Slater St,45.421750,-75.693950,New,
-741,273,Slater St,Elgin St,Metcalfe St,South,66 Slater St,45.421670,-75.694140,New,
-742,274,Slater St,Elgin St,Metcalfe St,North,81 Metcalfe St,45.421300,-75.695630,New,"On Slater St, side of 81 Metcalfe St"
-743,275,O'Connor St,Gloucester St,Laurier Ave W,East,151 O'Connor St,45.419330,-75.696860,New,
-744,276,Laurier Ave W,Bronson Ave,Percy St,South,570 Laurier Ave W,45.415060,-75.707100,New,
-745,276,Laurier Ave W,Bronson Ave,Percy St,South,570 Laurier Ave W,45.415000,-75.707260,New,
-746,277,Laurier Ave W,Bay St,Percy St,South,530 Laurier Ave W,45.415450,-75.706260,New,
-747,277,Laurier Ave W,Bay St,Percy St,South,530 Laurier Ave W,45.415540,-75.705980,New,
-748,277,Laurier Ave W,Bay St,Percy St,South,500 Laurier Ave W,45.415650,-75.705740,New,
-749,277,Laurier Ave W,Bay St,Percy St,South,500 Laurier Ave W,45.415780,-75.705400,New,
-750,277,Laurier Ave W,Bay St,Percy St,South,500 Laurier Ave W,45.415890,-75.705080,New,
-751,278,St. Patrick St,Parent Ave,Dalhousie St,South,212 St. Patrick St,45.430650,-75.693030,New,
-752,278,St. Patrick St,Parent Ave,Dalhousie St,South,212 St. Patrick St,45.430490,-75.693410,New,
-753,278,St. Patrick St,Parent Ave,Dalhousie St,South,111 Parent Ave,45.430280,-75.693910,New,"On St. Patrick St, side of 111 Parent Ave"
-754,278,St. Patrick St,Parent Ave,Dalhousie St,South,111 Parent Ave,45.430100,-75.694270,New,"On St. Patrick St, side of 111 Parent Ave"
-755,279,St. Patrick St,Parent Ave,Dalhousie St,North,215 St. Patrick St,45.430530,-75.694150,New,
-756,279,St. Patrick St,Parent Ave,Dalhousie St,North,227 St. Patrick St,45.430770,-75.693530,New,
-757,280,St. Patrick St,Dalhousie St,Cumberland St,South,260 St. Patrick St,45.431010,-75.692140,New,
-758,280,St. Patrick St,Dalhousie St,Cumberland St,South,260 St. Patrick St,45.430910,-75.692300,New,
-759,281,St. Patrick St,Cumberland St,King Edward Ave,South,360 St. Patrick St,45.432300,-75.689270,New,
-760,281,St. Patrick St,Cumberland St,King Edward Ave,South,360 St. Patrick St,45.432160,-75.689590,New,
-761,281,St. Patrick St,Cumberland St,King Edward Ave,South,360 St. Patrick St,45.431990,-75.689880,New,
-762,282,Pamilla St,Preston St,END,North,109 Pamilla St,45.399350,-75.708950,Existing,
-763,282,Pamilla St,Preston St,END,North,109 Pamilla St,45.399260,-75.709160,Existing,
-764,283,Rochester St,Adeline St,Carling Ave,East,615 Booth St,45.399240,-75.705950,Existing,"On Rochester St, rear of 615 Booth St"
-765,283,Rochester St,Adeline St,Carling Ave,East,615 Booth St,45.398770,-75.705660,Existing,"On Rochester St, rear of 615 Booth St"
-766,284,Rochester St,Adeline St,Pamilla St,East,580 Booth St,45.399850,-75.706330,Existing,"On Rochester St, rear of 580 Booth St"
-767,284,Rochester St,Adeline St,Pamilla St,East,580 Booth St,45.399570,-75.706150,Existing,"On Rochester St, rear of 580 Booth St"
-768,285,Rochester St,Norman St,Pamilla St,East,580 Booth St,45.400430,-75.706680,Existing,"On Rochester St, rear of 580 Booth St"
-769,285,Rochester St,Norman St,Pamilla St,East,580 Booth St,45.400110,-75.706520,Existing,"On Rochester St, rear of 580 Booth St"
-770,286,Booth St,Norman St,Daniel McCann St,East,601 Booth St,45.401840,-75.705840,Existing,
-771,286,Booth St,Norman St,Daniel McCann St,East,601 Booth St,45.401550,-75.705630,Existing,
-772,287,Booth St,Norman St,Daniel McCann St,West,568 Booth St,45.401790,-75.706060,Existing,
-773,287,Booth St,Norman St,Daniel McCann St,West,568 Booth St,45.401450,-75.705910,Existing,
-774,288,Booth St,Orangeville St,Daniel McCann St,East,555 Booth St,45.402890,-75.706410,Existing,
-775,288,Booth St,Orangeville St,Daniel McCann St,East,555 Booth St,45.402670,-75.706280,Existing,
-776,288,Booth St,Orangeville St,Daniel McCann St,East,555 Booth St,45.402440,-75.706160,Existing,
-777,289,Booth St,Orangeville St,Daniel McCann St,West,552 Booth St,45.402790,-75.706710,Existing,
-778,289,Booth St,Orangeville St,Daniel McCann St,West,552 Booth St,45.402450,-75.706490,Existing,
-779,290,Rochester St,Somerset St,Eccles St,West,838 Somerset St,45.408900,-75.712030,Existing,"On Rochester St, side of 838 Somerset St"
-780,290,Rochester St,Somerset St,Eccles St,West,838 Somerset St,45.408780,-75.711990,Existing,"On Rochester St, side of 838 Somerset St"
-781,290,Rochester St,Somerset St,Eccles St,West,838 Somerset St,45.408680,-75.711950,Existing,"On Rochester St, side of 838 Somerset St"
-782,291,Cambridge St N,Somerset St,Christie St,West,700 Somerset St,45.410520,-75.706700,Existing,"On Cambridge St N, side of 700 Somerset St"
-783,292,Laurier Ave W,Percy St,Bay St,North,200 Bay St,45.416170,-75.705170,Existing,"On Laurier Ave W, side of 200 Bay St"
-784,293,Laurier Ave W,Elgin St,Metcalfe St,South,170 Laurier Ave W,45.420320,-75.694810,New,
-785,293,Laurier Ave W,Elgin St,Metcalfe St,South,164 Laurier Ave W,45.420510,-75.694150,New,
-786,293,Laurier Ave W,Elgin St,Metcalfe St,South,150 Laurier Ave W,45.420710,-75.693620,New,
-787,293,Laurier Ave W,Elgin St,Metcalfe St,South,150 Laurier Ave W,45.420850,-75.693220,New,
-788,294,Laurier Ave W,Elgin St,Metcalfe St,North,161 Laurier Ave W,45.420550,-75.694750,New,
-789,294,Laurier Ave W,Elgin St,Metcalfe St,North,161 Laurier Ave W,45.420660,-75.694460,New,
-790,294,Laurier Ave W,Elgin St,Metcalfe St,North,141 Laurier Ave W,45.420850,-75.693970,New,
-791,294,Laurier Ave W,Elgin St,Metcalfe St,North,133 Laurier Ave W,45.420970,-75.693720,New,
-792,295,Kent St,Laurier Ave W,Gloucester St,West,200 Kent St,45.417390,-75.701200,New,
-793,295,Kent St,Laurier Ave W,Gloucester St,West,200 Kent St,45.417210,-75.701040,New,
-794,296,Kent St,Laurier Ave W,Gloucester St,East,199 Kent St,45.417520,-75.700890,New,
-795,297,Kent St,Laurier Ave W,Slater St,West,180 Kent St,45.417980,-75.701650,New,
-796,298,Laurier Ave W,O'Connor St,Bank St,North,124 O'Connor St,45.419410,-75.697440,New,"On Laurier Ave W, side of 124 O'Connor St"
-797,298,Laurier Ave W,O'Connor St,Bank St,North,265 Laurier Ave W,45.419260,-75.697810,New,
-798,298,Laurier Ave W,O'Connor St,Bank St,North,265 Laurier Ave W,45.419120,-75.698170,New,
-799,298,Laurier Ave W,O'Connor St,Bank St,North,269 Laurier Ave W,45.419010,-75.698470,New,
-800,298,Laurier Ave W,O'Connor St,Bank St,North,161 Bank St,45.418830,-75.698850,New,"On Laurier Ave W, side of 161 Bank St"
-801,299,Laurier Ave W,Lyon St,Kent St,North,180 Kent St,45.417650,-75.701490,New,"On Laurier Ave W, side of 180 Kent St"
-802,299,Laurier Ave W,Lyon St,Kent St,North,427 Laurier Ave W,45.417070,-75.703020,New,
-803,299,Laurier Ave W,Lyon St,Kent St,North,407 Laurier Ave W,45.417320,-75.702330,New,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
+739,272,Lisgar St,Bank St,Kent St,North,235 Kent St,45.41602,-75.6995,Existing,
+740,273,Slater St,Elgin St,Metcalfe St,South,66 Slater St,45.42175,-75.69395,New,
+741,273,Slater St,Elgin St,Metcalfe St,South,66 Slater St,45.42167,-75.69414,New,
+742,274,Slater St,Elgin St,Metcalfe St,North,81 Metcalfe St,45.4213,-75.69563,New,"On Slater St, side of 81 Metcalfe St"
+743,275,O'Connor St,Gloucester St,Laurier Ave W,East,151 O'Connor St,45.41933,-75.69686,New,
+744,276,Laurier Ave W,Bronson Ave,Percy St,South,570 Laurier Ave W,45.41506,-75.7071,New,
+745,276,Laurier Ave W,Bronson Ave,Percy St,South,570 Laurier Ave W,45.415,-75.70726,New,
+746,277,Laurier Ave W,Bay St,Percy St,South,530 Laurier Ave W,45.41545,-75.70626,New,
+747,277,Laurier Ave W,Bay St,Percy St,South,530 Laurier Ave W,45.41554,-75.70598,New,
+748,277,Laurier Ave W,Bay St,Percy St,South,500 Laurier Ave W,45.41565,-75.70574,New,
+749,277,Laurier Ave W,Bay St,Percy St,South,500 Laurier Ave W,45.41578,-75.7054,New,
+750,277,Laurier Ave W,Bay St,Percy St,South,500 Laurier Ave W,45.41589,-75.70508,New,
+751,278,St. Patrick St,Parent Ave,Dalhousie St,South,212 St. Patrick St,45.43065,-75.69303,New,
+752,278,St. Patrick St,Parent Ave,Dalhousie St,South,212 St. Patrick St,45.43049,-75.69341,New,
+753,278,St. Patrick St,Parent Ave,Dalhousie St,South,111 Parent Ave,45.43028,-75.69391,New,"On St. Patrick St, side of 111 Parent Ave"
+754,278,St. Patrick St,Parent Ave,Dalhousie St,South,111 Parent Ave,45.4301,-75.69427,New,"On St. Patrick St, side of 111 Parent Ave"
+755,279,St. Patrick St,Parent Ave,Dalhousie St,North,215 St. Patrick St,45.43053,-75.69415,New,
+756,279,St. Patrick St,Parent Ave,Dalhousie St,North,227 St. Patrick St,45.43077,-75.69353,New,
+757,280,St. Patrick St,Dalhousie St,Cumberland St,South,260 St. Patrick St,45.43101,-75.69214,New,
+758,280,St. Patrick St,Dalhousie St,Cumberland St,South,260 St. Patrick St,45.43091,-75.6923,New,
+759,281,St. Patrick St,Cumberland St,King Edward Ave,South,360 St. Patrick St,45.4323,-75.68927,New,
+760,281,St. Patrick St,Cumberland St,King Edward Ave,South,360 St. Patrick St,45.43216,-75.68959,New,
+761,281,St. Patrick St,Cumberland St,King Edward Ave,South,360 St. Patrick St,45.43199,-75.68988,New,
+762,282,Pamilla St,Preston St,END,North,109 Pamilla St,45.39935,-75.70895,Existing,
+763,282,Pamilla St,Preston St,END,North,109 Pamilla St,45.39926,-75.70916,Existing,
+764,283,Rochester St,Adeline St,Carling Ave,East,615 Booth St,45.39924,-75.70595,Existing,"On Rochester St, rear of 615 Booth St"
+765,283,Rochester St,Adeline St,Carling Ave,East,615 Booth St,45.39877,-75.70566,Existing,"On Rochester St, rear of 615 Booth St"
+766,284,Rochester St,Adeline St,Pamilla St,East,580 Booth St,45.39985,-75.70633,Existing,"On Rochester St, rear of 580 Booth St"
+767,284,Rochester St,Adeline St,Pamilla St,East,580 Booth St,45.39957,-75.70615,Existing,"On Rochester St, rear of 580 Booth St"
+768,285,Rochester St,Norman St,Pamilla St,East,580 Booth St,45.40043,-75.70668,Existing,"On Rochester St, rear of 580 Booth St"
+769,285,Rochester St,Norman St,Pamilla St,East,580 Booth St,45.40011,-75.70652,Existing,"On Rochester St, rear of 580 Booth St"
+770,286,Booth St,Norman St,Daniel McCann St,East,601 Booth St,45.40184,-75.70584,Existing,
+771,286,Booth St,Norman St,Daniel McCann St,East,601 Booth St,45.40155,-75.70563,Existing,
+772,287,Booth St,Norman St,Daniel McCann St,West,568 Booth St,45.40179,-75.70606,Existing,
+773,287,Booth St,Norman St,Daniel McCann St,West,568 Booth St,45.40145,-75.70591,Existing,
+774,288,Booth St,Orangeville St,Daniel McCann St,East,555 Booth St,45.40289,-75.70641,Existing,
+775,288,Booth St,Orangeville St,Daniel McCann St,East,555 Booth St,45.40267,-75.70628,Existing,
+776,288,Booth St,Orangeville St,Daniel McCann St,East,555 Booth St,45.40244,-75.70616,Existing,
+777,289,Booth St,Orangeville St,Daniel McCann St,West,552 Booth St,45.40279,-75.70671,Existing,
+778,289,Booth St,Orangeville St,Daniel McCann St,West,552 Booth St,45.40245,-75.70649,Existing,
+779,290,Rochester St,Somerset St,Eccles St,West,838 Somerset St,45.4089,-75.71203,Existing,"On Rochester St, side of 838 Somerset St"
+780,290,Rochester St,Somerset St,Eccles St,West,838 Somerset St,45.40878,-75.71199,Existing,"On Rochester St, side of 838 Somerset St"
+781,290,Rochester St,Somerset St,Eccles St,West,838 Somerset St,45.40868,-75.71195,Existing,"On Rochester St, side of 838 Somerset St"
+782,291,Cambridge St N,Somerset St,Christie St,West,700 Somerset St,45.41052,-75.7067,Existing,"On Cambridge St N, side of 700 Somerset St"
+783,292,Laurier Ave W,Percy St,Bay St,North,200 Bay St,45.41617,-75.70517,Existing,"On Laurier Ave W, side of 200 Bay St"
+784,293,Laurier Ave W,Elgin St,Metcalfe St,South,170 Laurier Ave W,45.42032,-75.69481,New,
+785,293,Laurier Ave W,Elgin St,Metcalfe St,South,164 Laurier Ave W,45.42051,-75.69415,New,
+786,293,Laurier Ave W,Elgin St,Metcalfe St,South,150 Laurier Ave W,45.42071,-75.69362,New,
+787,293,Laurier Ave W,Elgin St,Metcalfe St,South,150 Laurier Ave W,45.42085,-75.69322,New,
+788,294,Laurier Ave W,Elgin St,Metcalfe St,North,161 Laurier Ave W,45.42055,-75.69475,New,
+789,294,Laurier Ave W,Elgin St,Metcalfe St,North,161 Laurier Ave W,45.42066,-75.69446,New,
+790,294,Laurier Ave W,Elgin St,Metcalfe St,North,141 Laurier Ave W,45.42085,-75.69397,New,
+791,294,Laurier Ave W,Elgin St,Metcalfe St,North,133 Laurier Ave W,45.42097,-75.69372,New,
+792,295,Kent St,Laurier Ave W,Gloucester St,West,200 Kent St,45.41739,-75.7012,New,
+793,295,Kent St,Laurier Ave W,Gloucester St,West,200 Kent St,45.41721,-75.70104,New,
+794,296,Kent St,Laurier Ave W,Gloucester St,East,199 Kent St,45.41752,-75.70089,New,
+795,297,Kent St,Laurier Ave W,Slater St,West,180 Kent St,45.41798,-75.70165,New,
+796,298,Laurier Ave W,O'Connor St,Bank St,North,124 O'Connor St,45.41941,-75.69744,New,"On Laurier Ave W, side of 124 O'Connor St"
+797,298,Laurier Ave W,O'Connor St,Bank St,North,265 Laurier Ave W,45.41926,-75.69781,New,
+798,298,Laurier Ave W,O'Connor St,Bank St,North,265 Laurier Ave W,45.41912,-75.69817,New,
+799,298,Laurier Ave W,O'Connor St,Bank St,North,269 Laurier Ave W,45.41901,-75.69847,New,
+800,298,Laurier Ave W,O'Connor St,Bank St,North,161 Bank St,45.41883,-75.69885,New,"On Laurier Ave W, side of 161 Bank St"
+801,299,Laurier Ave W,Lyon St,Kent St,North,180 Kent St,45.41765,-75.70149,New,"On Laurier Ave W, side of 180 Kent St"
+802,299,Laurier Ave W,Lyon St,Kent St,North,427 Laurier Ave W,45.41707,-75.70302,New,
+803,299,Laurier Ave W,Lyon St,Kent St,North,407 Laurier Ave W,45.41732,-75.70233,New,
