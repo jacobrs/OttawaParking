@@ -9,6 +9,9 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import android.location.Criteria;
 import android.location.Location;
@@ -24,11 +27,18 @@ import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 import android.widget.Toast;
+import android.app.AlertDialog;
+import android.app.LauncherActivity.ListItem;
 import android.content.*;
 
 public class BikeMenu extends FragmentActivity{
 	
 	ListView listView;
+	// handles the ListView data
+	ArrayAdapter<String> adapter;
+	JStack<Bike> ourStack = new JStack<Bike>(1000);
+	int amtIteration = 0;
+	final int AMOUNT_OF_VIEWS = 500;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +58,6 @@ public class BikeMenu extends FragmentActivity{
 		
 		Context context = this;
 		ParseCsv<Bike> parsedBikes = new ParseCsv<Bike>(this, "bikeParking.csv");
-		JStack<Bike> ourStack = new JStack<Bike>(1000);
 		ourStack = parsedBikes.parseBikeFile();
 		// Toast.makeText(this, ourStack.printBikeStack(), Toast.LENGTH_LONG).show();
 		// Get location
@@ -59,8 +68,8 @@ public class BikeMenu extends FragmentActivity{
 		if(provider != null){
 			Location lastknownloc = locationManager.getLastKnownLocation(provider);
 			if(lastknownloc != null){
-				// ourStack.BikeSort(lastknownloc);
-				// Toast.makeText(this, ourStack.printBikeStack(), Toast.LENGTH_LONG).show();
+				ourStack.BikeSort(lastknownloc);
+				Toast.makeText(this, ourStack.printBikeStack(lastknownloc), Toast.LENGTH_LONG).show();
 				GoogleMap map = ((MapFragment) getFragmentManager()
 		                .findFragmentById(R.id.map)).getMap();
 		
@@ -88,33 +97,31 @@ public class BikeMenu extends FragmentActivity{
 		
 		// Get ListView object from xml
         listView = (ListView) findViewById(R.id.list);
-		
      // Defined Array values to show in ListView
-        String[] values = new String[] { "Android List View", 
-                                         "Adapter implementation",
-                                         "Simple List View In Android",
-                                         "Create List View Android", 
-                                         "Android Example", 
-                                         "List View Source Code", 
-                                         "List View Array Adapter", 
-                                         "Android Example List View" 
-                                        };
+        String[] values = new String[AMOUNT_OF_VIEWS+1];
         
+        int counter = 0;
+        
+        for(; counter < AMOUNT_OF_VIEWS; counter++){
+        	values[counter] = ourStack.getElement(ourStack.getTopIndex() - counter).get_adjacent();
+        }
+        amtIteration++;
+        
+        values[AMOUNT_OF_VIEWS] = "View More";
         // Define a new Adapter
         // First parameter - Context
         // Second parameter - Layout for the row
         // Third parameter - ID of the TextView to which the data is written
         // Forth - the Array of data
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-          android.R.layout.simple_list_item_1, android.R.id.text1, values);
-        
+        final ArrayList<String> list =new ArrayList<String>(Arrays.asList(values));
+        adapter = new ArrayAdapter<String>(this,
+          android.R.layout.simple_list_item_1, android.R.id.text1, list);
         // Assign adapter to ListView
-        listView.setAdapter(adapter); 
+        listView.setAdapter(adapter);
         
         // ListView Item Click Listener
         listView.setOnItemClickListener(new OnItemClickListener() {
-
+        	
               @Override
               public void onItemClick(AdapterView<?> parent, View view,
                  int position, long id) {
@@ -129,9 +136,31 @@ public class BikeMenu extends FragmentActivity{
                 Toast.makeText(getApplicationContext(),
                   "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
                   .show();
-             
-              }
-
+                
+                if(position%AMOUNT_OF_VIEWS == 0 && position < ourStack.getTopIndex()){
+                	list.remove(position);
+                	adapter.notifyDataSetChanged();
+                	
+                	String[] newValues = new String[AMOUNT_OF_VIEWS+1];
+                	int newCounter = 0;
+                	for(; newCounter < AMOUNT_OF_VIEWS && (position + newCounter) < ourStack.getTopIndex(); newCounter++){
+                		newValues[newCounter] = ourStack.getElement(ourStack.getTopIndex() - ((amtIteration*AMOUNT_OF_VIEWS) + newCounter)).get_adjacent();
+                		
+                		if(newValues[newCounter].length() == 0){
+                			newValues[newCounter] = "Around " + ourStack.getElement(ourStack.getTopIndex() - ((amtIteration*AMOUNT_OF_VIEWS) + newCounter)).get_street_1();
+                		}
+                		list.add((amtIteration*AMOUNT_OF_VIEWS)+newCounter, newValues[newCounter]);
+                	}
+                	if(!(position+newCounter >= ourStack.getTopIndex())){
+                		newValues[newCounter] = "View More";
+                		list.add((amtIteration*AMOUNT_OF_VIEWS)+newCounter, newValues[newCounter]);
+                	}
+                	amtIteration++;
+                	adapter.notifyDataSetChanged();
+                }else{
+                	
+                }
+             }
          }); 
         
 		specs = th.newTabSpec("tag2");

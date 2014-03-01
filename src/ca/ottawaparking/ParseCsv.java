@@ -32,6 +32,7 @@ public class ParseCsv<E>{
 					bikeStop.set_street_3(lineArr[4]);
 					bikeStop.set_side(lineArr[5]);
 					bikeStop.set_adjacent(lineArr[6]);
+					//System.out.println(lineArr[0]+" - "+lineArr[6].length());
 					bikeStop.set_latitude(Float.parseFloat(lineArr[7]));
 					bikeStop.set_longitude(Float.parseFloat(lineArr[8]));
 					
