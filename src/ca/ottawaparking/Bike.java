@@ -5,8 +5,8 @@ import android.content.Context;
 public class Bike{
 	public Bike(Context context){
 		   this.context = context;
-		   latitude = 0;
-		   longitude = 0;
+		   lat = 0;
+		   lon = 0;
 		}
 	
 	public void set_post_id(int set){
@@ -81,22 +81,22 @@ public class Bike{
 	}
 	
 	public void set_latitude(float set){
-		latitude = set;
+		lat = set;
 	}
 	
 	public float get_latitude(){
-		if(latitude != 0)
-			return latitude;
+		if(lat != 0)
+			return lat;
 		return 0;
 	}
 	
 	public void set_longitude(float set){
-		longitude = set;
+		lon = set;
 	}
 	
 	public float get_longitude(){
-		if(longitude != 0)
-			return longitude;
+		if(lon != 0)
+			return lon;
 		return 0;
 	}
 	
@@ -129,8 +129,8 @@ public class Bike{
 		String street_3 = null;
 		String Side = null;
 		String adjacent_to = null;
-		float latitude = 0;
-		float longitude = 0;
+		float lat = 0;
+		float lon = 0;
 		String core = null;
 		String notes = null;
 }
