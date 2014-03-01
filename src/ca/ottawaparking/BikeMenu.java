@@ -1,10 +1,15 @@
 package ca.ottawaparking;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
+import android.content.*;
 
 public class BikeMenu extends FragmentActivity{
 	
@@ -24,6 +29,10 @@ public class BikeMenu extends FragmentActivity{
 		System.out.println("latitude: " + ourBikes[0].get_latitude());
 		System.out.println("longitude: " + ourBikes[0].get_longitude());*/
 		
+		Context context = this;
+		ParseCsv<Bike> parsedBikes = new ParseCsv<Bike>(this, "bikeParking.csv");
+		JStack<Bike> ourStack = new JStack<Bike>(1000);
+		ourStack = parsedBikes.parseBikeFile();
 		
 		TabHost th = (TabHost)findViewById(R.id.tabhost);
 		//automatically set up the basics

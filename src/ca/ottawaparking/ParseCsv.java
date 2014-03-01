@@ -12,14 +12,18 @@ public class ParseCsv<E>{
 			fileName = filename;
 	}
 	
-	public JStack<E> parseFile(){
+	public JStack<Bike> parseBikeFile(){
+		JStack<Bike> ourArrays = new JStack<Bike>(1000);
 		try {
-			BufferedReader br = new BufferedReader(new InputStreamReader(context.getAssets().open(fileName)));
-			if(fileName == "parking.csv"){
-				String line;
-				String[] lineArr;
-				while((line = br.readLine())!=null){
+			BufferedReader br = new BufferedReader(new InputStreamReader(context.getAssets().open("bikeParking.csv")));
+			int counter = 0;
+			String line;
+			String[] lineArr;
+			while((line = br.readLine())!=null){
+				if(counter != 0){
 					lineArr = line.split(",");
+					if(!(lineArr.length >= 9))
+						break;
 					Bike bikeStop = new Bike(context);
 					bikeStop.set_post_id(Integer.parseInt(lineArr[0]));
 					bikeStop.set_mid_block_id(Integer.parseInt(lineArr[1]));
@@ -30,9 +34,12 @@ public class ParseCsv<E>{
 					bikeStop.set_adjacent(lineArr[6]);
 					bikeStop.set_latitude(Float.parseFloat(lineArr[7]));
 					bikeStop.set_longitude(Float.parseFloat(lineArr[8]));
+					
+					if(!ourArrays.is_full()){
+						ourArrays.push(bikeStop);
+					}
 				}
-			}else if(fileName == "PR_Parking.csv"){
-				
+				counter++;
 			}
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -45,5 +52,4 @@ public class ParseCsv<E>{
 	private
 		Context context;
 		String fileName;
-		JStack<E> ourArrays;
 }

@@ -90,8 +90,12 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyDrBtrVk47ZgAV85yCFry8mqLtR189fDmE" />
         <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDw6yWoiq_1iVe6YSp7AzkaUb7o8Ud_VkA" />
+        <meta-data
   			android:name="com.google.android.gms.version"
    	 		android:value="@integer/google_play_services_version" />
+        
     </application>
 
 </manifest>
