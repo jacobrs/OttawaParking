@@ -8,9 +8,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Main" >
 
-    <TextView
+    <Button
+        android:id="@+id/btnBike"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:text="Bike Parking" />
+
+    <Button
+        android:id="@+id/btnCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnBike"
+        android:layout_alignRight="@+id/btnBike"
+        android:layout_below="@+id/btnBike"
+        android:layout_marginTop="50dp"
+        android:text="Car Parking" />
+
+    <Button
+        android:id="@+id/btnStub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCar"
+        android:layout_alignRight="@+id/btnCar"
+        android:layout_below="@+id/btnCar"
+        android:layout_marginTop="60dp"
+        android:text="Stub" />
 
 </RelativeLayout>

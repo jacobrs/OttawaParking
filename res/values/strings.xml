@@ -4,5 +4,8 @@
     <string name="app_name">OttawaParking</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="lblBike">Bike Menu</string>
+    <string name="lblCar">Car Menu</string>
+    <string name="lblStub">Stub Menu</string>
 
 </resources>

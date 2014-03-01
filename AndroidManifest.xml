@@ -15,7 +15,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="ca.ottawaparking.Splash"
-            android:label="@string/app_name" >
+            android:label="@string/app_name" 
+            android:noHistory="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -26,6 +27,30 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="ca.ottawaparking.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.ottawaparking.BikeMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="ca.ottawaparking.BIKE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.ottawaparking.CarMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="ca.ottawaparking.CAR" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.ottawaparking.StubMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="ca.ottawaparking.STUB" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
