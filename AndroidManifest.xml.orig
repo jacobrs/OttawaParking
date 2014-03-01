@@ -17,10 +17,6 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
     Google Maps Android API v2, but are recommended. -->
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-<<<<<<< HEAD
-
-=======
->>>>>>> c011d0ba8e6b8d1da84a0c7871eb2a1d5f4bafd6
 <uses-permission android:name="android.permission.LOCATION_HARDWARE"/>
    
 <uses-feature
@@ -87,19 +83,27 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
         </activity>
         <!-- RELEASE key -->
         <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCjCJMGszhGKoPc7DECWxqhebScnC57YIo" />
+  			android:name="com.google.android.gms.version"
+   	 		android:value="@integer/google_play_services_version" />
 
         <!-- DEBUG key -->
+         <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDw6yWoiq_1iVe6YSp7AzkaUb7o8Ud_VkA" /> 
+         <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDrBtrVk47ZgAV85yCFry8mqLtR189fDmE" /> 
+            
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyDrBtrVk47ZgAV85yCFry8mqLtR189fDmE" />
-        <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyDw6yWoiq_1iVe6YSp7AzkaUb7o8Ud_VkA" />
+<<<<<<< HEAD
+            android:value="AIzaSyBLfEKgb-I4QXqRFWefaod8fHIzMq967fU" />
+=======
+            android:value="AIzaSyDPvVROn6dkxoQuP3wTQMpULDAK2tL4CMc" />
         <meta-data
   			android:name="com.google.android.gms.version"
    	 		android:value="@integer/google_play_services_version" />
+>>>>>>> e30ac414194b62369bb8d325242711a35f6eb4a3
         
     </application>
 
