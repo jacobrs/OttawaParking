@@ -2,7 +2,6 @@
  * 
  */
 package ca.ottawaparking;
-import java.lang.Throwable;
 
 /**
  * @author Jacob Gagne
