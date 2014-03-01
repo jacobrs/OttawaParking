@@ -38,7 +38,7 @@ public class BikeMenu extends FragmentActivity{
 	ArrayAdapter<String> adapter;
 	JStack<Bike> ourStack = new JStack<Bike>(1000);
 	int amtIteration = 0;
-	final int AMOUNT_OF_VIEWS = 500;
+	final int AMOUNT_OF_VIEWS = 15;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

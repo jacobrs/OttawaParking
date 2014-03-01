@@ -22,11 +22,11 @@ public class Car extends Application{
 		FacilityId = id;		
 	}
 	
-	public void setAddress(string name){
-		address = name;		
+	public void setAddress(String lineArr){
+		address = lineArr;		
 	}
 	
-	public void setSurface(string surf){
+	public void setSurface(String surf){
 		address = surf;		
 	}
 	
@@ -42,7 +42,7 @@ public class Car extends Application{
 		pay = c;		
 	}
 	
-	public void setPayType(string ptype){
+	public void setPayType(String ptype){
 		payType = ptype;		
 	}
 	
@@ -81,19 +81,19 @@ public class Car extends Application{
 		return -1;
 	}
 	
-	public string getAddress(){
+	public String getAddress(){
 		if(address != null)
 			return address;
 		return null;
 	}
 	
-	public string getSurface(){
+	public String getSurface(){
 		if(surface != null)
 			return surface;
 		return null;
 	}
 	
-	public string getPayType(){
+	public String getPayType(){
 		if(payType != null)
 			return payType;
 		return null;
@@ -141,9 +141,9 @@ public class Car extends Application{
 		return 0;
 	}
 	
-	public float getDist(double latin, double longin){
+	public double getDist(double latin, double longin){
 		// Calculates the distance between the current bike stop and another coordinate
-		return (float)(Math.sqrt(Math.pow((longin-lon),2) + Math.pow((latin - lat), 2)));
+		return (double)(Math.sqrt(Math.pow((longin-lon),2) + Math.pow((latin - lat), 2)));
 	}
 	
 	private
@@ -151,12 +151,12 @@ public class Car extends Application{
 		int ObjId = -1;
 		int ParkId = -1;
 		int FacilityId = -1;
-		string address = null;
-		string surface = null;
+		String address = null;
+		String surface = null;
 		int capacity = -1;
 		int handicap = -1;
 		char pay = 0;
-		string payType = null;
+		String payType = null;
 		char lighting = 0;
 		char fenced = 0;
 		double lat = 0;

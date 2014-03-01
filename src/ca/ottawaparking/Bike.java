@@ -80,21 +80,21 @@ public class Bike{
 		return null;
 	}
 	
-	public void set_latitude(float set){
+	public void set_latitude(double set){
 		lat = set;
 	}
 	
-	public float get_latitude(){
+	public double get_latitude(){
 		if(lat != 0)
 			return lat;
 		return 0;
 	}
 	
-	public void set_longitude(float set){
+	public void set_longitude(double set){
 		lon = set;
 	}
 	
-	public float get_longitude(){
+	public double get_longitude(){
 		if(lon != 0)
 			return lon;
 		return 0;
@@ -120,9 +120,9 @@ public class Bike{
 		return null;
 	}
 	
-	public float getDist(double latin, double longin){
+	public double getDist(double latin, double longin){
 		// Calculates the distance between the current bike stop and another coordinate
-		return (float)(Math.sqrt(Math.pow((longin-lon),2) + Math.pow((latin - lat), 2)));
+		return (double)(Math.sqrt(Math.pow((longin-lon),2) + Math.pow((latin - lat), 2)));
 	}
 	
 	private
@@ -134,8 +134,8 @@ public class Bike{
 		String street_3 = null;
 		String Side = null;
 		String adjacent_to = null;
-		float lat = 0;
-		float lon = 0;
+		double lat = 0;
+		double lon = 0;
 		String core = null;
 		String notes = null;
 }
