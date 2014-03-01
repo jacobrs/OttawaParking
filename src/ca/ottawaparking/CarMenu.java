@@ -1,5 +1,14 @@
 package ca.ottawaparking;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
@@ -15,14 +24,24 @@ public class CarMenu extends FragmentActivity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.carmenu);
 		
-		/*testCar = new Car[351];
-		
-		for(int i = 0; i < 350; i++)
-			testCar[i] = new Car(this);
-		
-		testCar[0].setFacId(25);
-		System.out.println("Facility Id: " + testCar[0].getFacId());*/
-		
+		// Get location
+		LocationManager locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
+		Criteria criteria = new Criteria();
+		String provider = locationManager.getBestProvider(criteria, true);
+		Location lastknownloc = locationManager.getLastKnownLocation(provider);
+
+		GoogleMap map = ((MapFragment) getFragmentManager()
+                .findFragmentById(R.id.map)).getMap();
+
+        LatLng ott = new LatLng(lastknownloc.getLatitude(), lastknownloc.getLongitude());
+
+        map.setMyLocationEnabled(true);
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(ott, 13));
+
+        map.addMarker(new MarkerOptions()
+                .title("You")
+                .snippet("You are here ;)")
+                .position(ott));
 		
 		TabHost th = (TabHost)findViewById(R.id.tabhost);
 		//automatically set up the basics
