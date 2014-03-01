@@ -1,0 +1,119 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=4924, tid=4304
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_51-b13) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.51-b03 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002a00800):  JavaThread "Unknown thread" [_thread_in_vm, id=4304, stack(0x0000000002880000,0x0000000002980000)]
+
+Stack: [0x0000000002880000,0x0000000002980000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002a00800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4304, stack(0x0000000002880000,0x0000000002980000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.055 loading class 0x0000000002a44890 done
+Event: 0.056 loading class 0x0000000002a442b0 done
+Event: 0.056 loading class 0x0000000002a44290
+Event: 0.057 loading class 0x0000000002a4c390
+Event: 0.057 loading class 0x0000000002a4c390 done
+Event: 0.057 loading class 0x0000000002a4c3c0
+Event: 0.057 loading class 0x0000000002a4c3c0 done
+Event: 0.057 loading class 0x0000000002a4c3f0
+Event: 0.058 loading class 0x0000000002a4c3f0 done
+Event: 0.058 loading class 0x0000000002a44290 done
+
+
+Dynamic libraries:
+0x00007ff754750000 - 0x00007ff754783000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x00007fffb8ea0000 - 0x00007fffb9049000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007fffb7f50000 - 0x00007fffb8089000 	C:\WINDOWS\system32\KERNEL32.DLL
+0x00007fffb6620000 - 0x00007fffb672f000 	C:\WINDOWS\system32\KERNELBASE.dll
+0x00007fffb4e50000 - 0x00007fffb4edb000 	C:\WINDOWS\system32\apphelp.dll
+0x00007fffa5350000 - 0x00007fffa539f000 	C:\WINDOWS\AppPatch\AppPatch64\AcGenral.DLL
+0x00007fffb6a50000 - 0x00007fffb6af7000 	C:\WINDOWS\system32\msvcrt.dll
+0x00007fffb6000000 - 0x00007fffb602b000 	C:\WINDOWS\SYSTEM32\SspiCli.dll
+0x00007fffb8810000 - 0x00007fffb8861000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x00007fffb80f0000 - 0x00007fffb8261000 	C:\WINDOWS\system32\USER32.dll
+0x00007fffb8870000 - 0x00007fffb89e6000 	C:\WINDOWS\system32\ole32.dll
+0x00007fffb6b10000 - 0x00007fffb7f1f000 	C:\WINDOWS\system32\SHELL32.dll
+0x00007fffb5900000 - 0x00007fffb591f000 	C:\WINDOWS\SYSTEM32\USERENV.dll
+0x00007fffb8b10000 - 0x00007fffb8bb5000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x00007fffac460000 - 0x00007fffac47b000 	C:\WINDOWS\SYSTEM32\MPR.dll
+0x00007fffb6730000 - 0x00007fffb6866000 	C:\WINDOWS\system32\RPCRT4.dll
+0x00007fffb8090000 - 0x00007fffb80e7000 	C:\WINDOWS\SYSTEM32\sechost.dll
+0x00007fffb6870000 - 0x00007fffb6a47000 	C:\WINDOWS\SYSTEM32\combase.dll
+0x00007fffb8470000 - 0x00007fffb85b5000 	C:\WINDOWS\system32\GDI32.dll
+0x00007fffb6220000 - 0x00007fffb6234000 	C:\WINDOWS\SYSTEM32\profapi.dll
+0x00007fffb4870000 - 0x00007fffb4911000 	C:\WINDOWS\SYSTEM32\SHCORE.dll
+0x00007fffb8c80000 - 0x00007fffb8cb4000 	C:\WINDOWS\system32\IMM32.DLL
+0x00007fffb8cc0000 - 0x00007fffb8df8000 	C:\WINDOWS\system32\MSCTF.dll
+0x00007fffb3e10000 - 0x00007fffb406a000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.16384_none_62475f7becb72503\COMCTL32.dll
+0x0000000070be0000 - 0x0000000070cb2000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x000000006e860000 - 0x000000006f029000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x00007fffa33d0000 - 0x00007fffa33d9000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007fffaf070000 - 0x00007fffaf08f000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007fffb6b00000 - 0x00007fffb6b07000 	C:\WINDOWS\system32\PSAPI.DLL
+0x00007fffb8270000 - 0x00007fffb82c8000 	C:\WINDOWS\system32\WS2_32.dll
+0x00007fffaf040000 - 0x00007fffaf06a000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007fffb7f20000 - 0x00007fffb7f29000 	C:\WINDOWS\system32\NSI.dll
+0x00007fffb65d0000 - 0x00007fffb661a000 	C:\WINDOWS\SYSTEM32\cfgmgr32.dll
+0x00007fffb50d0000 - 0x00007fffb50f6000 	C:\WINDOWS\SYSTEM32\DEVOBJ.dll
+0x0000000070bd0000 - 0x0000000070bdf000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x0000000070ba0000 - 0x0000000070bc8000 	C:\Program Files\Java\jre7\bin\java.dll
+0x0000000070b80000 - 0x0000000070b95000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Users\George\Documents\Eclipse\sdk\platforms\android-19\android.jar 
+java_command: ca.ottawaparking.Parse
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Live\Shared;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Java\jdk\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell
+USERNAME=George
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=AMD64 Family 21 Model 16 Stepping 1, AuthenticAMD
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 4 (4 cores per cpu, 1 threads per core) family 21 model 16 stepping 1, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, mmxext, 3dnowpref, lzcnt, sse4a, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 7826516k(5245928k free), swap 9317460k(4825824k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.51-b03) for windows-amd64 JRE (1.7.0_51-b13), built on Dec 18 2013 18:40:56 by "java_re" with unknown MS VC++:1600
+
+time: Sat Mar 01 02:06:12 2014
+elapsed time: 0 seconds
+
