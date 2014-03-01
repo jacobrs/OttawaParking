@@ -69,7 +69,7 @@ public class BikeMenu extends FragmentActivity{
 			Location lastknownloc = locationManager.getLastKnownLocation(provider);
 			if(lastknownloc != null){
 				ourStack.BikeSort(lastknownloc);
-				Toast.makeText(this, ourStack.printBikeStack(lastknownloc), Toast.LENGTH_LONG).show();
+				//Toast.makeText(this, ourStack.printBikeStack(lastknownloc), Toast.LENGTH_LONG).show();
 				GoogleMap map = ((MapFragment) getFragmentManager()
 		                .findFragmentById(R.id.map)).getMap();
 		
@@ -137,7 +137,7 @@ public class BikeMenu extends FragmentActivity{
                   "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
                   .show();
                 
-                if(position%AMOUNT_OF_VIEWS == 0 && position != 0 && position < ourStack.getTopIndex()){
+                if(position%(AMOUNT_OF_VIEWS*amtIteration) == 0 && position != 0 && position < ourStack.getTopIndex()){
                 	list.remove(position);
                 	adapter.notifyDataSetChanged();
                 	
@@ -157,10 +157,12 @@ public class BikeMenu extends FragmentActivity{
                 	}
                 	amtIteration++;
                 	adapter.notifyDataSetChanged();
-                }else if(!(position%AMOUNT_OF_VIEWS == 0)){
+                }else if(!(position%(AMOUNT_OF_VIEWS*amtIteration) == 0) || position == 0){
                 	//start new fragment activity
-                	Intent openMapMarker = new Intent("ca.ottawaparking.LOCATEPARKING");
-    				//openMapMarker.putExtra("buttonClicked", 1);
+                	Intent openMapMarker = new Intent(BikeMenu.this, IndividualMapMarker.class);
+    				openMapMarker.putExtra("longitude", ourStack.getElement(ourStack.getTopIndex() - (position)).get_longitude());
+    				openMapMarker.putExtra("latitude", ourStack.getElement(ourStack.getTopIndex() - (position)).get_latitude());
+    				openMapMarker.putExtra("location", ourStack.getElement(ourStack.getTopIndex() - (position)).get_adjacent());
     				startActivity(openMapMarker);
                 }
              }
