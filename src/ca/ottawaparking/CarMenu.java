@@ -1,12 +1,12 @@
 package ca.ottawaparking;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
-public class CarMenu extends Activity{
+public class CarMenu extends FragmentActivity{
 	//public Car[] testCar;
 	
 	@Override
