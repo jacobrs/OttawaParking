@@ -9,15 +9,6 @@
     tools:context=".Main" >
 
     <Button
-        android:id="@+id/btnBike"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="72dp"
-        android:text="Bike Parking" />
-
-    <Button
         android:id="@+id/btnCar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,7 +16,16 @@
         android:layout_alignRight="@+id/btnBike"
         android:layout_below="@+id/btnBike"
         android:layout_marginTop="50dp"
-        android:text="Car Parking" />
+        android:text="@string/txtCar" />
+
+    <Button
+        android:id="@+id/btnBike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/txtBike" />
 
     <Button
         android:id="@+id/btnStub"
@@ -34,7 +34,17 @@
         android:layout_alignLeft="@+id/btnCar"
         android:layout_alignRight="@+id/btnCar"
         android:layout_below="@+id/btnCar"
-        android:layout_marginTop="60dp"
-        android:text="Stub" />
+        android:layout_marginTop="44dp"
+        android:text="@string/txtStub" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnStub"
+        android:layout_alignRight="@+id/btnStub"
+        android:layout_below="@+id/btnStub"
+        android:layout_marginTop="47dp"
+        android:text="@string/txtAbout" />
 
 </RelativeLayout>

@@ -7,5 +7,13 @@
     <string name="lblBike">Bike Menu</string>
     <string name="lblCar">Car Menu</string>
     <string name="lblStub">Stub Menu</string>
-
+    <string name="txtCar">Car Parking</string>
+ 	<string name="txtBike">Bike Parking</string>
+ 	<string name="txtStub">Stub Parking</string>
+ 	<string name="txtAbout">About</string>
+ 	
+ 	<string name="firstAbout">\nJAGB Technologies\n</string>
+ 	<string name="secondAbout">Developed by: \n\nJacob Gagné, Alex Genio, George Grafos, and Ben Barault</string>
+ 	
+ 	
 </resources>

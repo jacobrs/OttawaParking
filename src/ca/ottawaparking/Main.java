@@ -8,6 +8,7 @@ package ca.ottawaparking;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
@@ -23,6 +24,7 @@ public class Main extends Activity {
 		Button bikeActivity = (Button)findViewById(R.id.btnBike);
 		Button carActivity = (Button)findViewById(R.id.btnCar);
 		Button stubActivity = (Button)findViewById(R.id.btnStub);
+		Button about = (Button)findViewById(R.id.btnAbout);
 		
 		bikeActivity.setOnClickListener(new View.OnClickListener() {
 			
@@ -57,6 +59,15 @@ public class Main extends Activity {
 			}
 		});
 		
+		about.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent openAbout = new Intent("ca.ottawaparking.ABOUT");
+				startActivity(openAbout);
+			}
+		});
 	}
 
 	@Override

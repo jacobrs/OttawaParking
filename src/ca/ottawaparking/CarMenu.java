@@ -2,6 +2,7 @@ package ca.ottawaparking;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.Menu;
 
 public class CarMenu extends Activity{
 
@@ -12,4 +13,10 @@ public class CarMenu extends Activity{
 		setContentView(R.layout.carmenu);
 	}
 
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
 }

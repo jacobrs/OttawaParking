@@ -15,7 +15,12 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="ca.ottawaparking.Splash"
+<<<<<<< HEAD
             android:label="@string/app_name" >
+=======
+            android:label="@string/app_name" 
+             >
+>>>>>>> d38a26b5d9373c3931ac0d3f3d17da95fe43979f
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -50,6 +55,15 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="ca.ottawaparking.STUB" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.ottawaparking.About"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="ca.ottawaparking.ABOUT" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
