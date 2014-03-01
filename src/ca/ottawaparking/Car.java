@@ -54,11 +54,11 @@ public class Car extends Application{
 		fenced = fence;		
 	}
 	
-	public void setLatitude(float x){
+	public void setLatitude(double x){
 		lat = x;		
 	}
 	
-	public void setLongitude(float y){
+	public void setLongitude(double y){
 		lon = y;		
 	}
 	
@@ -129,21 +129,21 @@ public class Car extends Application{
 		return 0;
 	}
 	
-	public float getLat(){
+	public double getLat(){
 		if(lat != 0)
 			return lat;
 		return 0;
 	}
 	
-	public float getLong(){
+	public double getLong(){
 		if(lon != 0)
 			return lon;
 		return 0;
 	}
 	
-	public float getDist(float latin, float longin){
+	public double getDist(double latin, double longin){
 		// Calculates the distance between the current bike stop and another coordinate
-		return (float)(Math.sqrt(Math.pow((longin-lon),2) + Math.pow((latin - lat), 2)));
+		return (double)(Math.sqrt(Math.pow((longin-lon),2) + Math.pow((latin - lat), 2)));
 	}
 	
 	private
@@ -159,6 +159,6 @@ public class Car extends Application{
 		String payType = null;
 		char lighting = 0;
 		char fenced = 0;
-		float lat = 0;
-		float lon = 0;
+		double lat = 0;
+		double lon = 0;
 }
