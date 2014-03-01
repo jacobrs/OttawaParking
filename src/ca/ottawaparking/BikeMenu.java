@@ -10,6 +10,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
@@ -47,7 +50,30 @@ public class BikeMenu extends FragmentActivity{
 		ParseCsv<Bike> parsedBikes = new ParseCsv<Bike>(this, "bikeParking.csv");
 		JStack<Bike> ourStack = new JStack<Bike>(1000);
 		ourStack = parsedBikes.parseBikeFile();
+		// Toast.makeText(this, ourStack.printBikeStack(), Toast.LENGTH_LONG).show();
+		// Get location
+		LocationManager locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
+		Criteria criteria = new Criteria();
+		String provider = locationManager.getBestProvider(criteria, true);
+		// Check if a location provider is available and valid
+		if(provider != null){
+			Location lastknownloc = locationManager.getLastKnownLocation(provider);
+			if(lastknownloc != null){
+				// ourStack.BikeSort(lastknownloc);
+				// Toast.makeText(this, ourStack.printBikeStack(), Toast.LENGTH_LONG).show();
+				GoogleMap map = ((MapFragment) getFragmentManager()
+		                .findFragmentById(R.id.map)).getMap();
 		
+		        LatLng ott = new LatLng(lastknownloc.getLatitude(), lastknownloc.getLongitude());
+		        map.setMyLocationEnabled(true);
+		        map.moveCamera(CameraUpdateFactory.newLatLngZoom(ott, 13));
+		
+		        map.addMarker(new MarkerOptions()
+		                .title("You")
+		                .snippet("You are here ;)")
+		                .position(ott));
+			}else Toast.makeText(this, "Location Unavailable, check settings", Toast.LENGTH_LONG).show();
+		}else Toast.makeText(this, "Unable to find suitable Provider", Toast.LENGTH_LONG).show();
 		TabHost th = (TabHost)findViewById(R.id.tabhost);
 		//automatically set up the basics
 		th.setup();

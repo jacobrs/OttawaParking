@@ -23,6 +23,15 @@ public class JStack<E>{
 	private int size;
 	private E[] items;
 	
+	public String printBikeStack(){
+		String out = "";
+		for(int n = 0; n < top-1; n++){
+			Bike tmp = (Bike)items[n];
+			out += ""+tmp.getDist(45.4214, -75.6919)+"\n";
+		}
+		return out;
+	}
+	
 	public JStack(int insize){
 			size = insize;
 			top = -1;
@@ -74,7 +83,7 @@ public class JStack<E>{
 		E temp;
 		while(flag){
 			flag = false;
-			for(j = 0; j < size-1; j++){
+			for(j = 0; j < top; j++){
 				Bike low = (Bike)items[j];
 				Bike high = (Bike)items[j+1];
 				if(low.getDist(curr.getLatitude(), curr.getLongitude()) < high.getDist(curr.getLatitude(), curr.getLongitude())){	
