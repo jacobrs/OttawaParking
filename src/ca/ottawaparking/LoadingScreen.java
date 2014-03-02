@@ -22,6 +22,7 @@ public class LoadingScreen extends Activity {
 			public void run() {
 				//retrieve variable from main
 				int buttonClicked = getIntent().getExtras().getInt("buttonClicked");
+				System.out.println(buttonClicked);
 				//depending on button clicked, open class
 				if(buttonClicked == 0) {
 					mainIntent = new Intent(LoadingScreen.this, BikeMenu.class);
@@ -33,6 +34,15 @@ public class LoadingScreen extends Activity {
 				}
 				else if(buttonClicked == 2) { 
 					mainIntent = new Intent(LoadingScreen.this, StubMenu.class);
+					mainIntent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+				}else if(buttonClicked == 3) {
+					mainIntent = new Intent(LoadingScreen.this, BikeMenuLower.class);
+					mainIntent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+				}else if(buttonClicked == 4) {
+					mainIntent = new Intent(LoadingScreen.this, CarMenuLower.class);
+					mainIntent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+				}else if(buttonClicked == 5) {
+					mainIntent = new Intent(LoadingScreen.this, StubMenuLower.class);
 					mainIntent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
 				}
 				
