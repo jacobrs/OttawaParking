@@ -6,12 +6,8 @@ import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 import android.location.Criteria;
 import android.location.Location;
@@ -27,8 +23,6 @@ import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 import android.widget.Toast;
-import android.app.AlertDialog;
-import android.app.LauncherActivity.ListItem;
 import android.content.*;
 
 public class BikeMenu extends FragmentActivity{
@@ -60,17 +54,64 @@ public class BikeMenu extends FragmentActivity{
 			if(lastknownloc != null){
 				ourStack.BikeSort(lastknownloc);
 				//Toast.makeText(this, ourStack.printBikeStack(lastknownloc), Toast.LENGTH_LONG).show();
+				
+				//final double radius = 0.1;
+				final int points = 4;
+				int count = 0;
+				JStack<Bike> tmpStack = new JStack<Bike>(ourStack.getTopIndex());
+				int pointer = ourStack.getTopIndex();
+				while((count < points) && (pointer > 0)){
+					try{
+						System.out.println(pointer);
+						tmpStack.push(ourStack.getElement(pointer));
+						pointer--;
+						count++;
+					}catch(NegativeArraySizeException e){
+						pointer = -1;
+						System.out.println("Stack Overflow");
+					}
+				}
 				GoogleMap map = ((MapFragment) getFragmentManager()
-		                .findFragmentById(R.id.map)).getMap();
-		
+		                .findFragmentById(R.id.nearest)).getMap();
 		        LatLng ott = new LatLng(lastknownloc.getLatitude(), lastknownloc.getLongitude());
 		        map.setMyLocationEnabled(true);
-		        map.moveCamera(CameraUpdateFactory.newLatLngZoom(ott, 13));
-		
-		        map.addMarker(new MarkerOptions()
-		                .title("You")
-		                .snippet("You are here ;)")
-		                .position(ott));
+		        map.moveCamera(CameraUpdateFactory.newLatLngZoom(ott, 5));
+				
+		        while(!tmpStack.is_empty()){
+					Bike filler = tmpStack.pop();
+		        	LatLng fill = new LatLng(filler.get_latitude(), filler.get_longitude());
+					map.addMarker(new MarkerOptions()
+	                .title(filler.get_street_1())
+	                .snippet(filler.get_notes())
+	                //.anchor((float)filler.get_latitude(), (float)filler.get_longitude())
+	                .position(fill));
+				}
+		        JStack<Bike> tmpStackAll = new JStack<Bike>(ourStack.getTopIndex());
+		        int pointerAll = ourStack.getTopIndex();
+				while(pointerAll >= 0){
+					System.out.println(pointerAll);
+					try{
+						tmpStackAll.push(ourStack.getElement(pointerAll));
+						pointerAll--;
+					}catch(NegativeArraySizeException e){
+						pointerAll = -1;
+						System.out.println("Stack Overflow");
+					}
+				}
+		        GoogleMap mapall = ((MapFragment) getFragmentManager()
+		                .findFragmentById(R.id.map)).getMap();
+		        LatLng ottall = new LatLng(lastknownloc.getLatitude(), lastknownloc.getLongitude());
+		        mapall.setMyLocationEnabled(false);
+		        mapall.moveCamera(CameraUpdateFactory.newLatLngZoom(ottall, 5));
+				
+		        while(!tmpStackAll.is_empty()){
+					Bike filler = tmpStackAll.pop();
+		        	LatLng fill = new LatLng(filler.get_latitude(), filler.get_longitude());
+					mapall.addMarker(new MarkerOptions()
+	                .title(filler.get_street_1())
+	                .snippet(filler.get_notes())
+	                .position(fill));
+				}
 			}else Toast.makeText(this, "Location Unavailable, check settings", Toast.LENGTH_LONG).show();
 		}else Toast.makeText(this, "Unable to find suitable Provider", Toast.LENGTH_LONG).show();
 		TabHost th = (TabHost)findViewById(R.id.tabhost);
@@ -87,7 +128,7 @@ public class BikeMenu extends FragmentActivity{
 		
 		// Get ListView object from xml
         listView = (ListView) findViewById(R.id.list);
-     // Defined Array values to show in ListView
+        // Defined Array values to show in ListView
         String[] values = new String[AMOUNT_OF_VIEWS+1];
         
         int counter = 0;
