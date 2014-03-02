@@ -196,7 +196,8 @@ public class BikeMenu extends FragmentActivity{
     				openMapMarker.putExtra("location", ourStack.getElement(ourStack.getTopIndex() - (position)).get_adjacent());
     				startActivity(openMapMarker);
                 }
-             }
+             } 
+             
          }); 
         
 		specs = th.newTabSpec("tag2");
