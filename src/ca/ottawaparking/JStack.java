@@ -120,6 +120,26 @@ public class JStack<E>{
 		}
 		return true;
 	}
+		// WARNING: ONLY USE IF STACK OF RINKS
+	public boolean RinkSort(Location curr){
+		int j;
+		boolean flag = true;
+		E temp;
+		while(flag){
+			flag = false;
+			for(j = 0; j < top; j++){
+				Rinks low = (Rinks)items[j];
+				Rinks high = (Rinks)items[j+1];
+				if(low.getDist((float)curr.getLatitude(), (float)curr.getLongitude()) < high.getDist((float)curr.getLatitude(), (float)curr.getLongitude())){	
+					temp = items[j];
+					items[j] = items[j+1];
+					items[j+1] = temp;
+					flag = true;
+				}
+			}
+		}
+		return true;
+	}
 	
 	public E getElement(int location){
 		return items[location];
