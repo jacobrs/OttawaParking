@@ -12,65 +12,102 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.view.Menu;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 
 public class Main extends Activity {
 	//public JStack<String> newstack;
 	public int buttonClicked; //determines which menu to open
-	
+	Button bikeActivity;
+	Button carActivity;
+	Button stubActivity;
+	Button about;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		//newstack = new JStack<String>(4);
 		//String tmp = newstack.is_full()+"";
-		Button bikeActivity = (Button)findViewById(R.id.btnBike);
-		Button carActivity = (Button)findViewById(R.id.btnCar);
-		Button stubActivity = (Button)findViewById(R.id.btnStub);
-		Button about = (Button)findViewById(R.id.btnAbout);
+		bikeActivity = (Button)findViewById(R.id.btnBike);
+		carActivity = (Button)findViewById(R.id.btnCar);
+		stubActivity = (Button)findViewById(R.id.btnStub);
+		about = (Button)findViewById(R.id.btnAbout);
 		// Toast.makeText(this, "The Dist is:"+test.getDist(-4, 4), Toast.LENGTH_LONG).show();
-		bikeActivity.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				//Intent openBikeMenu = new Intent("ca.ottawaparking.BIKE");
-				Intent openBikeMenu = new Intent(Main.this, LoadingScreen.class);
-				openBikeMenu.putExtra("buttonClicked", 0);
-				startActivity(openBikeMenu);
-			}
+		System.out.println(bikeActivity);
+		System.out.println(carActivity);
+		System.out.println(stubActivity);
+		System.out.println(about);
+		
+		bikeActivity.setOnTouchListener(new View.OnTouchListener() {
+		    @Override
+		    public boolean onTouch(View v, MotionEvent event) {
+		        switch(event.getAction()) {
+		        case MotionEvent.ACTION_DOWN:
+		            bikeActivity.setBackgroundResource(R.drawable.bikebuttonpressed);
+		            Intent openBikeMenu = new Intent(Main.this, LoadingScreen.class);
+		            openBikeMenu.putExtra("buttonClicked", 0);
+		            startActivity(openBikeMenu);
+		            return true;
+		        case MotionEvent.ACTION_UP:
+		        	bikeActivity.setBackgroundResource(R.drawable.bikebutton);
+		        	return true;
+		        }
+		        return false;
+		    }
 		});
 		
-		carActivity.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				Intent openCarMenu = new Intent(Main.this, LoadingScreen.class);
-				openCarMenu.putExtra("buttonClicked", 1);
-				startActivity(openCarMenu);
-			}
+		carActivity.setOnTouchListener(new View.OnTouchListener() {
+		    @Override
+		    public boolean onTouch(View v, MotionEvent event) {
+		        switch(event.getAction()) {
+		        case MotionEvent.ACTION_DOWN:
+		        	carActivity.setBackgroundResource(R.drawable.carbuttonpressed);
+		        	Intent openCarMenu = new Intent(Main.this, LoadingScreen.class);
+		            openCarMenu.putExtra("buttonClicked", 1);
+		            startActivity(openCarMenu);
+		        	return true;
+		        case MotionEvent.ACTION_UP:
+		        	carActivity.setBackgroundResource(R.drawable.carbutton);
+		        	return true;
+		        }
+		        return false;
+		    }
 		});
 
-		stubActivity.setOnClickListener(new View.OnClickListener() {
-	
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				Intent openStubMenu = new Intent(Main.this, LoadingScreen.class);
-				openStubMenu.putExtra("buttonClicked", 2);
-				startActivity(openStubMenu);
-			}
+		stubActivity.setOnTouchListener(new View.OnTouchListener() {
+		    @Override
+		    public boolean onTouch(View v, MotionEvent event) {
+		        switch(event.getAction()) {
+		        case MotionEvent.ACTION_DOWN:
+		        	stubActivity.setBackgroundResource(R.drawable.hockeybuttonpressed);
+		        	Intent openHockeyMenu = new Intent(Main.this, LoadingScreen.class);
+		            openHockeyMenu.putExtra("buttonClicked", 2);
+		            startActivity(openHockeyMenu);
+		        	return true;
+		        case MotionEvent.ACTION_UP:
+		        	stubActivity.setBackgroundResource(R.drawable.hockeybutton);
+		        	return true;
+		        }
+		        return false;
+		    }
 		});
 		
-		about.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				Intent openAbout = new Intent("ca.ottawaparking.ABOUT");
-				startActivity(openAbout);
-			}
+		about.setOnTouchListener(new View.OnTouchListener() {
+		    @Override
+		    public boolean onTouch(View v, MotionEvent event) {
+		        switch(event.getAction()) {
+		        case MotionEvent.ACTION_DOWN:
+		        	about.setBackgroundResource(R.drawable.aboutbuttonpressed);
+		        	Intent openAbout = new Intent("ca.ottawaparking.ABOUT");
+		            startActivity(openAbout);
+		        	return true;
+		        case MotionEvent.ACTION_UP:
+		        	about.setBackgroundResource(R.drawable.aboutbutton);
+		        	return true;
+		        }
+		        return false;
+		    }
 		});
 	}
 
