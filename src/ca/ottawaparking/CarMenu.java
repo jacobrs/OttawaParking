@@ -146,7 +146,7 @@ public class CarMenu extends FragmentActivity{
         
         values[AMOUNT_OF_VIEWS] = "View More";
         
-     // Define a new Adapter
+        // Define a new Adapter
         // First parameter - Context
         // Second parameter - Layout for the row
         // Third parameter - ID of the TextView to which the data is written
@@ -164,19 +164,19 @@ public class CarMenu extends FragmentActivity{
               public void onItemClick(AdapterView<?> parent, View view,
                  int position, long id) {
                 
-            	// ListView Clicked item index
-                  int itemPosition     = position;
-                  
-                  // ListView Clicked item value
-                  String  itemValue    = (String) listView.getItemAtPosition(position);
-                     
-                   // Show Alert 
+            	  // ListView Clicked item index
+	              int itemPosition     = position;
+	              
+	              // ListView Clicked item value
+	              String  itemValue    = (String) listView.getItemAtPosition(position);
+	                 
+                  // Show Alert 
                   /* 
                   Toast.makeText(getApplicationContext(),
                      "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
                      .show();
-                   */
-                   if(position%(AMOUNT_OF_VIEWS*amtIteration) == 0 && position != 0 && position < ourStack.getTopIndex()){
+                  */
+	              if(position%(AMOUNT_OF_VIEWS*amtIteration) == 0 && position != 0 && position < ourStack.getTopIndex()){
                    	list.remove(position);
                    	adapter.notifyDataSetChanged();
                    	
@@ -293,6 +293,8 @@ public class CarMenu extends FragmentActivity{
 						}
 					}
 				}
+			
+				
 			}
 		});
 	}
