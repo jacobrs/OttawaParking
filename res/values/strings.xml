@@ -13,7 +13,7 @@
  	<string name="txtAbout">About</string>
  	<string name="firstAbout">JAGB Technologies</string>
  	<string name="secondAbout">Developed by: Jacob Gagné, Alex Genio, George Grafos, Ben Barault\n\nDescription:
- 	    									This application allows users to find the closest recorderd parkings and rinks.
+ 	    									This application allows users to find the closest recorded parkings and rinks.
  	    					   				Open Data is used to populate the lists of parkings and rinks.</string>
  	<string name="RefreshBtn">Refresh Location</string>
  	<string name="loading">Gathering and Parsing Data</string>

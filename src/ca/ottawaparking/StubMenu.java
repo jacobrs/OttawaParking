@@ -45,7 +45,7 @@ public class StubMenu extends Activity{
 		final Context context = this;
 		ParseCsv<Rinks> parsedRinks = new ParseCsv<Rinks>(this, "outdoorRinks.csv");
 		ourStack = parsedRinks.parseRinkFile();
-		
+		Toast.makeText(this, "Ordered by nearest to furthest", Toast.LENGTH_LONG).show();
 		LocationManager locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
 		Criteria criteria = new Criteria();
 		String provider = locationManager.getBestProvider(criteria, true);
@@ -112,8 +112,14 @@ public class StubMenu extends Activity{
 	                .snippet(filler.get_address())
 	                .position(fill));
 				}
-			}else Toast.makeText(this, "Location Unavailable, check settings", Toast.LENGTH_LONG).show();
-		}else Toast.makeText(this, "Unable to find suitable Provider", Toast.LENGTH_LONG).show();
+			}else {if(provider == "gps"){Toast.makeText(context, "Data is required to use GPS/Location", Toast.LENGTH_SHORT).show();
+			}else{
+			Toast.makeText(context, "Location Unavailable, Data is required to use GPS/Location", Toast.LENGTH_SHORT).show();}
+		}
+	}else
+	{
+		Toast.makeText(context, "Unable to find suitable Provider", Toast.LENGTH_SHORT).show();
+	}
 		
 		TabHost th = (TabHost)findViewById(R.id.tabhost);
 		//automatically set up the basics
@@ -336,8 +342,14 @@ public class StubMenu extends Activity{
 				                }
 				             }
 				         });
-					}else Toast.makeText(context, "Location Unavailable, check settings", Toast.LENGTH_SHORT).show();
-				}else Toast.makeText(context, "Unable to find suitable Provider", Toast.LENGTH_SHORT).show();
+					}else {if(provider == "gps"){Toast.makeText(context, "Data is required to use GPS/Location", Toast.LENGTH_SHORT).show();
+						}else{
+						Toast.makeText(context, "Location Unavailable, Data is required to use GPS/Location", Toast.LENGTH_SHORT).show();}
+					}
+				}else
+				{
+					Toast.makeText(context, "Unable to find suitable Provider", Toast.LENGTH_SHORT).show();
+				}
 			}
 		});
 	}

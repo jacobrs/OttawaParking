@@ -101,8 +101,14 @@ public class CarMenuLower extends FragmentActivity{
 						System.out.println("Stack Overflow");
 					}
 				}
-			}else Toast.makeText(this, "Location Unavailable, check settings", Toast.LENGTH_LONG).show();
-		}else Toast.makeText(this, "Unable to find suitable Provider", Toast.LENGTH_LONG).show();
+			}else {if(provider == "gps"){Toast.makeText(context, "Data is required to use GPS/Location", Toast.LENGTH_SHORT).show();
+			}else{
+			Toast.makeText(context, "Location Unavailable, Data is required to use GPS/Location", Toast.LENGTH_SHORT).show();}
+		}
+	}else
+	{
+		Toast.makeText(context, "Unable to find suitable Provider", Toast.LENGTH_SHORT).show();
+	}
 		TabHost th = (TabHost)findViewById(R.id.tabhost);
 		//automatically set up the basics
 		th.setup();
@@ -199,7 +205,6 @@ public class CarMenuLower extends FragmentActivity{
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				// Get location
-				map.clear();
 				LocationManager locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
 				Criteria criteria = new Criteria();
 				String provider = locationManager.getBestProvider(criteria, true);
@@ -207,6 +212,7 @@ public class CarMenuLower extends FragmentActivity{
 				if(provider != null){
 					Location lastknownloc = locationManager.getLastKnownLocation(provider);
 					if(lastknownloc != null){
+						map.clear();
 						// next line makes you Ottawanian
 						//lastknownloc.setLatitude((double)45.214);
 						//lastknownloc.setLongitude((double)-75.6919);
@@ -310,8 +316,14 @@ public class CarMenuLower extends FragmentActivity{
 				                }
 				             }
 				         }); 
-					}else Toast.makeText(context, "Location Unavailable, check settings", Toast.LENGTH_SHORT).show();
-				}else Toast.makeText(context, "Unable to find suitable Provider", Toast.LENGTH_SHORT).show();
+					}else {if(provider == "gps"){Toast.makeText(context, "Data is required to use GPS/Location", Toast.LENGTH_SHORT).show();
+					}else{
+					Toast.makeText(context, "Location Unavailable, Data is required to use GPS/Location", Toast.LENGTH_SHORT).show();}
+				}
+			}else
+			{
+				Toast.makeText(context, "Unable to find suitable Provider", Toast.LENGTH_SHORT).show();
+			}
 			}
 		});
 	}

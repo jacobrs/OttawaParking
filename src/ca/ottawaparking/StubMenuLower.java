@@ -44,10 +44,23 @@ public class StubMenuLower extends Activity{
 		final Context context = this;
 		ParseCsv<Rinks> parsedRinks = new ParseCsv<Rinks>(this, "outdoorRinks.csv");
 		ourStack = parsedRinks.parseRinkFile();
-		
+		Toast.makeText(this, "Ordered by nearest to furthest", Toast.LENGTH_LONG).show();
 		LocationManager locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
-		Criteria criteria = new Criteria();
-		String provider = locationManager.getBestProvider(criteria, true);
+		String provider;
+		if(!locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER)){
+			if(locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)){
+				provider = LocationManager.GPS_PROVIDER;
+			}
+			else{
+				provider = null;
+			}
+		}else{
+			provider = LocationManager.NETWORK_PROVIDER;
+		}
+		// Or, use GPS location data:
+		// locationProvider = LocationManager.GPS_PROVIDER;
+		//Criteria criteria = new Criteria();
+		//String provider = locationManager.getBestProvider(criteria, true);
 		// Check if a location provider is available and valid
 		if(provider != null){
 			Location lastknownloc = locationManager.getLastKnownLocation(provider);
@@ -98,8 +111,14 @@ public class StubMenuLower extends Activity{
 						System.out.println("Stack Overflow");
 					}
 				}
-			}else Toast.makeText(this, "Location Unavailable, check settings", Toast.LENGTH_LONG).show();
-		}else Toast.makeText(this, "Unable to find suitable Provider", Toast.LENGTH_LONG).show();
+			}else {if(provider == "gps"){Toast.makeText(context, "Data is required to use GPS/Location", Toast.LENGTH_SHORT).show();
+			}else{
+			Toast.makeText(context, "Location Unavailable, Data is required to use GPS/Location", Toast.LENGTH_SHORT).show();}
+		}
+	}else
+	{
+		Toast.makeText(context, "Unable to find suitable Provider", Toast.LENGTH_SHORT).show();
+	}
 		
 		TabHost th = (TabHost)findViewById(R.id.tabhost);
 		//automatically set up the basics
@@ -296,8 +315,14 @@ public class StubMenuLower extends Activity{
 				                }
 				             }
 				         });
-					}else Toast.makeText(context, "Location Unavailable, check settings", Toast.LENGTH_SHORT).show();
-				}else Toast.makeText(context, "Unable to find suitable Provider", Toast.LENGTH_SHORT).show();
+					}else {if(provider == "gps"){Toast.makeText(context, "Data is required to use GPS/Location", Toast.LENGTH_SHORT).show();
+					}else{
+					Toast.makeText(context, "Location Unavailable, Data is required to use GPS/Location", Toast.LENGTH_SHORT).show();}
+				}
+			}else
+			{
+				Toast.makeText(context, "Unable to find suitable Provider", Toast.LENGTH_SHORT).show();
+			}
 			}
 		});
 	}
