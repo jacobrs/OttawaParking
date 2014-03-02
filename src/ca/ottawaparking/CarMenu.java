@@ -17,9 +17,12 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.AdapterView.OnItemClickListener;
@@ -53,6 +56,8 @@ public class CarMenu extends FragmentActivity{
 		if(provider != null){
 			Location lastknownloc = locationManager.getLastKnownLocation(provider);
 			if(lastknownloc != null){
+				// next line makes you Ottawanian
+				// lastknownloc.setLatitude((double)45.214);lastknownloc.setLongitude((double)-75.6919);
 				ourStack.CarSort(lastknownloc);
 				final int points = 4;
 				int count = 0;
@@ -73,7 +78,6 @@ public class CarMenu extends FragmentActivity{
 				
 				map = ((MapFragment) getFragmentManager()
 		                .findFragmentById(R.id.nearest)).getMap();
-		
 		        LatLng ott = new LatLng(lastknownloc.getLatitude(), lastknownloc.getLongitude());
 		        map.setMyLocationEnabled(true);
 		        map.moveCamera(CameraUpdateFactory.newLatLngZoom(ott, 13));
@@ -167,10 +171,11 @@ public class CarMenu extends FragmentActivity{
                   String  itemValue    = (String) listView.getItemAtPosition(position);
                      
                    // Show Alert 
-                   Toast.makeText(getApplicationContext(),
+                  /* 
+                  Toast.makeText(getApplicationContext(),
                      "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
                      .show();
-                   
+                   */
                    if(position%(AMOUNT_OF_VIEWS*amtIteration) == 0 && position != 0 && position < ourStack.getTopIndex()){
                    	list.remove(position);
                    	adapter.notifyDataSetChanged();
@@ -218,17 +223,75 @@ public class CarMenu extends FragmentActivity{
 		th.setOnTabChangedListener(new TabHost.OnTabChangeListener() {
 			public void onTabChanged(String tabId) {
 				// TODO Auto-generated method stub
-				if(tabId == "tab2"){
+				System.out.println(tabId);
+				if(tabId == "tag2"){
 					View tmp = (View)findViewById(R.id.nearest);
 					tmp.setVisibility(View.VISIBLE);
 					View tmp2 = (View)findViewById(R.id.map);
 					tmp2.setVisibility(View.INVISIBLE);
 				}
-				else if(tabId == "tab3"){
+				else if(tabId == "tag3"){
 					View tmp = (View)findViewById(R.id.nearest);
 					tmp.setVisibility(View.INVISIBLE);
 					View tmp2 = (View)findViewById(R.id.map);
 					tmp2.setVisibility(View.VISIBLE);
+				}
+			}
+		});
+		
+		//=======================================================
+		// RECAL LOCATION QUERYING TO FIND UP TO DATE ON CLICK ||
+		//=======================================================
+		
+		Button ref = (Button)findViewById(R.id.nearestRefresh);
+		ref.setOnClickListener(new View.OnClickListener(){
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				// Get location
+				map.clear();
+				LocationManager locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
+				Criteria criteria = new Criteria();
+				String provider = locationManager.getBestProvider(criteria, true);
+				// Check if a location provider is available and valid
+				if(provider != null){
+					Location lastknownloc = locationManager.getLastKnownLocation(provider);
+					if(lastknownloc != null){
+						// next line makes you Ottawanian
+						// lastknownloc.setLatitude((double)45.214);lastknownloc.setLongitude((double)-75.6919);
+						ourStack.CarSort(lastknownloc);
+						final int points = 4;
+						int count = 0;
+						JStack<Car> tmpStack = new JStack<Car>(ourStack.getTopIndex());
+						int pointer = ourStack.getTopIndex();
+						while((count < points) && (pointer > 0)){
+							try{
+								tmpStack.push(ourStack.getElement(pointer));
+								pointer--;
+								count++;
+							}catch(NegativeArraySizeException e){
+								pointer = -1;
+								System.out.println("Stack Overflow");
+							}
+						}
+						map = ((MapFragment) getFragmentManager()
+				                .findFragmentById(R.id.nearest)).getMap();
+						//float ottawalat = (float) 45.4214;
+						//float ottawalon = (float) -75.6919;
+				        LatLng ott = new LatLng(lastknownloc.getLatitude(), lastknownloc.getLongitude());
+						//LatLng ott = new LatLng(ottawalat, ottawalon);
+				        map.setMyLocationEnabled(true);
+				        map.moveCamera(CameraUpdateFactory.newLatLngZoom(ott, 13));
+				        while(!tmpStack.is_empty()){
+							Car filler = tmpStack.pop();
+				        	LatLng fill = new LatLng(filler.getLat(), filler.getLong());
+							map.addMarker(new MarkerOptions()
+			                .title(filler.getAddress())
+			                .snippet("Parking Lot")
+			                //.anchor((float)filler.get_latitude(), (float)filler.get_longitude())
+			                .position(fill));
+						}
+					}
 				}
 			}
 		});
