@@ -49,7 +49,7 @@ public class BikeMenu extends FragmentActivity{
 		Context context = this;
 		ParseCsv<Bike> parsedBikes = new ParseCsv<Bike>(this, "bikeParking.csv");
 		ourStack = parsedBikes.parseBikeFile();
-		// Toast.makeText(this, ourStack.printBikeStack(), Toast.LENGTH_LONG).show();
+		Toast.makeText(this, "Ordered by nearest to furthest", Toast.LENGTH_LONG).show();
 		// Get location
 		LocationManager locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
 		Criteria criteria = new Criteria();

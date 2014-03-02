@@ -42,7 +42,7 @@ public class CarMenu extends FragmentActivity{
 		Context context = this;
 		ParseCsv<Car> parsedCars = new ParseCsv<Car>(this, "parking.csv");
 		ourStack = parsedCars.parseCarFile();
-		
+		Toast.makeText(this, "Ordered by nearest to furthest", Toast.LENGTH_LONG).show();
 		// Get location
 		LocationManager locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
 		Criteria criteria = new Criteria();
