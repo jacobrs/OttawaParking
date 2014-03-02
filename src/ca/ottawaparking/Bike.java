@@ -122,7 +122,7 @@ public class Bike{
 	
 	public double getDist(double latin, double longin){
 		// Calculates the distance between the current bike stop and another coordinate
-		return (double)(Math.sqrt(Math.pow((longin-lon),2) + Math.pow((latin - lat), 2)));
+		return (Math.sqrt(Math.pow((longin-lon),2) + Math.pow((latin - lat), 2)));
 	}
 	
 	private

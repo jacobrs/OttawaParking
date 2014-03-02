@@ -1,6 +1,5 @@
 package ca.ottawaparking;
 
-import android.R.string;
 import android.app.Application;
 import android.content.Context;
 
@@ -27,7 +26,7 @@ public class Car extends Application{
 	}
 	
 	public void setSurface(String surf){
-		address = surf;		
+		surface = surf;		
 	}
 	
 	public void setCapacity(int cap){
@@ -143,7 +142,7 @@ public class Car extends Application{
 	
 	public double getDist(double latin, double longin){
 		// Calculates the distance between the current bike stop and another coordinate
-		return (double)(Math.sqrt(Math.pow((longin-lon),2) + Math.pow((latin - lat), 2)));
+		return (Math.sqrt(Math.pow((longin-lon),2) + Math.pow((latin - lat), 2)));
 	}
 	
 	private

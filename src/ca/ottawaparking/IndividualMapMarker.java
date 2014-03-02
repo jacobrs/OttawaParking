@@ -6,7 +6,6 @@ import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
@@ -21,8 +20,8 @@ public class IndividualMapMarker extends FragmentActivity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.mapmarker);
 		
-		double longitude = getIntent().getExtras().getFloat("longitude");
-		double latitude = getIntent().getExtras().getFloat("latitude");
+		double longitude = getIntent().getExtras().getDouble("longitude");
+		double latitude = getIntent().getExtras().getDouble("latitude");
 		String adjacent = getIntent().getExtras().getString("location");
 		
 		GoogleMap map = ((MapFragment) getFragmentManager()
