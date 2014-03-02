@@ -99,6 +99,46 @@ public class ParseCsv<E>{
 		return ourArrays;
 	}
 	
+	public JStack<Rinks> parseRinkFile(){
+		JStack<Rinks> ourArrays = new JStack<Rinks>(1000);
+		try {
+			BufferedReader br = new BufferedReader(new InputStreamReader(context.getAssets().open("outdoorRinks.csv")));
+			int counter = 0;
+			String line;
+			String[] lineArr;
+			while((line = br.readLine())!=null){
+				if(counter != 0){
+					lineArr = line.split(",");
+					if(!(lineArr.length >= 9))
+						break;
+					System.out.println(line);
+					Rinks outdoorRink = new Rinks(context);
+					outdoorRink.set_park_name(lineArr[2]);
+					outdoorRink.set_address(lineArr[3]);
+					
+					//some lines have an extra field
+					//change subscript depending on the length
+					if(lineArr.length == 31){
+						outdoorRink.set_latitude(Double.parseDouble(lineArr[29]));
+						outdoorRink.set_longitude(Double.parseDouble(lineArr[30]));
+					}else if(lineArr.length == 30){
+						outdoorRink.set_latitude(Double.parseDouble(lineArr[28]));
+						outdoorRink.set_longitude(Double.parseDouble(lineArr[29]));
+					}
+					
+					if(!ourArrays.is_full()){
+						ourArrays.push(outdoorRink);
+					}
+				}
+				counter++;
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return ourArrays;
+	}
+	
 	private
 		Context context;
 		String fileName;

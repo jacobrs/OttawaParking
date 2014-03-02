@@ -4,11 +4,73 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/lblStub"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" 
+                    android:orientation="horizontal">
+                     <!-- <ListView
+				        android:id="@+id/sampleListView"
+				        android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:layout_marginBottom="10dp"
+				        android:layout_marginTop="5dp"
+				        android:background="@android:color/transparent"
+				        android:cacheColorHint="@android:color/transparent"
+				        android:divider="#CCCCCC"
+				        android:dividerHeight="1dp"
+				        android:paddingLeft="2dp" >
+				    </ListView>-->
+				    <ListView
+			             android:id="@+id/list"
+			             android:layout_height="wrap_content"
+			             android:layout_width="match_parent">
+			        </ListView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    
+                     <fragment
+			         android:id="@+id/map"
+			         android:layout_width="match_parent"
+			         android:layout_height="match_parent"
+			         android:name="com.google.android.gms.maps.MapFragment"/>
+                     
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
 
 </LinearLayout>
