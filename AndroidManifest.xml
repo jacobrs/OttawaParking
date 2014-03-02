@@ -24,7 +24,7 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
        android:required="true"/>
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="11"
         android:targetSdkVersion="19" />
 
     <application
@@ -72,6 +72,30 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
             android:label="@string/findR" >
             <intent-filter>
                 <action android:name="ca.ottawaparking.STUB" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.ottawaparking.BikeMenuLower"
+            android:label="@string/findB" >
+            <intent-filter>
+                <action android:name="ca.ottawaparking.BIKELOWER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.ottawaparking.CarMenuLower"
+            android:label="@string/findC" >
+            <intent-filter>
+                <action android:name="ca.ottawaparking.CARLOWER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.ottawaparking.StubMenuLower"
+            android:label="@string/findR" >
+            <intent-filter>
+                <action android:name="ca.ottawaparking.STUBLOWER" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

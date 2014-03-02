@@ -18,6 +18,7 @@ import android.view.Menu;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class Main extends Activity {
 	//public JStack<String> newstack;
@@ -49,9 +50,16 @@ public class Main extends Activity {
 		        switch(event.getAction()) {
 		        case MotionEvent.ACTION_DOWN:
 		            bikeActivity.setBackgroundResource(R.drawable.bikebuttonpressed);
-		            Intent openBikeMenu = new Intent(Main.this, LoadingScreen.class);
-		            openBikeMenu.putExtra("buttonClicked", 0);
-		            startActivity(openBikeMenu);
+		            if(android.os.Build.VERSION.SDK_INT > android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH_MR1){
+		            	Intent openBikeMenu = new Intent(Main.this, LoadingScreen.class);
+		            	openBikeMenu.putExtra("buttonClicked", 0);
+		            	startActivity(openBikeMenu);
+		            }else{
+		            	Intent openBikeMenu = new Intent(Main.this, LoadingScreen.class);
+		            	openBikeMenu.putExtra("buttonClicked", 3);
+		            	Toast.makeText(Main.this, "Android version less than 4.1.2 therefore functionality will be limited", Toast.LENGTH_LONG).show();
+		            	startActivity(openBikeMenu);
+		            }
 		            return true;
 		        case MotionEvent.ACTION_UP:
 		        	bikeActivity.setBackgroundResource(R.drawable.bikebutton);
@@ -67,9 +75,16 @@ public class Main extends Activity {
 		        switch(event.getAction()) {
 		        case MotionEvent.ACTION_DOWN:
 		        	carActivity.setBackgroundResource(R.drawable.carbuttonpressed);
-		        	Intent openCarMenu = new Intent(Main.this, LoadingScreen.class);
-		            openCarMenu.putExtra("buttonClicked", 1);
-		            startActivity(openCarMenu);
+		        	if(android.os.Build.VERSION.SDK_INT > android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH_MR1){
+			        	Intent openCarMenu = new Intent(Main.this, LoadingScreen.class);
+			            openCarMenu.putExtra("buttonClicked", 1);
+			            startActivity(openCarMenu);
+		        	}else{
+		        		Intent openCarMenu = new Intent(Main.this, LoadingScreen.class);
+		        		openCarMenu.putExtra("buttonClicked", 4);
+		        		Toast.makeText(Main.this, "Android version less than 4.1.2 therefore functionality will be limited", Toast.LENGTH_LONG).show();
+		            	startActivity(openCarMenu);
+		        	}
 		        	return true;
 		        case MotionEvent.ACTION_UP:
 		        	carActivity.setBackgroundResource(R.drawable.carbutton);
@@ -85,9 +100,16 @@ public class Main extends Activity {
 		        switch(event.getAction()) {
 		        case MotionEvent.ACTION_DOWN:
 		        	stubActivity.setBackgroundResource(R.drawable.hockeybuttonpressed);
-		        	Intent openHockeyMenu = new Intent(Main.this, LoadingScreen.class);
-		            openHockeyMenu.putExtra("buttonClicked", 2);
-		            startActivity(openHockeyMenu);
+		        	if(android.os.Build.VERSION.SDK_INT > android.os.Build.VERSION_CODES.ICE_CREAM_SANDWICH_MR1){
+			        	Intent openHockeyMenu = new Intent(Main.this, LoadingScreen.class);
+			            openHockeyMenu.putExtra("buttonClicked", 2);
+			            startActivity(openHockeyMenu);
+		        	}else{
+		        		Intent openStubMenu = new Intent(Main.this, LoadingScreen.class);
+		        		openStubMenu.putExtra("buttonClicked", 5);
+		        		Toast.makeText(Main.this, "Android version less than 4.1.2 therefore functionality will be limited", Toast.LENGTH_LONG).show();
+		            	startActivity(openStubMenu);
+		        	}
 		        	return true;
 		        case MotionEvent.ACTION_UP:
 		        	stubActivity.setBackgroundResource(R.drawable.hockeybutton);
