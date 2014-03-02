@@ -152,7 +152,7 @@ public class BikeMenu extends FragmentActivity{
         // Forth - the Array of data
         list = new ArrayList<String>(Arrays.asList(values));
         adapter = new ArrayAdapter<String>(this,
-          android.R.layout.simple_list_item_1, android.R.id.text1, list);
+          R.layout.listlayout, R.id.txtIcon, list);
         // Assign adapter to ListView
         listView.setAdapter(adapter);
         
@@ -301,7 +301,8 @@ public class BikeMenu extends FragmentActivity{
 				        // Third parameter - ID of the TextView to which the data is written
 				        // Forth - the Array of data
 				        final ArrayList<String> list = new ArrayList<String>(Arrays.asList(values));
-				        adapter = new ArrayAdapter<String>(BikeMenu.this, android.R.layout.simple_list_item_1, android.R.id.text1, list);
+				        adapter = new ArrayAdapter<String>(BikeMenu.this,
+				                R.layout.listlayout, R.id.txtIcon, list);
 				       
 				        // Assign adapter to ListView
 				        listView.setAdapter(adapter);
