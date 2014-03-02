@@ -11,6 +11,19 @@
 #proguard.config=${sdk.dir}/tools/proguard/proguard-android.txt:proguard-project.txt
 
 # Project target.
+<<<<<<< HEAD
 target=android-19
 android.library.reference.1=..\\google-play-services_lib
+android.library.reference.2=..\\..\\eclipse\\extras\\google\\google_play_services\\libproject\\google-play-services_lib
+android.library.reference.3=..\\google-play-services_lib
+android.library.reference.4=..\\..\\..\\android-sdks\\extras\\google\\google_play_services\\libproject\\google-play-services_lib
+android.library.reference.5=../../Eclipse/sdk/extras/google/google_play_services/libproject/google-play-services_lib
+=======
+target=android-18
+<<<<<<< HEAD
+android.library.reference.1=..\\google-play-services_lib
 android.library.reference.2=../../eclipse/extras/google/google_play_services/libproject/google-play-services_lib
+=======
+android.library.reference.1=../google-play-services_lib
+>>>>>>> 445a45d8ccb5cc7cce912acf1db012f6bd43cfee
+>>>>>>> 8ebf3d11afe83dd5643dc31d99e04670566cb3f5

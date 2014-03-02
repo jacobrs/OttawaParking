@@ -33,6 +33,8 @@ public class BikeMenu extends FragmentActivity{
 	JStack<Bike> ourStack = new JStack<Bike>(1000);
 	int amtIteration = 0;
 	final int AMOUNT_OF_VIEWS = 15;
+	GoogleMap map;
+	GoogleMap mapall;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -71,7 +73,7 @@ public class BikeMenu extends FragmentActivity{
 						System.out.println("Stack Overflow");
 					}
 				}
-				GoogleMap map = ((MapFragment) getFragmentManager()
+				map = ((MapFragment) getFragmentManager()
 		                .findFragmentById(R.id.nearest)).getMap();
 		        LatLng ott = new LatLng(lastknownloc.getLatitude(), lastknownloc.getLongitude());
 		        map.setMyLocationEnabled(true);
@@ -98,7 +100,7 @@ public class BikeMenu extends FragmentActivity{
 						System.out.println("Stack Overflow");
 					}
 				}
-		        GoogleMap mapall = ((MapFragment) getFragmentManager()
+		        mapall = ((MapFragment) getFragmentManager()
 		                .findFragmentById(R.id.map)).getMap();
 		        LatLng ottall = new LatLng(lastknownloc.getLatitude(), lastknownloc.getLongitude());
 		        mapall.setMyLocationEnabled(false);
@@ -215,27 +217,7 @@ public class BikeMenu extends FragmentActivity{
 		specs.setContent(R.id.tab3);
 		//this name will appear on actual tab
 		specs.setIndicator("View All");
-		th.addTab(specs);
-		
-		// ***************************************************************
-		// 		Start view manipulation and coding here
-		// ***************************************************************
-
-        // Get a handle to the Map Fragment
-		
-		GoogleMap map = ((MapFragment) getFragmentManager()
-                .findFragmentById(R.id.map)).getMap();
-
-        LatLng ott = new LatLng(45.4214, -75.6919);
-
-        map.setMyLocationEnabled(true);
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(ott, 13));
-
-        map.addMarker(new MarkerOptions()
-                .title("Ottawa")
-                .snippet("Capital of Canada")
-                .position(ott));
-		
+		th.addTab(specs);	
 	}
 
 	@Override
