@@ -217,7 +217,7 @@ public class BikeMenu extends FragmentActivity{
 		specs.setContent(R.id.tab3);
 		//this name will appear on actual tab
 		specs.setIndicator("View All");
-		th.addTab(specs);	
+		th.addTab(specs);
 	}
 
 	@Override
