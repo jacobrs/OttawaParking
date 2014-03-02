@@ -3,6 +3,7 @@ package ca.ottawaparking;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Locale;
 
 import android.content.Context;
 
@@ -63,21 +64,27 @@ public class ParseCsv<E>{
 					lineArr = line.split(",");
 					if(!(lineArr.length >= 9))
 						break;
+					System.out.println(line);
 					Car carStop = new Car(context);
 					carStop.setObjId(Integer.parseInt(lineArr[0]));
 					carStop.setParkId(Integer.parseInt(lineArr[1]));
-					carStop.setFacId(Integer.parseInt(lineArr[2]));
+					//if(lineArr[2].toUpperCase(Locale.US) != "NONE"){
+					//carStop.setFacId(Integer.parseInt(lineArr[2]));
+					//}
 					carStop.setAddress(lineArr[3]);
 					carStop.setSurface(lineArr[4]);
-					carStop.setCapacity(Integer.parseInt(lineArr[5]));
-					carStop.setHandicap(Integer.parseInt(lineArr[6]));
+					//if(lineArr[5].toUpperCase(Locale.US) != "NONE"){
+					//carStop.setCapacity(Integer.parseInt(lineArr[5]));
+					//}
+					//if(lineArr[6].toUpperCase(Locale.US) != "NONE"){
+					//carStop.setHandicap(Integer.parseInt(lineArr[6]));
+					//}
 					carStop.setPay(lineArr[7].charAt(0));
 					carStop.setPayType(lineArr[8]);
 					carStop.setLight(lineArr[9].charAt(0));
 					carStop.setFence(lineArr[10].charAt(0));
-					carStop.setLatitude(Float.parseFloat(lineArr[11]));
-					carStop.setLongitude(Float.parseFloat(lineArr[12]));
-					
+					carStop.setLatitude(Double.parseDouble(lineArr[11]));
+					carStop.setLongitude(Double.parseDouble(lineArr[12]));
 					if(!ourArrays.is_full()){
 						ourArrays.push(carStop);
 					}

@@ -46,16 +46,6 @@ public class BikeMenu extends FragmentActivity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.bikemenu);
 		
-		/*Bike[] ourBikes = new Bike[300];     Example code
-		
-		for(int i = 0; i < 300; i++)
-			ourBikes[i] = new Bike(this);
-		
-		ourBikes[0].set_latitude(75);
-		ourBikes[0].set_longitude(75);
-		System.out.println("latitude: " + ourBikes[0].get_latitude());
-		System.out.println("longitude: " + ourBikes[0].get_longitude());*/
-		
 		Context context = this;
 		ParseCsv<Bike> parsedBikes = new ParseCsv<Bike>(this, "bikeParking.csv");
 		ourStack = parsedBikes.parseBikeFile();
@@ -165,7 +155,8 @@ public class BikeMenu extends FragmentActivity{
     				openMapMarker.putExtra("location", ourStack.getElement(ourStack.getTopIndex() - (position)).get_adjacent());
     				startActivity(openMapMarker);
                 }
-             }
+             } 
+             
          }); 
         
 		specs = th.newTabSpec("tag2");

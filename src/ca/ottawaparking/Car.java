@@ -27,7 +27,7 @@ public class Car extends Application{
 	}
 	
 	public void setSurface(String surf){
-		address = surf;		
+		surface = surf;		
 	}
 	
 	public void setCapacity(int cap){
