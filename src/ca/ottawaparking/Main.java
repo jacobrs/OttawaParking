@@ -6,9 +6,12 @@
  */
 package ca.ottawaparking;
 
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.view.Menu;
@@ -27,18 +30,19 @@ public class Main extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		//newstack = new JStack<String>(4);
-		//String tmp = newstack.is_full()+"";
 		bikeActivity = (Button)findViewById(R.id.btnBike);
 		carActivity = (Button)findViewById(R.id.btnCar);
 		stubActivity = (Button)findViewById(R.id.btnStub);
 		about = (Button)findViewById(R.id.btnAbout);
-		// Toast.makeText(this, "The Dist is:"+test.getDist(-4, 4), Toast.LENGTH_LONG).show();
-		System.out.println(bikeActivity);
-		System.out.println(carActivity);
-		System.out.println(stubActivity);
-		System.out.println(about);
-		
+		if(!isNetworkAvailable()){
+			new AlertDialog.Builder(this)
+	        .setTitle("No Internet Connection")
+	        .setMessage("Internet Connection is a core part of this application, "
+	        		+ "Ottawa Navigator was unable to connect to the internet. "
+	        		+ "Please review your settings or use a limited version "
+	        		+ "of this application")
+	        .setNegativeButton(android.R.string.ok, null).create().show();
+		}
 		bikeActivity.setOnTouchListener(new View.OnTouchListener() {
 		    @Override
 		    public boolean onTouch(View v, MotionEvent event) {
@@ -133,6 +137,12 @@ public class Main extends Activity {
 	                System.exit(1);
 	            }
 	        }).create().show();
+	}
+	private boolean isNetworkAvailable() {
+	    ConnectivityManager connectivityManager 
+	          = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+	    NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+	    return activeNetworkInfo != null && activeNetworkInfo.isConnected();
 	}
 
 }

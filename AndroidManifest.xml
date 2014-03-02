@@ -77,7 +77,7 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
         </activity>
         <activity
             android:name="ca.ottawaparking.About"
-            android:label="@string/app_name"
+            android:label="@string/firstAbout"
             android:theme="@android:style/Theme.Dialog"
             android:screenOrientation="portrait" >
             <intent-filter>
