@@ -17,9 +17,7 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -45,7 +43,7 @@ public class CarMenu extends FragmentActivity{
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.carmenu);
-		Context context = this;
+		final Context context = this;
 		ParseCsv<Car> parsedCars = new ParseCsv<Car>(this, "parking.csv");
 		ourStack = parsedCars.parseCarFile();
 		Toast.makeText(this, "Ordered by nearest to furthest", Toast.LENGTH_LONG).show();
@@ -164,14 +162,6 @@ public class CarMenu extends FragmentActivity{
               @Override
               public void onItemClick(AdapterView<?> parent, View view,
                  int position, long id) {
-                
-            	  // ListView Clicked item index
-	              int itemPosition     = position;
-	              
-	              // ListView Clicked item value
-	              String  itemValue    = (String) listView.getItemAtPosition(position);
-	                 
-                  // Show Alert 
                   /* 
                   Toast.makeText(getApplicationContext(),
                      "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
@@ -293,82 +283,75 @@ public class CarMenu extends FragmentActivity{
 			                //.anchor((float)filler.get_latitude(), (float)filler.get_longitude())
 			                .position(fill));
 						}
-					}
-				}
-				amtIteration = 0;
-				// Get ListView object from xml
-		        listView = (ListView) findViewById(R.id.list);
-		        // Defined Array values to show in ListView
-		        String[] values = new String[AMOUNT_OF_VIEWS+1];
-		        
-		        int counter = 0;
-		        
-		        for(; counter < AMOUNT_OF_VIEWS; counter++){
-		        	values[counter] = ourStack.getElement(ourStack.getTopIndex() - counter).getAddress();
-		        	System.out.println(values[counter]);
-		        }
-		        amtIteration++;
-		        
-		        values[AMOUNT_OF_VIEWS] = "View More";
-		        
-		        // Define a new Adapter
-		        // First parameter - Context
-		        // Second parameter - Layout for the row
-		        // Third parameter - ID of the TextView to which the data is written
-		        // Forth - the Array of data
-		        list = new ArrayList<String>(Arrays.asList(values));
-		        adapter = new ArrayAdapter<String>(CarMenu.this, android.R.layout.simple_list_item_1, android.R.id.text1, list);
-		       
-		        // Assign adapter to ListView
-		        listView.setAdapter(adapter);
-		        
-		     // ListView Item Click Listener
-		        listView.setOnItemClickListener(new OnItemClickListener() {
-		        	
-		              @Override
-		              public void onItemClick(AdapterView<?> parent, View view,
-		                 int position, long id) {
-		                
-		            	  // ListView Clicked item index
-			              int itemPosition     = position;
-			              
-			              // ListView Clicked item value
-			              String  itemValue    = (String) listView.getItemAtPosition(position);
-			                 
-		                  // Show Alert 
-		                  /* 
-		                  Toast.makeText(getApplicationContext(),
-		                     "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
-		                     .show();
-		                  */
-			              if(position%(AMOUNT_OF_VIEWS*amtIteration) == 0 && position != 0 && position < ourStack.getTopIndex()){
-		                   	list.remove(position);
-		                   	adapter.notifyDataSetChanged();
-		                   	
-		                   	String[] newValues = new String[AMOUNT_OF_VIEWS+1];
-		                   	int newCounter = 0;
-		                   	
-		                   	for(; newCounter < AMOUNT_OF_VIEWS && (position + newCounter) < ourStack.getTopIndex(); newCounter++){
-		                		newValues[newCounter] = ourStack.getElement(ourStack.getTopIndex() - ((amtIteration*AMOUNT_OF_VIEWS) + newCounter)).getAddress();
-		                		list.add((amtIteration*AMOUNT_OF_VIEWS)+newCounter, newValues[newCounter]);
-		                	}
-		                	
-		                   	if(!(position+newCounter >= ourStack.getTopIndex())){
-		                		newValues[newCounter] = "View More";
-		                		list.add((amtIteration*AMOUNT_OF_VIEWS)+newCounter, newValues[newCounter]);
-		                	}
-		                	amtIteration++;
-		                	adapter.notifyDataSetChanged();
-		                }else if(!(position%(AMOUNT_OF_VIEWS*amtIteration) == 0) || position == 0){
-		                	//start new fragment activity
-		                	Intent openMapMarker = new Intent(CarMenu.this, IndividualMapMarker.class);
-		    				openMapMarker.putExtra("longitude", ourStack.getElement(ourStack.getTopIndex() - (position)).getLong());
-		    				openMapMarker.putExtra("latitude", ourStack.getElement(ourStack.getTopIndex() - (position)).getLat());
-		    				openMapMarker.putExtra("location", ourStack.getElement(ourStack.getTopIndex() - (position)).getAddress());
-		    				startActivity(openMapMarker);
-		                }
-		             }
-		         }); 
+				        amtIteration = 0;
+						// Get ListView object from xml
+				        listView = (ListView) findViewById(R.id.list);
+				        // Defined Array values to show in ListView
+				        String[] values = new String[AMOUNT_OF_VIEWS+1];
+				        
+				        int counter = 0;
+				        
+				        for(; counter < AMOUNT_OF_VIEWS; counter++){
+				        	values[counter] = ourStack.getElement(ourStack.getTopIndex() - counter).getAddress();
+				        	System.out.println(values[counter]);
+				        }
+				        amtIteration++;
+				        
+				        values[AMOUNT_OF_VIEWS] = "View More";
+				        
+				        // Define a new Adapter
+				        // First parameter - Context
+				        // Second parameter - Layout for the row
+				        // Third parameter - ID of the TextView to which the data is written
+				        // Forth - the Array of data
+				        list = new ArrayList<String>(Arrays.asList(values));
+				        adapter = new ArrayAdapter<String>(CarMenu.this, android.R.layout.simple_list_item_1, android.R.id.text1, list);
+				       
+				        // Assign adapter to ListView
+				        listView.setAdapter(adapter);
+				        
+				     // ListView Item Click Listener
+				        listView.setOnItemClickListener(new OnItemClickListener() {
+				        	
+				              @Override
+				              public void onItemClick(AdapterView<?> parent, View view,
+				                 int position, long id) {
+				                  // Show Alert 
+				                  /* 
+				                  Toast.makeText(getApplicationContext(),
+				                     "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
+				                     .show();
+				                  */
+					              if(position%(AMOUNT_OF_VIEWS*amtIteration) == 0 && position != 0 && position < ourStack.getTopIndex()){
+				                   	list.remove(position);
+				                   	adapter.notifyDataSetChanged();
+				                   	
+				                   	String[] newValues = new String[AMOUNT_OF_VIEWS+1];
+				                   	int newCounter = 0;
+				                   	
+				                   	for(; newCounter < AMOUNT_OF_VIEWS && (position + newCounter) < ourStack.getTopIndex(); newCounter++){
+				                		newValues[newCounter] = ourStack.getElement(ourStack.getTopIndex() - ((amtIteration*AMOUNT_OF_VIEWS) + newCounter)).getAddress();
+				                		list.add((amtIteration*AMOUNT_OF_VIEWS)+newCounter, newValues[newCounter]);
+				                	}
+				                	
+				                   	if(!(position+newCounter >= ourStack.getTopIndex())){
+				                		newValues[newCounter] = "View More";
+				                		list.add((amtIteration*AMOUNT_OF_VIEWS)+newCounter, newValues[newCounter]);
+				                	}
+				                	amtIteration++;
+				                	adapter.notifyDataSetChanged();
+				                }else if(!(position%(AMOUNT_OF_VIEWS*amtIteration) == 0) || position == 0){
+				                	//start new fragment activity
+				                	Intent openMapMarker = new Intent(CarMenu.this, IndividualMapMarker.class);
+				    				openMapMarker.putExtra("longitude", ourStack.getElement(ourStack.getTopIndex() - (position)).getLong());
+				    				openMapMarker.putExtra("latitude", ourStack.getElement(ourStack.getTopIndex() - (position)).getLat());
+				    				openMapMarker.putExtra("location", ourStack.getElement(ourStack.getTopIndex() - (position)).getAddress());
+				    				startActivity(openMapMarker);
+				                }
+				             }
+				         }); 
+					}else Toast.makeText(context, "Location Unavailable, check settings", Toast.LENGTH_SHORT).show();
+				}else Toast.makeText(context, "Unable to find suitable Provider", Toast.LENGTH_SHORT).show();
 			}
 		});
 	}

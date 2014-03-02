@@ -42,7 +42,7 @@ public class StubMenu extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.stubmenu);
 		
-		Context context = this;
+		final Context context = this;
 		ParseCsv<Rinks> parsedRinks = new ParseCsv<Rinks>(this, "outdoorRinks.csv");
 		ourStack = parsedRinks.parseRinkFile();
 		
@@ -157,13 +157,6 @@ public class StubMenu extends Activity{
               @Override
               public void onItemClick(AdapterView<?> parent, View view,
                  int position, long id) {
-                
-              // ListView Clicked item index
-              int itemPosition     = position;
-               
-              // ListView Clicked item value
-              String  itemValue    = (String) listView.getItemAtPosition(position);
-                  
               // Show Alert 
               /*Toast.makeText(getApplicationContext(),
                   "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
@@ -239,7 +232,6 @@ public class StubMenu extends Activity{
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				// Get location
-				map.clear();
 				LocationManager locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
 				Criteria criteria = new Criteria();
 				String provider = locationManager.getBestProvider(criteria, true);
@@ -247,6 +239,7 @@ public class StubMenu extends Activity{
 				if(provider != null){
 					Location lastknownloc = locationManager.getLastKnownLocation(provider);
 					if(lastknownloc != null){
+						map.clear();
 						// next line makes you Ottawanian
 						// lastknownloc.setLatitude((double)45.214);lastknownloc.setLongitude((double)-75.6919);
 						ourStack.RinkSort(lastknownloc);
@@ -281,83 +274,69 @@ public class StubMenu extends Activity{
 			                //.anchor((float)filler.get_latitude(), (float)filler.get_longitude())
 			                .position(fill));
 						}
-					}
-				}
-				
-				amtIteration = 0;
-				// Get ListView object from xml
-		        listView = (ListView) findViewById(R.id.list);
-		        // Defined Array values to show in ListView
-		        String[] values = new String[AMOUNT_OF_VIEWS+1];
-		        
-		        int counter = 0;
-		        
-		        for(; counter < AMOUNT_OF_VIEWS; counter++){
-		        	values[counter] = ourStack.getElement(ourStack.getTopIndex() - counter).get_address();
-		        	System.out.println(values[counter]);
-		        }
-		        amtIteration++;
-		        
-		        values[AMOUNT_OF_VIEWS] = "View More";
-		        
-		        // Define a new Adapter
-		        // First parameter - Context
-		        // Second parameter - Layout for the row
-		        // Third parameter - ID of the TextView to which the data is written
-		        // Forth - the Array of data
-		        list = new ArrayList<String>(Arrays.asList(values));
-		        adapter = new ArrayAdapter<String>(StubMenu.this, android.R.layout.simple_list_item_1, android.R.id.text1, list);
-		       
-		        // Assign adapter to ListView
-		        listView.setAdapter(adapter);
-		        
-		     // ListView Item Click Listener
-		        listView.setOnItemClickListener(new OnItemClickListener() {
-		        	
-		              @Override
-		              public void onItemClick(AdapterView<?> parent, View view,
-		                 int position, long id) {
-		                
-		            	  // ListView Clicked item index
-			              int itemPosition     = position;
-			              
-			              // ListView Clicked item value
-			              String  itemValue    = (String) listView.getItemAtPosition(position);
-			                 
-		                  // Show Alert 
-		                  /* 
-		                  Toast.makeText(getApplicationContext(),
-		                     "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
-		                     .show();
-		                  */
-			              if(position%(AMOUNT_OF_VIEWS*amtIteration) == 0 && position != 0 && position < ourStack.getTopIndex()){
-		                   	list.remove(position);
-		                   	adapter.notifyDataSetChanged();
-		                   	
-		                   	String[] newValues = new String[AMOUNT_OF_VIEWS+1];
-		                   	int newCounter = 0;
-		                   	
-		                   	for(; newCounter < AMOUNT_OF_VIEWS && (position + newCounter) < ourStack.getTopIndex(); newCounter++){
-		                		newValues[newCounter] = ourStack.getElement(ourStack.getTopIndex() - ((amtIteration*AMOUNT_OF_VIEWS) + newCounter)).get_address();
-		                		list.add((amtIteration*AMOUNT_OF_VIEWS)+newCounter, newValues[newCounter]);
-		                	}
-		                	
-		                   	if(!(position+newCounter >= ourStack.getTopIndex())){
-		                		newValues[newCounter] = "View More";
-		                		list.add((amtIteration*AMOUNT_OF_VIEWS)+newCounter, newValues[newCounter]);
-		                	}
-		                	amtIteration++;
-		                	adapter.notifyDataSetChanged();
-		                }else if(!(position%(AMOUNT_OF_VIEWS*amtIteration) == 0) || position == 0){
-		                	//start new fragment activity
-		                	Intent openMapMarker = new Intent(StubMenu.this, IndividualMapMarker.class);
-		    				openMapMarker.putExtra("longitude", ourStack.getElement(ourStack.getTopIndex() - (position)).get_longitude());
-		    				openMapMarker.putExtra("latitude", ourStack.getElement(ourStack.getTopIndex() - (position)).get_latitude());
-		    				openMapMarker.putExtra("location", ourStack.getElement(ourStack.getTopIndex() - (position)).get_address());
-		    				startActivity(openMapMarker);
-		                }
-		             }
-		         }); 
+				        amtIteration = 0;
+						// Get ListView object from xml
+				        listView = (ListView) findViewById(R.id.list);
+				        // Defined Array values to show in ListView
+				        String[] values = new String[AMOUNT_OF_VIEWS+1];
+				        
+				        int counter = 0;
+				        
+				        for(; counter < AMOUNT_OF_VIEWS; counter++){
+				        	values[counter] = ourStack.getElement(ourStack.getTopIndex() - counter).get_address();
+				        	System.out.println(values[counter]);
+				        }
+				        amtIteration++;
+				        
+				        values[AMOUNT_OF_VIEWS] = "View More";
+				        
+				        // Define a new Adapter
+				        // First parameter - Context
+				        // Second parameter - Layout for the row
+				        // Third parameter - ID of the TextView to which the data is written
+				        // Forth - the Array of data
+				        list = new ArrayList<String>(Arrays.asList(values));
+				        adapter = new ArrayAdapter<String>(StubMenu.this, android.R.layout.simple_list_item_1, android.R.id.text1, list);
+				       
+				        // Assign adapter to ListView
+				        listView.setAdapter(adapter);
+				        
+				        // ListView Item Click Listener
+				        listView.setOnItemClickListener(new OnItemClickListener() {
+				        	
+				              @Override
+				              public void onItemClick(AdapterView<?> parent, View view,
+				                 int position, long id) {
+					              if(position%(AMOUNT_OF_VIEWS*amtIteration) == 0 && position != 0 && position < ourStack.getTopIndex()){
+				                   	list.remove(position);
+				                   	adapter.notifyDataSetChanged();
+				                   	
+				                   	String[] newValues = new String[AMOUNT_OF_VIEWS+1];
+				                   	int newCounter = 0;
+				                   	
+				                   	for(; newCounter < AMOUNT_OF_VIEWS && (position + newCounter) < ourStack.getTopIndex(); newCounter++){
+				                		newValues[newCounter] = ourStack.getElement(ourStack.getTopIndex() - ((amtIteration*AMOUNT_OF_VIEWS) + newCounter)).get_address();
+				                		list.add((amtIteration*AMOUNT_OF_VIEWS)+newCounter, newValues[newCounter]);
+				                	}
+				                	
+				                   	if(!(position+newCounter >= ourStack.getTopIndex())){
+				                		newValues[newCounter] = "View More";
+				                		list.add((amtIteration*AMOUNT_OF_VIEWS)+newCounter, newValues[newCounter]);
+				                	}
+				                	amtIteration++;
+				                	adapter.notifyDataSetChanged();
+				                }else if(!(position%(AMOUNT_OF_VIEWS*amtIteration) == 0) || position == 0){
+				                	//start new fragment activity
+				                	Intent openMapMarker = new Intent(StubMenu.this, IndividualMapMarker.class);
+				    				openMapMarker.putExtra("longitude", ourStack.getElement(ourStack.getTopIndex() - (position)).get_longitude());
+				    				openMapMarker.putExtra("latitude", ourStack.getElement(ourStack.getTopIndex() - (position)).get_latitude());
+				    				openMapMarker.putExtra("location", ourStack.getElement(ourStack.getTopIndex() - (position)).get_address());
+				    				startActivity(openMapMarker);
+				                }
+				             }
+				         });
+					}else Toast.makeText(context, "Location Unavailable, check settings", Toast.LENGTH_SHORT).show();
+				}else Toast.makeText(context, "Unable to find suitable Provider", Toast.LENGTH_SHORT).show();
 			}
 		});
 	}

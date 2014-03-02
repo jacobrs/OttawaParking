@@ -24,7 +24,7 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
        android:required="true"/>
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="16"
         android:targetSdkVersion="19" />
 
     <application
