@@ -12,6 +12,7 @@ public class Splash extends Activity {
 		super.onCreate(createSplash);
 		setContentView(R.layout.splash); //reference to xml layout
 		Thread timer = new Thread() {
+			@Override
 			public void run() {
 				try {
 					sleep(2000);	//pauses thread using milliseconds
