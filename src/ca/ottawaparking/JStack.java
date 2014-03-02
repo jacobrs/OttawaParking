@@ -107,7 +107,7 @@ public class JStack<E>{
 		E temp;
 		while(flag){
 			flag = false;
-			for(j = 0; j < size-1; j++){
+			for(j = 0; j < top; j++){
 				Car low = (Car)items[j];
 				Car high = (Car)items[j+1];
 				if(low.getDist((float)curr.getLatitude(), (float)curr.getLongitude()) < high.getDist((float)curr.getLatitude(), (float)curr.getLongitude())){	
