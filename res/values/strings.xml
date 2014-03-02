@@ -16,6 +16,12 @@
  	<string name="secondAbout">Developed by: \n\nJacob Gagné, Alex Genio, George Grafos, and Ben Barault</string>
  	<string name="RefreshBtn">Refresh Location</string>
  	<string name="loading">Gathering and Parsing Data</string>
+ 	<string name="findB">Find Bicycle Parking</string>
+ 	<string name="findC">Find Car Parking</string>
+ 	<string name="findR">Find Hockey Rinks</string>
+ 	<string name="mainLabel">Ottawa Navigator</string>
+ 	<string name="dispMap">Displayed On Map</string>
+ 	<string name="loaderWarn">Loading Content</string>
  	
  	
 </resources>

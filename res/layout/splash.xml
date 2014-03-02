@@ -4,5 +4,4 @@
     	android:layout_height="290sp"
         android:layout_gravity="center"
         android:background="@drawable/gdtiger" >
-
 </LinearLayout>

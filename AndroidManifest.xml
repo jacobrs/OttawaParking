@@ -34,7 +34,9 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
         android:theme="@style/AppTheme" >
         <activity
             android:name="ca.ottawaparking.Splash"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait">
 	    <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -42,7 +44,8 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
         </activity>
         <activity
             android:name="ca.ottawaparking.Main"
-            android:label="@string/app_name" >
+            android:label="@string/mainLabel" 
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="ca.ottawaparking.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -50,7 +53,7 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
         </activity>
         <activity
             android:name="ca.ottawaparking.BikeMenu"
-            android:label="@string/app_name" >
+            android:label="@string/findB" >
             <intent-filter>
                 <action android:name="ca.ottawaparking.BIKE" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -58,7 +61,7 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
         </activity>
         <activity
             android:name="ca.ottawaparking.CarMenu"
-            android:label="@string/app_name" >
+            android:label="@string/findC" >
             <intent-filter>
                 <action android:name="ca.ottawaparking.CAR" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -66,7 +69,7 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
         </activity>
         <activity
             android:name="ca.ottawaparking.StubMenu"
-            android:label="@string/app_name" >
+            android:label="@string/findR" >
             <intent-filter>
                 <action android:name="ca.ottawaparking.STUB" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -75,7 +78,8 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
         <activity
             android:name="ca.ottawaparking.About"
             android:label="@string/app_name"
-            android:theme="@android:style/Theme.Dialog" >
+            android:theme="@android:style/Theme.Dialog"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="ca.ottawaparking.ABOUT" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -83,7 +87,7 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
         </activity>
         <activity
             android:name="ca.ottawaparking.LoadingScreen"
-            android:label="@string/app_name" >
+            android:label="@string/loaderWarn">
             <intent-filter>
                 <action android:name="ca.ottawaparking.LOAD" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -91,7 +95,7 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
         </activity>
         <activity
             android:name="ca.ottawaparking.IndividualMapMarker"
-            android:label="@string/app_name" >
+            android:label="@string/dispMap" >
             <intent-filter>
                 <action android:name="ca.ottawaparking.LOCATEPARKING" />
                 <category android:name="android.intent.category.DEFAULT" />

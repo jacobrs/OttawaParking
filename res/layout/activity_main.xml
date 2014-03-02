@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:weightSum="4"
     tools:context=".Main" >
 
     <ToggleButton
@@ -11,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_weight="1"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/carbutton"
         android:textOn=""
         android:textOff="" />
@@ -20,8 +21,6 @@
         android:id="@+id/btnBike"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
         android:background="@drawable/bikebutton"
         android:layout_weight="1"
         android:textOn=""
@@ -31,8 +30,6 @@
         android:id="@+id/btnStub"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
         android:background="@drawable/hockeybutton"
         android:layout_weight="1"
         android:textOn=""
@@ -42,7 +39,8 @@
         android:id="@+id/btnAbout"
         android:layout_width="match_parent"
         android:background="@drawable/aboutbutton"
-        android:layout_height="80dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
         android:textOn=""
         android:textOff=""/>
 
