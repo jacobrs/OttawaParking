@@ -13,7 +13,9 @@ import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
 import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
@@ -22,7 +24,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
+import android.widget.TabWidget;
 import android.widget.Toast;
+import android.app.FragmentTransaction;
 import android.content.*;
 
 public class BikeMenu extends FragmentActivity{
@@ -41,6 +45,7 @@ public class BikeMenu extends FragmentActivity{
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.bikemenu);
+		
 		
 		Context context = this;
 		ParseCsv<Bike> parsedBikes = new ParseCsv<Bike>(this, "bikeParking.csv");
@@ -77,7 +82,7 @@ public class BikeMenu extends FragmentActivity{
 		                .findFragmentById(R.id.nearest)).getMap();
 		        LatLng ott = new LatLng(lastknownloc.getLatitude(), lastknownloc.getLongitude());
 		        map.setMyLocationEnabled(true);
-		        map.moveCamera(CameraUpdateFactory.newLatLngZoom(ott, 5));
+		        map.moveCamera(CameraUpdateFactory.newLatLngZoom(ott, 16));
 				
 		        while(!tmpStack.is_empty()){
 					Bike filler = tmpStack.pop();
@@ -102,9 +107,9 @@ public class BikeMenu extends FragmentActivity{
 				}
 		        mapall = ((MapFragment) getFragmentManager()
 		                .findFragmentById(R.id.map)).getMap();
-		        LatLng ottall = new LatLng(lastknownloc.getLatitude(), lastknownloc.getLongitude());
+		        LatLng ottall = new LatLng(45.4214, -75.6919);
 		        mapall.setMyLocationEnabled(false);
-		        mapall.moveCamera(CameraUpdateFactory.newLatLngZoom(ottall, 12));
+		        mapall.moveCamera(CameraUpdateFactory.newLatLngZoom(ottall, 13));
 				
 		        while(!tmpStackAll.is_empty()){
 					Bike filler = tmpStackAll.pop();
@@ -116,6 +121,7 @@ public class BikeMenu extends FragmentActivity{
 				}
 			}else Toast.makeText(this, "Location Unavailable, check settings", Toast.LENGTH_LONG).show();
 		}else Toast.makeText(this, "Unable to find suitable Provider", Toast.LENGTH_LONG).show();
+		
 		TabHost th = (TabHost)findViewById(R.id.tabhost);
 		//automatically set up the basics
 		th.setup();
@@ -210,7 +216,6 @@ public class BikeMenu extends FragmentActivity{
 		specs.setIndicator("Nearest");
 		th.addTab(specs);
 		
-		
 		specs = th.newTabSpec("tag3");
 		//this will hold the two buttons and text view in the
 		//first layout
@@ -218,6 +223,24 @@ public class BikeMenu extends FragmentActivity{
 		//this name will appear on actual tab
 		specs.setIndicator("View All");
 		th.addTab(specs);
+		
+		th.setOnTabChangedListener(new TabHost.OnTabChangeListener() {
+			public void onTabChanged(String tabId) {
+				// TODO Auto-generated method stub
+				if(tabId == "tab2"){
+					View tmp = (View)findViewById(R.id.nearest);
+					tmp.setVisibility(View.VISIBLE);
+					View tmp2 = (View)findViewById(R.id.map);
+					tmp2.setVisibility(View.INVISIBLE);
+				}
+				else if(tabId == "tab3"){
+					View tmp = (View)findViewById(R.id.nearest);
+					tmp.setVisibility(View.INVISIBLE);
+					View tmp2 = (View)findViewById(R.id.map);
+					tmp2.setVisibility(View.VISIBLE);
+				}
+			}
+		});
 	}
 
 	@Override
