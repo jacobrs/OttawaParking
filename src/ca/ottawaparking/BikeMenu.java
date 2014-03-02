@@ -102,7 +102,7 @@ public class BikeMenu extends FragmentActivity{
 		                .findFragmentById(R.id.map)).getMap();
 		        LatLng ottall = new LatLng(lastknownloc.getLatitude(), lastknownloc.getLongitude());
 		        mapall.setMyLocationEnabled(false);
-		        mapall.moveCamera(CameraUpdateFactory.newLatLngZoom(ottall, 5));
+		        mapall.moveCamera(CameraUpdateFactory.newLatLngZoom(ottall, 12));
 				
 		        while(!tmpStackAll.is_empty()){
 					Bike filler = tmpStackAll.pop();

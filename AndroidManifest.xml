@@ -104,15 +104,6 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
 
         <!-- DEBUG key -->
         <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyAGJVEzKTtsKd5QymeX9B0l8qO5GTLHuQE" />
-        <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyDPvVROn6dkxoQuP3wTQMpULDAK2tL4CMc" />
-         <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyBLfEKgb-I4QXqRFWefaod8fHIzMq967fU" />
-        <meta-data
   			android:name="com.google.android.gms.version"
    	 		android:value="@integer/google_play_services_version" />
         
