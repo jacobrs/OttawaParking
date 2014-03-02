@@ -53,12 +53,19 @@
                     android:id="@+id/tab2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal" >
+                    android:orientation="vertical" >
 				     <fragment
 				         android:id="@+id/nearest"
-				         android:layout_width="match_parent"
-				         android:layout_height="match_parent"
+				         android:layout_weight="1"
+				         android:layout_width="fill_parent"
+				         android:layout_height="0dp"
 				         android:name="com.google.android.gms.maps.MapFragment"/>
+	                   <Button
+	                     android:id="@+id/nearestRefresh"
+	                     android:layout_width="match_parent"
+	                     android:layout_height="wrap_content"
+	                     android:text="@string/RefreshBtn"
+	                       />
                      
                 </LinearLayout>
 

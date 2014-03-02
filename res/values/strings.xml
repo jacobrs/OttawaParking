@@ -14,6 +14,8 @@
  	
  	<string name="firstAbout">\nJAGB Technologies\n</string>
  	<string name="secondAbout">Developed by: \n\nJacob Gagné, Alex Genio, George Grafos, and Ben Barault</string>
+ 	<string name="RefreshBtn">Refresh Location</string>
+ 	<string name="loading">Gathering and Parsing Data</string>
  	
  	
 </resources>

@@ -7,7 +7,7 @@ import android.os.Handler;
 import android.view.View;
 
 public class LoadingScreen extends Activity {
-	private final int WAIT_TIME = 1500;
+	private final int WAIT_TIME = 4000;
 	public boolean back = false;
 	Intent mainIntent;
 	@Override
