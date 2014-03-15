@@ -117,13 +117,8 @@ public class ParseCsv<E>{
 					
 					//some lines have an extra field
 					//change subscript depending on the length
-					if(lineArr.length == 31){
-						outdoorRink.set_latitude(Double.parseDouble(lineArr[29]));
-						outdoorRink.set_longitude(Double.parseDouble(lineArr[30]));
-					}else if(lineArr.length == 30){
-						outdoorRink.set_latitude(Double.parseDouble(lineArr[28]));
-						outdoorRink.set_longitude(Double.parseDouble(lineArr[29]));
-					}
+					outdoorRink.set_latitude(Double.parseDouble(lineArr[lineArr.length - 2]));
+					outdoorRink.set_longitude(Double.parseDouble(lineArr[lineArr.length - 1]));
 					
 					if(!ourArrays.is_full()){
 						ourArrays.push(outdoorRink);

@@ -45,6 +45,7 @@ public class StubMenu extends Activity{
 		final Context context = this;
 		ParseCsv<Rinks> parsedRinks = new ParseCsv<Rinks>(this, "outdoorRinks.csv");
 		ourStack = parsedRinks.parseRinkFile();
+		System.out.println(ourStack.getElement(ourStack.getTopIndex()).get_longitude());
 		Toast.makeText(this, "Ordered by nearest to furthest", Toast.LENGTH_LONG).show();
 		LocationManager locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
 		Criteria criteria = new Criteria();
