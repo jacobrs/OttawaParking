@@ -125,6 +125,8 @@ android:name="ca.ottawaparking.permission.MAPS_RECEIVE"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+          android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
         <!-- RELEASE key -->
             <meta-data
             android:name="com.google.android.maps.v2.API_KEY"

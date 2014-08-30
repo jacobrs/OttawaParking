@@ -6,6 +6,9 @@
  */
 package ca.ottawaparking;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -18,6 +21,7 @@ import android.view.Menu;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class Main extends Activity {
@@ -27,6 +31,7 @@ public class Main extends Activity {
 	Button carActivity;
 	Button stubActivity;
 	Button about;
+	AdView ad;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -35,6 +40,14 @@ public class Main extends Activity {
 		carActivity = (Button)findViewById(R.id.btnCar);
 		stubActivity = (Button)findViewById(R.id.btnStub);
 		about = (Button)findViewById(R.id.btnAbout);
+		ad = (AdView)findViewById(R.id.adView);
+		AdRequest adRequest = new AdRequest.Builder()
+	    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+	    .addTestDevice("ca-app-pub-2762904834767478/7975367349")
+	    .build();
+		
+		ad.loadAd(adRequest);
+		
 		if(!isNetworkAvailable()){
 			new AlertDialog.Builder(this)
 	        .setTitle("No Internet Connection")

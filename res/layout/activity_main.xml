@@ -1,5 +1,6 @@
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,37 +12,45 @@
         android:id="@+id/btnCar"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:layout_weight="1"
         android:layout_marginTop="10dp"
+        android:layout_weight="1"
         android:background="@drawable/carbutton"
-        android:textOn=""
-        android:textOff="" />
+        android:textOff=""
+        android:textOn="" />
 
     <ToggleButton
         android:id="@+id/btnBike"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:background="@drawable/bikebutton"
         android:layout_weight="1"
-        android:textOn=""
-        android:textOff="" />
+        android:background="@drawable/bikebutton"
+        android:textOff=""
+        android:textOn="" />
 
     <ToggleButton
         android:id="@+id/btnStub"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:background="@drawable/hockeybutton"
         android:layout_weight="1"
-        android:textOn=""
-        android:textOff=""/>
+        android:background="@drawable/hockeybutton" 
+        android:textOff=""
+        android:textOn="" />
 
     <ToggleButton
         android:id="@+id/btnAbout"
         android:layout_width="match_parent"
-        android:background="@drawable/aboutbutton"
         android:layout_height="20dp"
         android:layout_weight="1"
-        android:textOn=""
-        android:textOff=""/>
+        android:background="@drawable/aboutbutton"
+        android:textOff=""
+        android:textOn="" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2762904834767478/7975367349" >
+    </com.google.android.gms.ads.AdView>
 
 </LinearLayout>

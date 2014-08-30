@@ -3,6 +3,8 @@ package ca.ottawaparking;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
@@ -36,6 +38,7 @@ public class StubMenu extends Activity{
 	GoogleMap map;
 	GoogleMap mapall;
 	ArrayList<String> list;
+	AdView ad;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -353,6 +356,15 @@ public class StubMenu extends Activity{
 				}
 			}
 		});
+		
+		ad = (AdView)findViewById(R.id.adViewStub);
+		AdRequest adRequest = new AdRequest.Builder()
+	    .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+	    .addTestDevice("ca-app-pub-2762904834767478/3405566949")
+	    .build();
+		
+		ad.loadAd(adRequest);
+		ad.bringToFront();
 	}
 
 	@Override
