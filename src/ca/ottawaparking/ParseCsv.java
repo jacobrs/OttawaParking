@@ -63,7 +63,7 @@ public class ParseCsv<E>{
 					lineArr = line.split(",");
 					if(!(lineArr.length >= 9))
 						break;
-					System.out.println(line);
+					//System.out.println(line);
 					Car carStop = new Car(context);
 					carStop.setObjId(Integer.parseInt(lineArr[0]));
 					carStop.setParkId(Integer.parseInt(lineArr[1]));
@@ -110,7 +110,7 @@ public class ParseCsv<E>{
 					lineArr = line.split(",");
 					if(!(lineArr.length >= 9))
 						break;
-					System.out.println(line);
+					//System.out.println(line);
 					Rinks outdoorRink = new Rinks(context);
 					outdoorRink.set_park_name(lineArr[2]);
 					outdoorRink.set_address(lineArr[3]);

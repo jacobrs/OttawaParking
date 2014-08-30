@@ -68,7 +68,7 @@ public class CarMenu extends FragmentActivity{
 				int pointer = ourStack.getTopIndex();
 				while((count < points) && (pointer > 0)){
 					try{
-						System.out.println(pointer);
+						//System.out.println(pointer);
 						tmpStack.push(ourStack.getElement(pointer));
 						pointer--;
 						count++;
@@ -96,7 +96,7 @@ public class CarMenu extends FragmentActivity{
 		        JStack<Car> tmpStackAll = new JStack<Car>(ourStack.getTopIndex());
 		        int pointerAll = ourStack.getTopIndex();
 				while(pointerAll >= 0){
-					System.out.println(pointerAll);
+					//System.out.println(pointerAll);
 					try{
 						tmpStackAll.push(ourStack.getElement(pointerAll));
 						pointerAll--;
@@ -148,7 +148,7 @@ public class CarMenu extends FragmentActivity{
         
         for(; counter < AMOUNT_OF_VIEWS; counter++){
         	values[counter] = ourStack.getElement(ourStack.getTopIndex() - counter).getAddress();
-        	System.out.println(values[counter]);
+        	//System.out.println(values[counter]);
         }
         amtIteration++;
         
@@ -224,7 +224,7 @@ public class CarMenu extends FragmentActivity{
 		th.setOnTabChangedListener(new TabHost.OnTabChangeListener() {
 			public void onTabChanged(String tabId) {
 				// TODO Auto-generated method stub
-				System.out.println(tabId);
+				//System.out.println(tabId);
 				if(tabId == "tag2"){
 					View tmp = (View)findViewById(R.id.nearest);
 					tmp.setVisibility(View.VISIBLE);
@@ -303,7 +303,7 @@ public class CarMenu extends FragmentActivity{
 				        
 				        for(; counter < AMOUNT_OF_VIEWS; counter++){
 				        	values[counter] = ourStack.getElement(ourStack.getTopIndex() - counter).getAddress();
-				        	System.out.println(values[counter]);
+				        	//System.out.println(values[counter]);
 				        }
 				        amtIteration++;
 				        

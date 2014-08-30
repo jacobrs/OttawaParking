@@ -70,7 +70,7 @@ public class BikeMenu extends FragmentActivity{
 				int pointer = ourStack.getTopIndex();
 				while((count < points) && (pointer > 0)){
 					try{
-						System.out.println(pointer);
+						//System.out.println(pointer);
 						tmpStack.push(ourStack.getElement(pointer));
 						pointer--;
 						count++;
@@ -97,7 +97,7 @@ public class BikeMenu extends FragmentActivity{
 		        JStack<Bike> tmpStackAll = new JStack<Bike>(ourStack.getTopIndex());
 		        int pointerAll = ourStack.getTopIndex();
 				while(pointerAll >= 0){
-					System.out.println(pointerAll);
+					//System.out.println(pointerAll);
 					try{
 						tmpStackAll.push(ourStack.getElement(pointerAll));
 						pointerAll--;
@@ -298,7 +298,7 @@ public class BikeMenu extends FragmentActivity{
 				        
 				        for(; counter < AMOUNT_OF_VIEWS; counter++){
 				        	values[counter] = ourStack.getElement(ourStack.getTopIndex() - counter).get_adjacent();
-				        	System.out.println(values[counter]);
+				        	//System.out.println(values[counter]);
 				        }
 						amtIteration++;
 					        

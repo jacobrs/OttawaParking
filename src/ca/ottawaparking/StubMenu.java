@@ -48,7 +48,7 @@ public class StubMenu extends Activity{
 		final Context context = this;
 		ParseCsv<Rinks> parsedRinks = new ParseCsv<Rinks>(this, "outdoorRinks.csv");
 		ourStack = parsedRinks.parseRinkFile();
-		System.out.println(ourStack.getElement(ourStack.getTopIndex()).get_longitude());
+		//System.out.println(ourStack.getElement(ourStack.getTopIndex()).get_longitude());
 		Toast.makeText(this, "Ordered by nearest to furthest", Toast.LENGTH_LONG).show();
 		LocationManager locationManager = (LocationManager)getSystemService(LOCATION_SERVICE);
 		Criteria criteria = new Criteria();
@@ -67,7 +67,7 @@ public class StubMenu extends Activity{
 				int pointer = ourStack.getTopIndex();
 				while((count < points) && (pointer > 0)){
 					try{
-						System.out.println(pointer);
+						//System.out.println(pointer);
 						tmpStack.push(ourStack.getElement(pointer));
 						pointer--;
 						count++;
@@ -94,7 +94,7 @@ public class StubMenu extends Activity{
 		        JStack<Rinks> tmpStackAll = new JStack<Rinks>(ourStack.getTopIndex());
 		        int pointerAll = ourStack.getTopIndex();
 				while(pointerAll >= 0){
-					System.out.println(pointerAll);
+					//System.out.println(pointerAll);
 					try{
 						tmpStackAll.push(ourStack.getElement(pointerAll));
 						pointerAll--;
@@ -294,7 +294,7 @@ public class StubMenu extends Activity{
 				        
 				        for(; counter < AMOUNT_OF_VIEWS; counter++){
 				        	values[counter] = ourStack.getElement(ourStack.getTopIndex() - counter).get_address();
-				        	System.out.println(values[counter]);
+				        	//System.out.println(values[counter]);
 				        }
 				        amtIteration++;
 				        
